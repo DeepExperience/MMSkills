@@ -19,7 +19,6 @@
     imageReferenceCount: document.getElementById("imageReferenceCount"),
     summarySkillCount: document.getElementById("summarySkillCount"),
     summaryDomainCount: document.getElementById("summaryDomainCount"),
-    summaryStateCount: document.getElementById("summaryStateCount"),
     skillSearch: document.getElementById("skillSearch"),
     skillSort: document.getElementById("skillSort"),
     activeDomainLabel: document.getElementById("activeDomainLabel"),
@@ -84,7 +83,6 @@
     setText(elements.imageReferenceCount, formatNumber(library.stats.imageCount));
     setText(elements.summarySkillCount, formatNumber(library.stats.skillCount));
     setText(elements.summaryDomainCount, formatNumber(library.stats.domainCount));
-    setText(elements.summaryStateCount, formatNumber(library.stats.stateCardCount));
   }
 
   function renderPlatformTree() {
@@ -189,10 +187,6 @@
             <div>
               <strong>${formatNumber(skill.runtimeCardCount)}</strong>
               <span>Runtime states</span>
-            </div>
-            <div>
-              <strong>${formatNumber(skill.stateCardCount)}</strong>
-              <span>Audit states</span>
             </div>
             <div>
               <strong>${formatNumber(skill.imageCount)}</strong>
@@ -459,10 +453,6 @@
           <div>
             <strong>${formatNumber(skill.runtimeCardCount)}</strong>
             <span>Runtime states</span>
-          </div>
-          <div>
-            <strong>${formatNumber(skill.stateCardCount)}</strong>
-            <span>Audit states</span>
           </div>
           <div>
             <strong>${formatNumber(skill.imageCount)}</strong>
