@@ -159,8 +159,18 @@
   margin-left: 0;
 }
 
+.platform-group {
+  display: grid;
+  gap: 2px;
+}
+
+.platform-group + .platform-group {
+  margin-top: 6px;
+}
+
 .domain-tree {
   display: grid;
+  padding-left: 14px;
 }
 
 .sidebar-meter {

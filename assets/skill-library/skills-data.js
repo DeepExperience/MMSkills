@@ -1,11 +1,12 @@
 window.MMSKILLS_LIBRARY = {
-  "generatedAt": "2026-05-11T12:28:53+00:00",
-  "generatedFrom": "open_source_skills/ubuntu",
+  "generatedAt": "2026-05-14T09:49:40+00:00",
+  "generatedFrom": "open_source_skills/{ubuntu,mario,vab_minecraft}",
   "stats": {
-    "skillCount": 247,
-    "domainCount": 10,
-    "imageCount": 1910,
-    "runtimeCardCount": 879,
+    "skillCount": 281,
+    "platformCount": 3,
+    "domainCount": 12,
+    "imageCount": 2109,
+    "runtimeCardCount": 992,
     "stateCardCount": 879
   },
   "domains": [
@@ -14,70 +15,108 @@ window.MMSKILLS_LIBRARY = {
       "label": "Chrome",
       "count": 34,
       "imageCount": 292,
-      "runtimeCardCount": 134
+      "runtimeCardCount": 134,
+      "platformId": "ubuntu",
+      "platformLabel": "Ubuntu"
     },
     {
       "id": "gimp",
       "label": "GIMP",
       "count": 26,
       "imageCount": 203,
-      "runtimeCardCount": 77
+      "runtimeCardCount": 77,
+      "platformId": "ubuntu",
+      "platformLabel": "Ubuntu"
     },
     {
       "id": "libreoffice_calc",
       "label": "LibreOffice Calc",
       "count": 26,
       "imageCount": 184,
-      "runtimeCardCount": 79
+      "runtimeCardCount": 79,
+      "platformId": "ubuntu",
+      "platformLabel": "Ubuntu"
     },
     {
       "id": "libreoffice_impress",
       "label": "LibreOffice Impress",
       "count": 20,
       "imageCount": 139,
-      "runtimeCardCount": 60
+      "runtimeCardCount": 60,
+      "platformId": "ubuntu",
+      "platformLabel": "Ubuntu"
     },
     {
       "id": "libreoffice_writer",
       "label": "LibreOffice Writer",
       "count": 23,
       "imageCount": 144,
-      "runtimeCardCount": 71
+      "runtimeCardCount": 71,
+      "platformId": "ubuntu",
+      "platformLabel": "Ubuntu"
     },
     {
       "id": "multi_apps",
       "label": "Multi-App Workflows",
       "count": 20,
       "imageCount": 164,
-      "runtimeCardCount": 82
+      "runtimeCardCount": 82,
+      "platformId": "ubuntu",
+      "platformLabel": "Ubuntu"
     },
     {
       "id": "os",
       "label": "Ubuntu OS",
       "count": 37,
       "imageCount": 283,
-      "runtimeCardCount": 139
+      "runtimeCardCount": 139,
+      "platformId": "ubuntu",
+      "platformLabel": "Ubuntu"
     },
     {
       "id": "thunderbird",
       "label": "Thunderbird",
       "count": 25,
       "imageCount": 192,
-      "runtimeCardCount": 87
+      "runtimeCardCount": 87,
+      "platformId": "ubuntu",
+      "platformLabel": "Ubuntu"
     },
     {
       "id": "vlc",
       "label": "VLC",
       "count": 18,
       "imageCount": 122,
-      "runtimeCardCount": 61
+      "runtimeCardCount": 61,
+      "platformId": "ubuntu",
+      "platformLabel": "Ubuntu"
     },
     {
       "id": "vs_code",
       "label": "VS Code",
       "count": 18,
       "imageCount": 187,
-      "runtimeCardCount": 89
+      "runtimeCardCount": 89,
+      "platformId": "ubuntu",
+      "platformLabel": "Ubuntu"
+    },
+    {
+      "id": "vab_minecraft",
+      "label": "VAB-Minecraft",
+      "platformId": "vab_minecraft",
+      "platformLabel": "VAB-Minecraft",
+      "count": 24,
+      "imageCount": 165,
+      "runtimeCardCount": 79
+    },
+    {
+      "id": "super_mario_bros",
+      "label": "Super Mario Bros.",
+      "platformId": "mario",
+      "platformLabel": "Mario",
+      "count": 10,
+      "imageCount": 34,
+      "runtimeCardCount": 34
     }
   ],
   "skills": [
@@ -319,7 +358,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Url Field Corrected"
         }
       ],
-      "completenessScore": 28
+      "completenessScore": 28,
+      "platformId": "ubuntu"
     },
     {
       "id": "CHROME_Check_Finance_And_Copy_Or_Share_Stock_Links",
@@ -569,7 +609,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Google Finance Quote Page"
         }
       ],
-      "completenessScore": 29
+      "completenessScore": 29,
+      "platformId": "ubuntu"
     },
     {
       "id": "CHROME_Check_Weather_And_Astronomy_Data_From_Web_Search",
@@ -804,7 +845,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Weather Widget Surface"
         }
       ],
-      "completenessScore": 28
+      "completenessScore": 28,
+      "platformId": "ubuntu"
     },
     {
       "id": "CHROME_Clear_Browsing_Data_and_Site_Data",
@@ -1042,7 +1084,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Site Data Target Row"
         }
       ],
-      "completenessScore": 28
+      "completenessScore": 28,
+      "platformId": "ubuntu"
     },
     {
       "id": "CHROME_Configure_Appearance_Reading_Mode_and_Toolbar",
@@ -1465,7 +1508,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Reading Mode Verification State"
         }
       ],
-      "completenessScore": 51
+      "completenessScore": 51,
+      "platformId": "ubuntu"
     },
     {
       "id": "CHROME_Configure_Default_Search_Engine_And_Search_Preferences",
@@ -1806,7 +1850,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Search Preference Filter Applied"
         }
       ],
-      "completenessScore": 42
+      "completenessScore": 42,
+      "platformId": "ubuntu"
     },
     {
       "id": "CHROME_Configure_Security_And_Safe_Browsing_Toggles",
@@ -2060,7 +2105,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Security Verification Page"
         }
       ],
-      "completenessScore": 29
+      "completenessScore": 29,
+      "platformId": "ubuntu"
     },
     {
       "id": "CHROME_Configure_Startup_Downloads_And_System_Behavior",
@@ -2314,7 +2360,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Downloads Settings Surface"
         }
       ],
-      "completenessScore": 29
+      "completenessScore": 29,
+      "platformId": "ubuntu"
     },
     {
       "id": "CHROME_Enable_Live_Caption_and_Webpage_Translation",
@@ -2568,7 +2615,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Translation Features Enabled"
         }
       ],
-      "completenessScore": 29
+      "completenessScore": 29,
+      "platformId": "ubuntu"
     },
     {
       "id": "CHROME_Filter_And_Sort_Commerce_Results",
@@ -2720,7 +2768,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Shopping Filter Control"
         }
       ],
-      "completenessScore": 15
+      "completenessScore": 15,
+      "platformId": "ubuntu"
     },
     {
       "id": "CHROME_Filter_and_Sort_Google_Maps_Reviews",
@@ -2990,7 +3039,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Sort Dropdown Newest"
         }
       ],
-      "completenessScore": 30
+      "completenessScore": 30,
+      "platformId": "ubuntu"
     },
     {
       "id": "CHROME_Interact_With_YouTube_And_Video_Page_Controls",
@@ -3244,7 +3294,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Youtube Sort Oldest"
         }
       ],
-      "completenessScore": 29
+      "completenessScore": 29,
+      "platformId": "ubuntu"
     },
     {
       "id": "CHROME_Manage_Autofill_Addresses_And_Payment_Methods",
@@ -3499,7 +3550,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Saved Address State"
         }
       ],
-      "completenessScore": 29
+      "completenessScore": 29,
+      "platformId": "ubuntu"
     },
     {
       "id": "CHROME_Manage_Bookmarks_Reading_List_And_Shortcuts",
@@ -3746,7 +3798,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Edit Bookmark Dialog"
         }
       ],
-      "completenessScore": 29
+      "completenessScore": 29,
+      "platformId": "ubuntu"
     },
     {
       "id": "CHROME_Manage_Passwords_and_Autofill",
@@ -4000,7 +4053,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Saved Password Entry Visible"
         }
       ],
-      "completenessScore": 29
+      "completenessScore": 29,
+      "platformId": "ubuntu"
     },
     {
       "id": "CHROME_Manage_Preferred_Languages_And_Interface_Language",
@@ -4238,7 +4292,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Languages Settings Surface"
         }
       ],
-      "completenessScore": 28
+      "completenessScore": 28,
+      "platformId": "ubuntu"
     },
     {
       "id": "CHROME_Manage_Privacy_Permissions_And_Content_Settings",
@@ -4476,7 +4531,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Permission Exception Visible"
         }
       ],
-      "completenessScore": 28
+      "completenessScore": 28,
+      "platformId": "ubuntu"
     },
     {
       "id": "CHROME_Manage_Profile_Theme_Avatar_And_Home_Button",
@@ -4746,7 +4802,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Show Home Button Toggle"
         }
       ],
-      "completenessScore": 30
+      "completenessScore": 30,
+      "platformId": "ubuntu"
     },
     {
       "id": "CHROME_Manage_Tabs_History_And_Tab_Groups",
@@ -4980,7 +5037,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Tab Strip Verification"
         }
       ],
-      "completenessScore": 28
+      "completenessScore": 28,
+      "platformId": "ubuntu"
     },
     {
       "id": "CHROME_Manage_Web_Store_Extension_Install_And_Permissions",
@@ -5234,7 +5292,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Web Store Search Surface"
         }
       ],
-      "completenessScore": 29
+      "completenessScore": 29,
+      "platformId": "ubuntu"
     },
     {
       "id": "CHROME_Navigate_Arbitrary_Website_and_Find_Target_Section",
@@ -5421,7 +5480,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Target Book Page Visible"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "CHROME_Navigate_Google_News_and_Search_Topics",
@@ -5726,7 +5786,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Search Query Entered"
         }
       ],
-      "completenessScore": 36
+      "completenessScore": 36,
+      "platformId": "ubuntu"
     },
     {
       "id": "CHROME_Navigate_to_Google_Services_via_Apps_Menu",
@@ -5943,7 +6004,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Google Drive Loaded"
         }
       ],
-      "completenessScore": 23
+      "completenessScore": 23,
+      "platformId": "ubuntu"
     },
     {
       "id": "CHROME_Open_Google_Maps_And_Inspect_Place_Details",
@@ -6146,7 +6208,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Maps Search Box Ready"
         }
       ],
-      "completenessScore": 22
+      "completenessScore": 22,
+      "platformId": "ubuntu"
     },
     {
       "id": "CHROME_Perform_Reverse_Image_Search_Or_Image_Download",
@@ -6381,7 +6444,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Visual Search Entry Surface"
         }
       ],
-      "completenessScore": 28
+      "completenessScore": 28,
+      "platformId": "ubuntu"
     },
     {
       "id": "CHROME_Save_Or_Print_Page_To_PDF_With_Exact_Options",
@@ -6620,7 +6684,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Site Pdf Export Page"
         }
       ],
-      "completenessScore": 28
+      "completenessScore": 28,
+      "platformId": "ubuntu"
     },
     {
       "id": "CHROME_Scroll_Webpage_to_Locate_Section",
@@ -6874,7 +6939,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Target Section Found"
         }
       ],
-      "completenessScore": 29
+      "completenessScore": 29,
+      "platformId": "ubuntu"
     },
     {
       "id": "CHROME_Search_And_Sort_Flight_Results",
@@ -7128,7 +7194,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "One Way Trip Type Selected"
         }
       ],
-      "completenessScore": 29
+      "completenessScore": 29,
+      "platformId": "ubuntu"
     },
     {
       "id": "CHROME_Search_Web_And_Open_Target_Result",
@@ -7316,7 +7383,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Search Result Target Link"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "CHROME_Select_Product_Offer_Or_Result_And_Complete_Cart_Or_Wishlist_Action",
@@ -7503,7 +7571,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Commerce Result Add To Cart"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "CHROME_Select_Transportation_Mode",
@@ -7722,7 +7791,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Walking Route Displayed"
         }
       ],
-      "completenessScore": 23
+      "completenessScore": 23,
+      "platformId": "ubuntu"
     },
     {
       "id": "CHROME_Sort_News_Results_by_Time",
@@ -7960,7 +8030,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Select Second Article"
         }
       ],
-      "completenessScore": 28
+      "completenessScore": 28,
+      "platformId": "ubuntu"
     },
     {
       "id": "CHROME_Travel_Results_And_Booking_Filters",
@@ -8198,7 +8269,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Travel Search Surface"
         }
       ],
-      "completenessScore": 28
+      "completenessScore": 28,
+      "platformId": "ubuntu"
     },
     {
       "id": "CHROME_Use_Google_Play_Store_Content_Actions",
@@ -8436,7 +8508,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Google Play Surface"
         }
       ],
-      "completenessScore": 28
+      "completenessScore": 28,
+      "platformId": "ubuntu"
     },
     {
       "id": "GIMP_GIMP_Adjust_Brightness_Contrast_And_Tonal_Strength",
@@ -8722,7 +8795,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Exposure Values Entered"
         }
       ],
-      "completenessScore": 31
+      "completenessScore": 31,
+      "platformId": "ubuntu"
     },
     {
       "id": "GIMP_GIMP_Adjust_Hue_Saturation_and_Color_Tone",
@@ -8957,7 +9031,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Hue Saturation Dialog Open"
         }
       ],
-      "completenessScore": 24
+      "completenessScore": 24,
+      "platformId": "ubuntu"
     },
     {
       "id": "GIMP_GIMP_Apply_Blur_GEGL_and_Artistic_Filters",
@@ -9259,7 +9334,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Gegl Operation Ready"
         }
       ],
-      "completenessScore": 32
+      "completenessScore": 32,
+      "platformId": "ubuntu"
     },
     {
       "id": "GIMP_GIMP_Capture_Screenshots_and_Sample_Colors",
@@ -9459,7 +9535,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Theme Color Sampled"
         }
       ],
-      "completenessScore": 22
+      "completenessScore": 22,
+      "platformId": "ubuntu"
     },
     {
       "id": "GIMP_GIMP_Configure_Shortcuts_and_Interface_Behavior",
@@ -9773,7 +9850,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Undo Levels Field Ready"
         }
       ],
-      "completenessScore": 37
+      "completenessScore": 37,
+      "platformId": "ubuntu"
     },
     {
       "id": "GIMP_GIMP_Configure_Themes_Preferences_and_Color_Management",
@@ -9961,7 +10039,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Preferences Dialog Open"
         }
       ],
-      "completenessScore": 19
+      "completenessScore": 19,
+      "platformId": "ubuntu"
     },
     {
       "id": "GIMP_GIMP_Convert_Image_Modes_Palettes_and_Precision",
@@ -10122,7 +10201,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Precision Workflow Open"
         }
       ],
-      "completenessScore": 18
+      "completenessScore": 18,
+      "platformId": "ubuntu"
     },
     {
       "id": "GIMP_GIMP_Create_Canvases_and_Draw_Graphic_Elements",
@@ -10309,7 +10389,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Second Shape Filled"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "GIMP_GIMP_Create_Transparent_Backgrounds_and_Threshold_Effects",
@@ -10611,7 +10692,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Transparency Values Set"
         }
       ],
-      "completenessScore": 32
+      "completenessScore": 32,
+      "platformId": "ubuntu"
     },
     {
       "id": "GIMP_GIMP_Create_and_Style_Text_Layers",
@@ -10798,7 +10880,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Text Region Drawn"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "GIMP_GIMP_Erase_Retouch_and_Reshape_Local_Content",
@@ -10950,7 +11033,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Local Transform Handles Active"
         }
       ],
-      "completenessScore": 15
+      "completenessScore": 15,
+      "platformId": "ubuntu"
     },
     {
       "id": "GIMP_GIMP_Export_RAW_Or_Source_Images_To_Target_Raster_Format",
@@ -11135,7 +11219,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Target Raster Options Open"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "GIMP_GIMP_Handle_Unsupported_Or_NonRaster_Exports",
@@ -11299,7 +11384,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Format Specific Export Options"
         }
       ],
-      "completenessScore": 16
+      "completenessScore": 16,
+      "platformId": "ubuntu"
     },
     {
       "id": "GIMP_GIMP_Manage_Dockable_Dialogs_and_Workspace_Layout",
@@ -11463,7 +11549,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Dockable Dialogs Menu Open"
         }
       ],
-      "completenessScore": 16
+      "completenessScore": 16,
+      "platformId": "ubuntu"
     },
     {
       "id": "GIMP_GIMP_Manage_Image_Precision_Gamma_and_Color_Profiles",
@@ -11664,7 +11751,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Precision Workflow Open"
         }
       ],
-      "completenessScore": 22
+      "completenessScore": 22,
+      "platformId": "ubuntu"
     },
     {
       "id": "GIMP_GIMP_Manage_Layers_Masks_and_Blend_States",
@@ -11995,7 +12083,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Opacity Value Entered"
         }
       ],
-      "completenessScore": 38
+      "completenessScore": 38,
+      "platformId": "ubuntu"
     },
     {
       "id": "GIMP_GIMP_Manage_Open_Images_Recent_History_and_Close_Extras",
@@ -12195,7 +12284,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Opened Image Visible"
         }
       ],
-      "completenessScore": 22
+      "completenessScore": 22,
+      "platformId": "ubuntu"
     },
     {
       "id": "GIMP_GIMP_Move_Text_Or_Object_Layers_Without_Selecting_Background_Content",
@@ -12391,7 +12481,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Target Layer Prepared"
         }
       ],
-      "completenessScore": 22
+      "completenessScore": 22,
+      "platformId": "ubuntu"
     },
     {
       "id": "GIMP_GIMP_Open_GIMP_Help_and_Tutorials",
@@ -12527,7 +12618,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Named Tutorial Page"
         }
       ],
-      "completenessScore": 14
+      "completenessScore": 14,
+      "platformId": "ubuntu"
     },
     {
       "id": "GIMP_GIMP_Open_Inspect_and_Manage_Images",
@@ -12731,7 +12823,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Opened Image Visible"
         }
       ],
-      "completenessScore": 22
+      "completenessScore": 22,
+      "platformId": "ubuntu"
     },
     {
       "id": "GIMP_GIMP_Print_Images_with_Page_Setup",
@@ -12951,7 +13044,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Print Settings Ready"
         }
       ],
-      "completenessScore": 23
+      "completenessScore": 23,
+      "platformId": "ubuntu"
     },
     {
       "id": "GIMP_GIMP_Save_Projects_and_Export_Edited_Images",
@@ -13128,7 +13222,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Working Filename Entered"
         }
       ],
-      "completenessScore": 20
+      "completenessScore": 20,
+      "platformId": "ubuntu"
     },
     {
       "id": "GIMP_GIMP_Scale_Selected_Content_and_Reposition_Layers",
@@ -13327,7 +13422,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Target Scale Values Entered"
         }
       ],
-      "completenessScore": 22
+      "completenessScore": 22,
+      "platformId": "ubuntu"
     },
     {
       "id": "GIMP_GIMP_Scale_Whole_Images_and_Set_Resolution",
@@ -13510,7 +13606,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Whole Image Scaling Confirmed"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "GIMP_GIMP_Select_Isolate_and_Fill_Image_Regions",
@@ -13645,7 +13742,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Selection Tool Ready"
         }
       ],
-      "completenessScore": 14
+      "completenessScore": 14,
+      "platformId": "ubuntu"
     },
     {
       "id": "GIMP_GIMP_Transform_Image_Geometry_and_Canvas",
@@ -13864,7 +13962,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Transform Ready To Confirm"
         }
       ],
-      "completenessScore": 23
+      "completenessScore": 23,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICECALC_Apply_Revenue_Cost_Discount_Profit_Formulas",
@@ -14047,7 +14146,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "First Revenue Formula Entry"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICECALC_Build_Merged_Report_Headers_and_Multi_Row_Layouts",
@@ -14247,7 +14347,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Selected Header Merge Span"
         }
       ],
-      "completenessScore": 22
+      "completenessScore": 22,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICECALC_Conditional_Formatting_and_Placeholder_Handling",
@@ -14481,7 +14582,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Rule Match Highlight Result"
         }
       ],
-      "completenessScore": 28
+      "completenessScore": 28,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICECALC_Configure_Page_Setup_and_Export_Calc_Output",
@@ -14667,7 +14769,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Pdf Options Export"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICECALC_Create_Calc_Pivot_Tables_with_Aggregations_and_Filters",
@@ -14949,7 +15052,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Pivot Sheet Rename Field"
         }
       ],
-      "completenessScore": 31
+      "completenessScore": 31,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICECALC_Create_Chart_on_Target_Sheet_with_Exact_Title_and_Type",
@@ -15151,7 +15255,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Finished Chart Visible On Target Sheet"
         }
       ],
-      "completenessScore": 22
+      "completenessScore": 22,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICECALC_Create_Sparklines_or_Cell_Embedded_Trend_Visuals",
@@ -15352,7 +15457,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Data Bar Positive Color Setting"
         }
       ],
-      "completenessScore": 22
+      "completenessScore": 22,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICECALC_Edit_Calc_Cell_Values_Comments_and_Find_Replace",
@@ -15554,7 +15660,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Insert Comment Menu Item"
         }
       ],
-      "completenessScore": 22
+      "completenessScore": 22,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICECALC_Enable_Data_Validation_Dropdowns_and_Allowed_Values",
@@ -15738,7 +15845,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Validity Dialog List Entries"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICECALC_Fill_Copy_Paste_and_Split_Calc_Data",
@@ -15875,7 +15983,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "New Sheet Plus Button"
         }
       ],
-      "completenessScore": 14
+      "completenessScore": 14,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICECALC_Format_Calc_Cell_Text_Alignment_and_Borders",
@@ -16079,7 +16188,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Formatted Cells Result"
         }
       ],
-      "completenessScore": 22
+      "completenessScore": 22,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICECALC_Format_Calc_Chart_Elements_and_Series",
@@ -16365,7 +16475,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Series Secondary Y Axis"
         }
       ],
-      "completenessScore": 31
+      "completenessScore": 31,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICECALC_Format_Calc_Numbers_Dates_and_Percentages",
@@ -16552,7 +16663,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Scientific Notation Decimal Control"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICECALC_Highlight_Weekend_or_Rule_Matched_Cells",
@@ -16738,7 +16850,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Rule Matched Metric Cell Selected"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICECALC_Insert_Calc_Drawing_and_Gallery_Objects",
@@ -16970,7 +17083,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Insert Menu Fontwork"
         }
       ],
-      "completenessScore": 24
+      "completenessScore": 24,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICECALC_Insert_and_Structure_Calc_Charts",
@@ -17256,7 +17370,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Pyramid Shape In Chart Type"
         }
       ],
-      "completenessScore": 31
+      "completenessScore": 31,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICECALC_Lookup_Reference_and_Keyed_Fill_Formulas",
@@ -17386,7 +17501,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Filled Reference Results Visible"
         }
       ],
-      "completenessScore": 14
+      "completenessScore": 14,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICECALC_Manage_Calc_Rows_Columns_Freeze_and_Split_Views",
@@ -17605,7 +17721,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Hide Selected Columns"
         }
       ],
-      "completenessScore": 23
+      "completenessScore": 23,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICECALC_Manage_Calc_Worksheets_and_Cross_Sheet_Data",
@@ -17789,7 +17906,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Sheet Tab Plus Button"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICECALC_Open_LibreOffice_Calc_Python_Console_Help",
@@ -18005,7 +18123,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Python Console Help Article"
         }
       ],
-      "completenessScore": 23
+      "completenessScore": 23,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICECALC_Protect_Calc_Sheets_and_Allowed_Actions",
@@ -18189,7 +18308,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Protect Sheet Password Field"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICECALC_Run_Calc_Statistical_Tests_and_Summaries",
@@ -18405,7 +18525,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Statistics Output Result"
         }
       ],
-      "completenessScore": 23
+      "completenessScore": 23,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICECALC_Save_Export_and_Print_Calc_Files",
@@ -18544,7 +18665,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Save Dialog Filename Entry"
         }
       ],
-      "completenessScore": 14
+      "completenessScore": 14,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICECALC_Sort_and_Filter_Calc_Tables",
@@ -18759,7 +18881,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Header Filter Controls Visible"
         }
       ],
-      "completenessScore": 23
+      "completenessScore": 23,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICECALC_Text_Cleaning_Case_Transforms_and_Normalization",
@@ -18943,7 +19066,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Uppercase Result Visible On Sheet"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICECALC_Use_Formulas_and_Functions_in_Calc_Cells",
@@ -19142,7 +19266,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Function Wizard Named Function Selection"
         }
       ],
-      "completenessScore": 22
+      "completenessScore": 22,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICEIMPRESS_Adjust_Text_Bullets_Indentation_Strikethrough_and_Alignment",
@@ -19336,7 +19461,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Paragraph Result State"
         }
       ],
-      "completenessScore": 22
+      "completenessScore": 22,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICEIMPRESS_Apply_Multi_Slide_Title_and_Text_Formatting",
@@ -19531,7 +19657,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Text Target Selected"
         }
       ],
-      "completenessScore": 22
+      "completenessScore": 22,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICEIMPRESS_Apply_Object_Animations",
@@ -19750,7 +19877,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Animation Timing Controls"
         }
       ],
-      "completenessScore": 23
+      "completenessScore": 23,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICEIMPRESS_Apply_Slide_Transitions",
@@ -19950,7 +20078,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Transition Sidebar Open"
         }
       ],
-      "completenessScore": 22
+      "completenessScore": 22,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICEIMPRESS_Arrange_and_Format_Slide_Objects",
@@ -20138,7 +20267,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Object Visual Effects"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICEIMPRESS_Configure_Impress_Preferences_Print_and_Slide_Show_Settings",
@@ -20347,7 +20477,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Preferences Value Control"
         }
       ],
-      "completenessScore": 23
+      "completenessScore": 23,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICEIMPRESS_Configure_Presenter_Console_and_One_Monitor_Slide_Show",
@@ -20543,7 +20674,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Presenter Settings Surface"
         }
       ],
-      "completenessScore": 22
+      "completenessScore": 22,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICEIMPRESS_Configure_Slide_Backgrounds_and_Fill_Effects",
@@ -20749,7 +20881,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Background Transparency Controls"
         }
       ],
-      "completenessScore": 22
+      "completenessScore": 22,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICEIMPRESS_Create_A_Summary_Slide_From_Existing_Content",
@@ -20937,7 +21070,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Summary Slide Text Entry"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICEIMPRESS_Create_Presentations_from_Templates_and_Master_Slides",
@@ -21139,7 +21273,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Template Layout Result"
         }
       ],
-      "completenessScore": 22
+      "completenessScore": 22,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICEIMPRESS_Edit_Slide_Number_and_Master_Slide_Elements",
@@ -21318,7 +21453,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Master Slide Result"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICEIMPRESS_Edit_Speaker_Notes_and_Notes_Views",
@@ -21513,7 +21649,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Notes View Menu"
         }
       ],
-      "completenessScore": 22
+      "completenessScore": 22,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICEIMPRESS_Format_Slide_Text_and_Paragraphs",
@@ -21708,7 +21845,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Text Target Selected"
         }
       ],
-      "completenessScore": 22
+      "completenessScore": 22,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICEIMPRESS_Insert_Shapes_Text_Boxes_and_Diagram_Objects",
@@ -21896,7 +22034,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Shape Result State"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICEIMPRESS_Insert_and_Configure_Images_Audio_and_Interactive_Media",
@@ -22102,7 +22241,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Media Result State"
         }
       ],
-      "completenessScore": 22
+      "completenessScore": 22,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICEIMPRESS_Insert_and_Edit_Charts",
@@ -22305,7 +22445,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Chart Type Controls"
         }
       ],
-      "completenessScore": 22
+      "completenessScore": 22,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICEIMPRESS_Insert_and_Format_Tables",
@@ -22517,7 +22658,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Table Result State"
         }
       ],
-      "completenessScore": 23
+      "completenessScore": 23,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICEIMPRESS_Manage_Slide_Structure_Ordering_and_Layouts",
@@ -22703,7 +22845,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Slide Thumbnail Selected"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICEIMPRESS_Review_Summarize_and_Rewrite_Slide_Content",
@@ -22906,7 +23049,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Rewrite Text Entry"
         }
       ],
-      "completenessScore": 22
+      "completenessScore": 22,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICEIMPRESS_Save_Export_and_Convert_Presentation_Outputs",
@@ -23128,7 +23272,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Save Export Result State"
         }
       ],
-      "completenessScore": 23
+      "completenessScore": 23,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICEWRITER_Apply_Case_Transforms_and_Rule_Based_Text_Formatting",
@@ -23315,7 +23460,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Apply Case Transforms Uppercase Command"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICEWRITER_Cleanup_Highlights_Markers_and_Sentence_Spacing",
@@ -23498,7 +23644,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Cleanup Sentence Result"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICEWRITER_Compose_Summarize_and_Rewrite_Document_Content",
@@ -23685,7 +23832,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Compose Content Summary Result"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICEWRITER_Configure_Page_Style_and_Page_Level_Layout",
@@ -23888,7 +24036,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Configure Page Style Result"
         }
       ],
-      "completenessScore": 22
+      "completenessScore": 22,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICEWRITER_Configure_Writer_Preferences_User_Data_Toolbar_and_Dictionaries",
@@ -24121,7 +24270,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Writer Options User Data Company Field"
         }
       ],
-      "completenessScore": 28
+      "completenessScore": 28,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICEWRITER_Convert_Text_Lists_or_CSV_Style_Content_Into_Tables",
@@ -24310,7 +24460,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Convert Text To Table Separator"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICEWRITER_Create_and_Format_Tables",
@@ -24497,7 +24648,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Create Tables Structure Control"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICEWRITER_Find_and_Replace_Text_or_Formatting",
@@ -24684,7 +24836,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Find Replace Success Message"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICEWRITER_Format_Paragraph_Alignment_and_Spacing",
@@ -24867,7 +25020,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Paragraph Spacing Result"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICEWRITER_Format_Selected_Text_Characters",
@@ -25070,7 +25224,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Format Selected Text Toolbar Controls"
         }
       ],
-      "completenessScore": 22
+      "completenessScore": 22,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICEWRITER_Insert_Bibliography_Entries_and_Citation_Sources",
@@ -25255,7 +25410,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Bibliography Reference Block Result"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICEWRITER_Insert_Bookmarks_Comments_Hyperlinks_and_Notes",
@@ -25442,7 +25598,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Insert Bookmarks Result"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICEWRITER_Insert_Charts_and_Embedded_Objects",
@@ -25629,7 +25786,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Insert Charts Title Dialog"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICEWRITER_Insert_Cross_References_and_Notes",
@@ -25813,7 +25971,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Notes End Of Document Setting"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICEWRITER_Insert_Page_Numbers_Headers_Footers_and_Blank_Pages",
@@ -26051,7 +26210,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Insert Page Number Format"
         }
       ],
-      "completenessScore": 28
+      "completenessScore": 28,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICEWRITER_Insert_Pictures_Shapes_and_Wrapped_Graphics",
@@ -26237,7 +26397,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Insert Pictures Transparency Mode"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICEWRITER_Insert_Text_Boxes_Fontwork_and_Controls",
@@ -26424,7 +26585,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Insert Textboxes Result"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICEWRITER_Manage_Lists_and_Outline_Numbering",
@@ -26610,7 +26772,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Manage Lists Symbol Choice"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICEWRITER_Open_Document_Sharing_and_Remote_Save_Surfaces",
@@ -26795,7 +26958,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Sharing Save Remote Menu Entry"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICEWRITER_Prepare_Structured_Text_For_Sorting_and_Deduplication",
@@ -26979,7 +27143,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Structured Text To Table Command"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICEWRITER_Regex_Based_Text_Classification_and_Batch_Formatting",
@@ -27163,7 +27328,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Regex Replace Success Message"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICEWRITER_Save_Export_and_Template_Writer_Documents",
@@ -27352,7 +27518,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Save Export Template Dialog"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "LIBREOFFICEWRITER_Tab_Stops_and_Mixed_Paragraph_Alignment",
@@ -27535,7 +27702,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Tab Stop Ruler Units Menu"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "MULTIAPP_Add_Or_Adjust_Recurring_Timetable_Slots_In_Calc",
@@ -27764,7 +27932,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Calc Timetable Target Slot Osworld"
         }
       ],
-      "completenessScore": 28
+      "completenessScore": 28,
+      "platformId": "ubuntu"
     },
     {
       "id": "MULTIAPP_Capture_Browser_Downloads_In_A_Target_Folder",
@@ -27992,7 +28161,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Browser Folder Success State"
         }
       ],
-      "completenessScore": 28
+      "completenessScore": 28,
+      "platformId": "ubuntu"
     },
     {
       "id": "MULTIAPP_Capture_Terminal_Output_Into_A_Writer_Report",
@@ -28219,7 +28389,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Terminal Writer Source Output"
         }
       ],
-      "completenessScore": 28
+      "completenessScore": 28,
+      "platformId": "ubuntu"
     },
     {
       "id": "MULTIAPP_Commit_And_Push_Project_Changes_From_Terminal",
@@ -28399,7 +28570,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Git Push Repo Prompt Osworld"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "MULTIAPP_Compare_Files_Statements_Or_Records_And_Write_A_Result",
@@ -28627,7 +28799,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Compare Source Data"
         }
       ],
-      "completenessScore": 28
+      "completenessScore": 28,
+      "platformId": "ubuntu"
     },
     {
       "id": "MULTIAPP_Convert_A_Local_Office_Document_And_Upload_It_To_Drive",
@@ -28854,7 +29027,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Office Drive Uploaded Artifact"
         }
       ],
-      "completenessScore": 28
+      "completenessScore": 28,
+      "platformId": "ubuntu"
     },
     {
       "id": "MULTIAPP_Convert_Or_Export_Local_Files_And_Verify_Output",
@@ -29081,7 +29255,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Local Convert Verified Output"
         }
       ],
-      "completenessScore": 28
+      "completenessScore": 28,
+      "platformId": "ubuntu"
     },
     {
       "id": "MULTIAPP_Export_Thunderbird_Content_Into_A_Calc_Report",
@@ -29308,7 +29483,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Thunder Calc Source Message"
         }
       ],
-      "completenessScore": 28
+      "completenessScore": 28,
+      "platformId": "ubuntu"
     },
     {
       "id": "MULTIAPP_Extract_Web_Listings_Into_A_Calc_Table",
@@ -29534,7 +29710,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Browser Calc Source Listing"
         }
       ],
-      "completenessScore": 28
+      "completenessScore": 28,
+      "platformId": "ubuntu"
     },
     {
       "id": "MULTIAPP_Force_Quit_A_Frozen_Desktop_App_From_Terminal",
@@ -29764,7 +29941,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Force Quit Relaunched App Ready Reference"
         }
       ],
-      "completenessScore": 28
+      "completenessScore": 28,
+      "platformId": "ubuntu"
     },
     {
       "id": "MULTIAPP_Insert_VLC_Captured_Media_Into_An_Impress_Slide",
@@ -29990,7 +30168,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Vlc Impress Source Frame"
         }
       ],
-      "completenessScore": 28
+      "completenessScore": 28,
+      "platformId": "ubuntu"
     },
     {
       "id": "MULTIAPP_Install_Add_on_Or_Extension_Across_Browser_And_Desktop_App",
@@ -30319,7 +30498,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Extension Install Ready State"
         }
       ],
-      "completenessScore": 42
+      "completenessScore": 42,
+      "platformId": "ubuntu"
     },
     {
       "id": "MULTIAPP_Read_Document_Then_Edit_Run_And_Save_Code_Output",
@@ -30546,7 +30726,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Code Chain Saved Result"
         }
       ],
-      "completenessScore": 28
+      "completenessScore": 28,
+      "platformId": "ubuntu"
     },
     {
       "id": "MULTIAPP_Save_Thunderbird_Messages_Or_Attachments_In_A_Local_Folder",
@@ -30774,7 +30955,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Thunder Local Source Message"
         }
       ],
-      "completenessScore": 28
+      "completenessScore": 28,
+      "platformId": "ubuntu"
     },
     {
       "id": "MULTIAPP_Transfer_Browser_Research_Into_Writer",
@@ -31001,7 +31183,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Browser Writer Source Evidence"
         }
       ],
-      "completenessScore": 28
+      "completenessScore": 28,
+      "platformId": "ubuntu"
     },
     {
       "id": "MULTIAPP_Transfer_Calc_Results_Into_A_Writer_Report",
@@ -31279,7 +31462,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Calc Writer Source Result"
         }
       ],
-      "completenessScore": 35
+      "completenessScore": 35,
+      "platformId": "ubuntu"
     },
     {
       "id": "MULTIAPP_Transfer_Other_App_Content_Into_A_Writer_Output",
@@ -31505,7 +31689,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Other Writer Source Content"
         }
       ],
-      "completenessScore": 28
+      "completenessScore": 28,
+      "platformId": "ubuntu"
     },
     {
       "id": "MULTIAPP_Turn_A_Thunderbird_Attachment_Into_A_Writer_Update",
@@ -31730,7 +31915,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Thunder Writer Save Control"
         }
       ],
-      "completenessScore": 28
+      "completenessScore": 28,
+      "platformId": "ubuntu"
     },
     {
       "id": "MULTIAPP_Upload_Thunderbird_Attachments_Or_Message_Exports_To_Drive",
@@ -31958,7 +32144,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Thunder Drive Target Folder"
         }
       ],
-      "completenessScore": 28
+      "completenessScore": 28,
+      "platformId": "ubuntu"
     },
     {
       "id": "MULTIAPP_Use_Document_Text_As_A_GIMP_Watermark_And_Export_PNGs",
@@ -32186,7 +32373,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Gimp Watermark Text Tool"
         }
       ],
-      "completenessScore": 28
+      "completenessScore": 28,
+      "platformId": "ubuntu"
     },
     {
       "id": "OS_Adjust_Terminal_Window_and_Preferences",
@@ -32391,7 +32579,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Os Adjust Terminal Window And Preferences Verify Terminal Result"
         }
       ],
-      "completenessScore": 22
+      "completenessScore": 22,
+      "platformId": "ubuntu"
     },
     {
       "id": "OS_Adjust_Text_Scaling_Or_Large_Text_Accessibility",
@@ -32574,7 +32763,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Os Adjust Text Scaling Or Large Text Accessibility Verify Result State"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "OS_Archive_Extract_and_Convert_Files_in_Terminal",
@@ -32759,7 +32949,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Os Archive Extract And Convert Files In Terminal Verify Terminal Result"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "OS_Change_Permissions_and_Ownership_in_Terminal",
@@ -32947,7 +33138,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Os Change Permissions And Ownership In Terminal Verify Terminal Result"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "OS_Change_Wallpaper_and_Appearance_Theme",
@@ -33181,7 +33373,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Os Change Wallpaper And Appearance Theme Verify Result State"
         }
       ],
-      "completenessScore": 28
+      "completenessScore": 28,
+      "platformId": "ubuntu"
     },
     {
       "id": "OS_Configure_Accessibility_Visual_and_Assistive_Features",
@@ -33415,7 +33608,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Os Configure Accessibility Visual And Assistive Features Verify Result State"
         }
       ],
-      "completenessScore": 28
+      "completenessScore": 28,
+      "platformId": "ubuntu"
     },
     {
       "id": "OS_Configure_Dock_and_Desktop_Layout",
@@ -33655,7 +33849,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Os Configure Dock And Desktop Layout Verify Result State"
         }
       ],
-      "completenessScore": 28
+      "completenessScore": 28,
+      "platformId": "ubuntu"
     },
     {
       "id": "OS_Configure_Keyboard_Input_Sources_and_Shortcuts",
@@ -33893,7 +34088,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Os Configure Keyboard Input Sources And Shortcuts Verify Result State"
         }
       ],
-      "completenessScore": 28
+      "completenessScore": 28,
+      "platformId": "ubuntu"
     },
     {
       "id": "OS_Configure_Mouse_and_Touchpad_Behavior",
@@ -34131,7 +34327,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Os Configure Mouse And Touchpad Behavior Verify Result State"
         }
       ],
-      "completenessScore": 28
+      "completenessScore": 28,
+      "platformId": "ubuntu"
     },
     {
       "id": "OS_Configure_Multitasking_and_Hot_Corner",
@@ -34383,7 +34580,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Os Configure Multitasking And Hot Corner Verify Result State"
         }
       ],
-      "completenessScore": 29
+      "completenessScore": 29,
+      "platformId": "ubuntu"
     },
     {
       "id": "OS_Configure_Remote_Sharing",
@@ -34867,7 +35065,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Os Configure Remote Sharing Verify Remote Login Enabled"
         }
       ],
-      "completenessScore": 63
+      "completenessScore": 63,
+      "platformId": "ubuntu"
     },
     {
       "id": "OS_Configure_Removable_Media",
@@ -35105,7 +35304,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Os Configure Removable Media Verify Result State"
         }
       ],
-      "completenessScore": 28
+      "completenessScore": 28,
+      "platformId": "ubuntu"
     },
     {
       "id": "OS_Configure_Search_Results",
@@ -35490,7 +35690,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Os Configure Search Results Verify Search Locations Result"
         }
       ],
-      "completenessScore": 49
+      "completenessScore": 49,
+      "platformId": "ubuntu"
     },
     {
       "id": "OS_Configure_Sound_Output_and_Alerts",
@@ -35673,7 +35874,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Os Configure Sound Output And Alerts Verify Result State"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "OS_Configure_Time_and_Date_Preferences",
@@ -35904,7 +36106,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Os Configure Time And Date Preferences Verify Result State"
         }
       ],
-      "completenessScore": 28
+      "completenessScore": 28,
+      "platformId": "ubuntu"
     },
     {
       "id": "OS_Control_Processes_and_Application_Sessions_in_Terminal",
@@ -36100,7 +36303,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Os Control Processes And Application Sessions In Terminal Verify Terminal Result"
         }
       ],
-      "completenessScore": 22
+      "completenessScore": 22,
+      "platformId": "ubuntu"
     },
     {
       "id": "OS_Copy_Matching_Files_Or_Directory_Hierarchy_In_Terminal",
@@ -36288,7 +36492,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Os Copy Matching Files Or Directory Hierarchy In Terminal Verify Destination Contents"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "OS_Edit_and_Save_Text_in_Text_Editor",
@@ -36470,7 +36675,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Os Edit And Save Text In Text Editor Verify Saved Filename"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "OS_File_Content_Transform_And_Writeback",
@@ -36655,7 +36861,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Os File Content Transform And Writeback Run Transform And Write"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "OS_Inspect_and_Filter_File_Content_in_Terminal",
@@ -36841,7 +37048,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Os Inspect And Filter File Content In Terminal Verify Terminal Result"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "OS_Install_App_Via_Snap_Flatpak_And_AppCenter",
@@ -37075,7 +37283,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Os Install App Via Snap Flatpak And Appcenter Verify Install Has Started"
         }
       ],
-      "completenessScore": 28
+      "completenessScore": 28,
+      "platformId": "ubuntu"
     },
     {
       "id": "OS_Install_Remove_and_Verify_Packages_in_Terminal",
@@ -37309,7 +37518,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Os Install Remove And Verify Packages In Terminal Verify Package Not Found Or Absence"
         }
       ],
-      "completenessScore": 28
+      "completenessScore": 28,
+      "platformId": "ubuntu"
     },
     {
       "id": "OS_Manage_Bluetooth_Settings",
@@ -37543,7 +37753,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Os Manage Bluetooth Settings Verify Result State"
         }
       ],
-      "completenessScore": 28
+      "completenessScore": 28,
+      "platformId": "ubuntu"
     },
     {
       "id": "OS_Manage_Calendar_Events",
@@ -37727,7 +37938,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Os Manage Calendar Events Verify Saved Event"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "OS_Manage_Files_and_Archives_in_Files",
@@ -37914,7 +38126,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Os Manage Files And Archives In Files Verify Gui Path Result"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "OS_Manage_Notifications",
@@ -38148,7 +38361,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Os Manage Notifications Verify Result State"
         }
       ],
-      "completenessScore": 28
+      "completenessScore": 28,
+      "platformId": "ubuntu"
     },
     {
       "id": "OS_Manage_Power_Blanking_And_Battery_Indicators",
@@ -38382,7 +38596,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Os Manage Power Blanking And Battery Indicators Verify Power Row Value"
         }
       ],
-      "completenessScore": 28
+      "completenessScore": 28,
+      "platformId": "ubuntu"
     },
     {
       "id": "OS_Manage_Privacy_Location_Proxy_and_Connectivity",
@@ -38633,7 +38848,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Os Manage Privacy Location Proxy And Connectivity Verify Result State"
         }
       ],
-      "completenessScore": 29
+      "completenessScore": 29,
+      "platformId": "ubuntu"
     },
     {
       "id": "OS_Manage_Users_Avatars_and_System_Identity_in_Settings",
@@ -38867,7 +39083,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Os Manage Users Avatars And System Identity In Settings Verify Result State"
         }
       ],
-      "completenessScore": 28
+      "completenessScore": 28,
+      "platformId": "ubuntu"
     },
     {
       "id": "OS_Manage_Users_and_Groups_in_Terminal",
@@ -39054,7 +39271,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Os Manage Users And Groups In Terminal Verify Terminal Result"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "OS_Modify_Files_and_Folders_in_Terminal",
@@ -39242,7 +39460,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Os Modify Files And Folders In Terminal Verify Terminal Result"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "OS_Navigate_and_Inspect_Directories_in_Terminal",
@@ -39428,7 +39647,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Os Navigate And Inspect Directories In Terminal Verify Terminal Result"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "OS_Query_System_State_in_Terminal",
@@ -39611,7 +39831,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Os Query System State In Terminal Verify Terminal Result"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "OS_Recursive_Pattern_Copy_And_Directory_Replication",
@@ -39846,7 +40067,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Os Recursive Pattern Copy And Directory Replication Verify Replicated Tree"
         }
       ],
-      "completenessScore": 28
+      "completenessScore": 28,
+      "platformId": "ubuntu"
     },
     {
       "id": "OS_Restore_Items_From_Trash_And_Verify_Recovery_Path",
@@ -40029,7 +40251,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Os Restore Items From Trash And Verify Recovery Path Verify Recovered Path"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "OS_Set_Default_Applications",
@@ -40283,7 +40506,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Os Set Default Applications Verify Result State"
         }
       ],
-      "completenessScore": 29
+      "completenessScore": 29,
+      "platformId": "ubuntu"
     },
     {
       "id": "OS_User_Provisioning_With_Home_Scoping_And_SSH_Readiness",
@@ -40517,7 +40741,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Os User Provisioning With Home Scoping And Ssh Readiness Verify Home Scope Permissions"
         }
       ],
-      "completenessScore": 28
+      "completenessScore": 28,
+      "platformId": "ubuntu"
     },
     {
       "id": "THUNDERBIRD_Add_or_Remove_Thunderbird_Chat_Accounts",
@@ -40759,7 +40984,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Chat Remove Confirm Ready"
         }
       ],
-      "completenessScore": 29
+      "completenessScore": 29,
+      "platformId": "ubuntu"
     },
     {
       "id": "THUNDERBIRD_Apply_Automatic_Filters_To_Subfolders",
@@ -40937,7 +41163,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Efc7Bba1-8718-43B5-859A-5A7594Cd9574"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "THUNDERBIRD_Apply_Tags_Stars_and_Junk_Status_to_Messages",
@@ -41211,7 +41438,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Tag Management Open"
         }
       ],
-      "completenessScore": 31
+      "completenessScore": 31,
+      "platformId": "ubuntu"
     },
     {
       "id": "THUNDERBIRD_Compose_Format_and_Send_Thunderbird_Emails",
@@ -41423,7 +41651,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Send Ready With Visible Content"
         }
       ],
-      "completenessScore": 23
+      "completenessScore": 23,
+      "platformId": "ubuntu"
     },
     {
       "id": "THUNDERBIRD_Configure_Quote_Prefix_And_Reply_Formatting",
@@ -41653,7 +41882,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "53417A6E-5F1D-41A2-B926-4526C2270112"
         }
       ],
-      "completenessScore": 28
+      "completenessScore": 28,
+      "platformId": "ubuntu"
     },
     {
       "id": "THUNDERBIRD_Configure_Send_Only_SMTP_Accounts",
@@ -41832,7 +42062,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "F6349E5B-7Ba9-4510-A043-5835Ebf81E88"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "THUNDERBIRD_Configure_Server_Retrieval_Retention_and_Cache_Settings",
@@ -41979,7 +42210,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Storage Value Visible"
         }
       ],
-      "completenessScore": 15
+      "completenessScore": 15,
+      "platformId": "ubuntu"
     },
     {
       "id": "THUNDERBIRD_Configure_Thunderbird_Calendar_Views_and_Workweek",
@@ -42157,7 +42389,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Workweek Values Visible"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "THUNDERBIRD_Configure_Thunderbird_Layout_And_Visible_Chrome",
@@ -42319,7 +42552,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Visible Chrome Toggle Ready"
         }
       ],
-      "completenessScore": 20
+      "completenessScore": 20,
+      "platformId": "ubuntu"
     },
     {
       "id": "THUNDERBIRD_Configure_Thunderbird_Mail_Composition_Preferences",
@@ -42550,7 +42784,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "F513D649-6Bab-43Ea-B8E6-82C01A16Cdc0"
         }
       ],
-      "completenessScore": 28
+      "completenessScore": 28,
+      "platformId": "ubuntu"
     },
     {
       "id": "THUNDERBIRD_Configure_Thunderbird_Themes_And_Display_Colors",
@@ -42712,7 +42947,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Theme Manager Visible"
         }
       ],
-      "completenessScore": 20
+      "completenessScore": 20,
+      "platformId": "ubuntu"
     },
     {
       "id": "THUNDERBIRD_Create_Calendar_Events_and_Send_Invitations",
@@ -42971,7 +43207,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "New Event Entry"
         }
       ],
-      "completenessScore": 30
+      "completenessScore": 30,
+      "platformId": "ubuntu"
     },
     {
       "id": "THUNDERBIRD_Create_and_Maintain_Thunderbird_Message_Filters",
@@ -43151,7 +43388,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Fe458859-Ebd6-41Df-Ae27-2Fdb8E2Beed2"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "THUNDERBIRD_Export_Messages_To_Individual_EML_Files",
@@ -43381,7 +43619,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "93122F96-De0D-45Ce-A6Ac-59B3C35E4E93"
         }
       ],
-      "completenessScore": 28
+      "completenessScore": 28,
+      "platformId": "ubuntu"
     },
     {
       "id": "THUNDERBIRD_Find_Target_Messages_in_Thunderbird_Mailboxes",
@@ -43526,7 +43765,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Target Message Selected"
         }
       ],
-      "completenessScore": 15
+      "completenessScore": 15,
+      "platformId": "ubuntu"
     },
     {
       "id": "THUNDERBIRD_Install_and_Configure_Thunderbird_Add_ons",
@@ -43768,7 +44008,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Addon Settings Entry"
         }
       ],
-      "completenessScore": 29
+      "completenessScore": 29,
+      "platformId": "ubuntu"
     },
     {
       "id": "THUNDERBIRD_Manage_Email_Attachments_in_Thunderbird",
@@ -44010,7 +44251,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Save Dialog Ready"
         }
       ],
-      "completenessScore": 29
+      "completenessScore": 29,
+      "platformId": "ubuntu"
     },
     {
       "id": "THUNDERBIRD_Manage_Thunderbird_Address_Book_Contacts",
@@ -44268,7 +44510,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Personal Card Save Ready"
         }
       ],
-      "completenessScore": 30
+      "completenessScore": 30,
+      "platformId": "ubuntu"
     },
     {
       "id": "THUNDERBIRD_Manage_Thunderbird_Home_Surfaces_Profiles_And_Unified_Inbox",
@@ -44450,7 +44693,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Troubleshooting Information Profile Entry Visible"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "THUNDERBIRD_Manage_Thunderbird_Identity_Fields",
@@ -44631,7 +44875,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "E06630Dd-304A-41A1-8E0A-642B797E60E2"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "THUNDERBIRD_Manage_Thunderbird_Tasks_and_Task_Conversions",
@@ -44889,7 +45134,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Task Filter Selected"
         }
       ],
-      "completenessScore": 30
+      "completenessScore": 30,
+      "platformId": "ubuntu"
     },
     {
       "id": "THUNDERBIRD_Onboard_And_Remove_Thunderbird_Mail_Accounts",
@@ -45136,7 +45382,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "New Mail Account Entry"
         }
       ],
-      "completenessScore": 29
+      "completenessScore": 29,
+      "platformId": "ubuntu"
     },
     {
       "id": "THUNDERBIRD_Organize_Mail_Folders_and_Move_Messages",
@@ -45379,7 +45626,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Message Move To Submenu"
         }
       ],
-      "completenessScore": 29
+      "completenessScore": 29,
+      "platformId": "ubuntu"
     },
     {
       "id": "THUNDERBIRD_Reply_Forward_and_Send_Draft_Messages",
@@ -45623,7 +45871,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Reuse Compose Ready"
         }
       ],
-      "completenessScore": 29
+      "completenessScore": 29,
+      "platformId": "ubuntu"
     },
     {
       "id": "THUNDERBIRD_Subscribe_and_View_Holiday_Calendars_in_Thunderbird",
@@ -45865,7 +46114,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Holiday Import Ready"
         }
       ],
-      "completenessScore": 29
+      "completenessScore": 29,
+      "platformId": "ubuntu"
     },
     {
       "id": "VLC_Adjust_Video_Color_Overlay_And_Artistic_Filters",
@@ -46045,7 +46295,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Video Filter Enabled State"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "VLC_Adjust_Video_Geometry_Crop_Aspect_Ratio_Deinterlace_And_Display_Modes",
@@ -46225,7 +46476,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Geometry Transform Controls"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "VLC_Capture_Snapshots_Recordings_And_Verify_Saved_Artifacts",
@@ -46507,7 +46759,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Wallpaper Applied Desktop"
         }
       ],
-      "completenessScore": 35
+      "completenessScore": 35,
+      "platformId": "ubuntu"
     },
     {
       "id": "VLC_Configure_Advanced_Streaming_Conversion_And_VLM_Outputs",
@@ -46687,7 +46940,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Vlm Input Defined"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "VLC_Configure_Audio_Effects_Equalizer_Spatializer_And_Visualization",
@@ -46868,7 +47122,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Visualization State Active"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "VLC_Configure_Audio_Normalization_Amplification_And_Volume_Defaults",
@@ -47149,7 +47404,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Maximum Volume Displayed Field"
         }
       ],
-      "completenessScore": 35
+      "completenessScore": 35,
+      "platformId": "ubuntu"
     },
     {
       "id": "VLC_Configure_Preferences_Hotkeys_Paths_And_Persisted_Defaults",
@@ -47380,7 +47636,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Snapshot Path Saved"
         }
       ],
-      "completenessScore": 28
+      "completenessScore": 28,
+      "platformId": "ubuntu"
     },
     {
       "id": "VLC_Configure_Startup_Interface_Modules_Appearance_And_Instance_Behavior",
@@ -47660,7 +47917,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Web Interface Submenu"
         }
       ],
-      "completenessScore": 35
+      "completenessScore": 35,
+      "platformId": "ubuntu"
     },
     {
       "id": "VLC_Control_Playback_Position_Looping_Speed_And_Volume",
@@ -47840,7 +48098,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Playback Menu Control Surface"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "VLC_Convert_Or_Extract_Audio_To_MP3",
@@ -48023,7 +48282,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Mp3 Profile Selected"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "VLC_Customize_Toolbars_Status_Bar_Advanced_Controls_And_Fullscreen_Controller",
@@ -48203,7 +48463,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "View Menu Layout Controls"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "VLC_Inspect_Codec_Information_Shortcuts_Support_And_Plugins",
@@ -48383,7 +48644,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Tools Information Entry"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "VLC_Load_Subtitles_And_Configure_Subtitle_Presentation",
@@ -48564,7 +48826,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Subtitle Timing Fields"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "VLC_Manage_Playlists_And_Media_Library",
@@ -48745,7 +49008,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Saved Playlist Artifact Visible"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "VLC_Open_Local_Media_And_Verify_Playback_Surface",
@@ -48927,7 +49191,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Select Requested Local Source"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "VLC_Open_Managed_Media_And_Start_Playback",
@@ -49107,7 +49372,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Managed Playback Active"
         }
       ],
-      "completenessScore": 21
+      "completenessScore": 21,
+      "platformId": "ubuntu"
     },
     {
       "id": "VLC_Open_Network_Stream_And_Verify_Playback",
@@ -49237,7 +49503,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Network Stream Playback Verified"
         }
       ],
-      "completenessScore": 14
+      "completenessScore": 14,
+      "platformId": "ubuntu"
     },
     {
       "id": "VLC_Rotate_Flip_And_Save_A_Transformed_Video",
@@ -49470,7 +49737,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Transform Export Profile Choice"
         }
       ],
-      "completenessScore": 28
+      "completenessScore": 28,
+      "platformId": "ubuntu"
     },
     {
       "id": "VSCODE_Add_Remove_and_Save_Multi_Root_Workspaces",
@@ -49867,7 +50135,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Workspace Shell Saved"
         }
       ],
-      "completenessScore": 50
+      "completenessScore": 50,
+      "platformId": "ubuntu"
     },
     {
       "id": "VSCODE_Bulk_Edit_And_Block_Transformations",
@@ -50015,7 +50284,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Selected Block Ready"
         }
       ],
-      "completenessScore": 15
+      "completenessScore": 15,
+      "platformId": "ubuntu"
     },
     {
       "id": "VSCODE_Configure_Editor_Workspace_and_JSON_Settings",
@@ -50412,7 +50682,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Settings Value Verified"
         }
       ],
-      "completenessScore": 50
+      "completenessScore": 50,
+      "platformId": "ubuntu"
     },
     {
       "id": "VSCODE_Configure_Keyboard_Shortcuts",
@@ -50710,7 +50981,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Target Command Row"
         }
       ],
-      "completenessScore": 36
+      "completenessScore": 36,
+      "platformId": "ubuntu"
     },
     {
       "id": "VSCODE_Configure_Python_Diagnostics_and_Analysis_Settings",
@@ -50957,7 +51229,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Python Setting Search Ready"
         }
       ],
-      "completenessScore": 29
+      "completenessScore": 29,
+      "platformId": "ubuntu"
     },
     {
       "id": "VSCODE_Configure_Terminal_and_Debug_Preferences",
@@ -51288,7 +51561,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Terminal Numeric Value Verified"
         }
       ],
-      "completenessScore": 42
+      "completenessScore": 42,
+      "platformId": "ubuntu"
     },
     {
       "id": "VSCODE_Create_and_Save_Project_Files",
@@ -51571,7 +51845,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Workspace File Created"
         }
       ],
-      "completenessScore": 35
+      "completenessScore": 35,
+      "platformId": "ubuntu"
     },
     {
       "id": "VSCODE_Create_and_Use_Custom_Snippets",
@@ -51852,7 +52127,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Snippet Suggestion Visible"
         }
       ],
-      "completenessScore": 35
+      "completenessScore": 35,
+      "platformId": "ubuntu"
     },
     {
       "id": "VSCODE_Customize_Appearance_Themes_Layout_and_Display_Language",
@@ -52148,7 +52424,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Themes Submenu"
         }
       ],
-      "completenessScore": 36
+      "completenessScore": 36,
+      "platformId": "ubuntu"
     },
     {
       "id": "VSCODE_Customize_Workbench_Background_and_Wallpaper",
@@ -52379,7 +52656,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Workbench Color Json Ready"
         }
       ],
-      "completenessScore": 28
+      "completenessScore": 28,
+      "platformId": "ubuntu"
     },
     {
       "id": "VSCODE_Edit_Existing_Files_in_the_Editor",
@@ -52711,7 +52989,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Target Line Ready"
         }
       ],
-      "completenessScore": 42
+      "completenessScore": 42,
+      "platformId": "ubuntu"
     },
     {
       "id": "VSCODE_Inspect_Runtime_Variables_And_Data_View",
@@ -52942,7 +53221,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Variables Panel Visible"
         }
       ],
-      "completenessScore": 28
+      "completenessScore": 28,
+      "platformId": "ubuntu"
     },
     {
       "id": "VSCODE_Install_Local_VSIX_and_Verify_Extension_Installed",
@@ -53173,7 +53453,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Vsix File Selected"
         }
       ],
-      "completenessScore": 28
+      "completenessScore": 28,
+      "platformId": "ubuntu"
     },
     {
       "id": "VSCODE_Manage_Extensions_and_Configure_Extension_Settings",
@@ -53469,7 +53750,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Extension Version Picker"
         }
       ],
-      "completenessScore": 36
+      "completenessScore": 36,
+      "platformId": "ubuntu"
     },
     {
       "id": "VSCODE_Manage_Startup_And_Default_File_Behavior",
@@ -53668,7 +53950,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Startup Settings Rows Visible"
         }
       ],
-      "completenessScore": 22
+      "completenessScore": 22,
+      "platformId": "ubuntu"
     },
     {
       "id": "VSCODE_Manage_Workspaces_and_Project_Roots",
@@ -53999,7 +54282,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Workspace Loaded Result"
         }
       ],
-      "completenessScore": 42
+      "completenessScore": 42,
+      "platformId": "ubuntu"
     },
     {
       "id": "VSCODE_Run_and_Debug_Code",
@@ -54345,7 +54629,8 @@ window.MMSKILLS_LIBRARY = {
           "label": "Terminal Run Result"
         }
       ],
-      "completenessScore": 43
+      "completenessScore": 43,
+      "platformId": "ubuntu"
     },
     {
       "id": "VSCODE_Search_and_Replace_Project_Content",
@@ -54627,7 +54912,6233 @@ window.MMSKILLS_LIBRARY = {
           "label": "Workspace Search Panel"
         }
       ],
-      "completenessScore": 35
+      "completenessScore": 35,
+      "platformId": "ubuntu"
+    },
+    {
+      "id": "Mario_clear_enemy_clusters_with_long_arc",
+      "name": "Clear Enemy Clusters With a Long Forward Arc",
+      "description": "Use a longer rightward jump arc when several enemies or a Koopa plus Goombas occupy the path.",
+      "domain": "super_mario_bros",
+      "domainLabel": "Super Mario Bros.",
+      "platformId": "mario",
+      "platform": "Mario",
+      "category": "Game-Based Tasks",
+      "sourcePath": "mario/Mario_clear_enemy_clusters_with_long_arc",
+      "imageCount": 3,
+      "stateCardCount": 0,
+      "runtimeCardCount": 3,
+      "planStepCount": 0,
+      "tags": [
+        "mario",
+        "platforming",
+        "game"
+      ],
+      "overview": "Use a longer rightward jump arc when several enemies or a Koopa plus Goombas occupy the path.",
+      "applicability": [
+        "Two or more enemies are visible in a row, or a Koopa is followed by Goombas.",
+        "The cluster occupies enough width that a short hop may land inside it.",
+        "There is visible ground beyond the cluster for a safe landing."
+      ],
+      "failureModes": [
+        "this stage successful play repeatedly died near early enemy groups; clustered enemies need earlier jump commitment.",
+        "Use the full cluster width, not just the closest enemy, to decide jump length."
+      ],
+      "skillMarkdown": "# Clear Enemy Clusters With a Long Forward Arc\n\nUse a longer rightward jump arc when several enemies or a Koopa plus Goombas occupy the path.\n\n## When To Use\n- Two or more enemies are visible in a row, or a Koopa is followed by Goombas.\n- The cluster occupies enough width that a short hop may land inside it.\n- There is visible ground beyond the cluster for a safe landing.\n\n## When Not To Use\n- Only one enemy is present and a short controlled jump is enough.\n- There is no safe landing ground beyond the enemies.\n- Mario is too close to jump over the full cluster; consider a stomp or stop-gap movement.\n\n## Decision Procedure\n1. Prefer `right_a_b` before reaching the cluster so Mario has both speed and height.\n2. Aim to clear the whole group or stomp the first enemy while continuing past the rest.\n3. Do not land between enemies unless there is a visible gap larger than Mario.\n4. After clearing, resume `right_b` to preserve momentum.\n\n## Failure Guidance\n- this stage successful play repeatedly died near early enemy groups; clustered enemies need earlier jump commitment.\n- Use the full cluster width, not just the closest enemy, to decide jump length.\n\n## Visual State Cards\n- Use `runtime_state_cards.json` to select the most relevant state evidence.\n- This Mario package intentionally uses `full_frame` views only; no focus crops are included.\n- Full-frame images contain red arrows and a short action label showing the recommended next action.\n- Treat the images as reusable game-state patterns, not exact pixel-coordinate templates.\n\n## Verification\n- The enemy group is below or behind Mario, not directly touching him.\n- Mario lands beyond the last enemy with life count unchanged.\n- Score may increase from a stomp, but survival and x progress are the main checks.\n\n## Common Failure Modes\n- Using a short hop and landing in the middle of the group.\n- Continuing plain right into the first enemy.\n- Stopping in front of the cluster until enemies close the gap.\n\n## Example State Cards\n- `koopa_goomba_cluster_long_jump`: this stage Koopa and Goombas Form an Early Cluster -> expected action `right_a_b`\n- `multi_enemy_after_blocks`: this stage Multiple Enemies After Scoring Blocks -> expected action `right_a_b`\n- `shell_and_enemy_cluster`: this stage Shell/Enemy Cluster Near Pipe Area -> expected action `right_a_b`\n",
+      "runtimeStates": [
+        {
+          "stateId": "koopa_goomba_cluster_long_jump",
+          "stateName": "this stage Koopa and Goombas Form an Early Cluster",
+          "stage": "right_a_b",
+          "imageRole": "state_cue",
+          "whenToUse": "A Koopa and Goombas are aligned on the right path.",
+          "whenNotToUse": "The enemies are sparse enough for single-enemy handling.",
+          "visibleCues": [
+            "The group spans too much width for a small hop."
+          ],
+          "verificationCue": "Mario should clear or stomp through the cluster without life loss.",
+          "preferredViewOrder": [
+            "full_frame"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/koopa_goomba_cluster_long_jump.png",
+              "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-clear-enemy-clusters-with-long-arc/koopa-goomba-cluster-long-jump.jpg",
+              "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-clear-enemy-clusters-with-long-arc/koopa-goomba-cluster-long-jump.png",
+              "useFor": "recognize_game_state",
+              "label": "this stage Koopa and Goombas Form an Early Cluster"
+            }
+          ]
+        },
+        {
+          "stateId": "multi_enemy_after_blocks",
+          "stateName": "this stage Multiple Enemies After Scoring Blocks",
+          "stage": "right_a_b",
+          "imageRole": "state_cue",
+          "whenToUse": "Several enemies are visible around the lane after block/score events.",
+          "whenNotToUse": "Mario is already above the group or has a clear floor gap.",
+          "visibleCues": [
+            "Multiple enemy bodies occupy the path; preserve height and right speed."
+          ],
+          "verificationCue": "Mario should pass the cluster with no life decrease.",
+          "preferredViewOrder": [
+            "full_frame"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/multi_enemy_after_blocks.png",
+              "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-clear-enemy-clusters-with-long-arc/multi-enemy-after-blocks.jpg",
+              "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-clear-enemy-clusters-with-long-arc/multi-enemy-after-blocks.png",
+              "useFor": "recognize_game_state",
+              "label": "this stage Multiple Enemies After Scoring Blocks"
+            }
+          ]
+        },
+        {
+          "stateId": "shell_and_enemy_cluster",
+          "stateName": "this stage Shell/Enemy Cluster Near Pipe Area",
+          "stage": "right_a_b",
+          "imageRole": "state_cue",
+          "whenToUse": "A shell, Koopa, or multiple enemies create a crowded right lane.",
+          "whenNotToUse": "The path is empty or only one enemy remains.",
+          "visibleCues": [
+            "The cluster can punish low jumps and indecision."
+          ],
+          "verificationCue": "Mario should be airborne or safely past the cluster.",
+          "preferredViewOrder": [
+            "full_frame"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/shell_and_enemy_cluster.png",
+              "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-clear-enemy-clusters-with-long-arc/shell-and-enemy-cluster.jpg",
+              "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-clear-enemy-clusters-with-long-arc/shell-and-enemy-cluster.png",
+              "useFor": "recognize_game_state",
+              "label": "this stage Shell/Enemy Cluster Near Pipe Area"
+            }
+          ]
+        }
+      ],
+      "imageReferences": [
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/koopa_goomba_cluster_long_jump.png",
+          "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-clear-enemy-clusters-with-long-arc/koopa-goomba-cluster-long-jump.jpg",
+          "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-clear-enemy-clusters-with-long-arc/koopa-goomba-cluster-long-jump.png",
+          "label": "this stage Koopa and Goombas Form an Early Cluster"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/multi_enemy_after_blocks.png",
+          "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-clear-enemy-clusters-with-long-arc/multi-enemy-after-blocks.jpg",
+          "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-clear-enemy-clusters-with-long-arc/multi-enemy-after-blocks.png",
+          "label": "this stage Multiple Enemies After Scoring Blocks"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/shell_and_enemy_cluster.png",
+          "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-clear-enemy-clusters-with-long-arc/shell-and-enemy-cluster.jpg",
+          "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-clear-enemy-clusters-with-long-arc/shell-and-enemy-cluster.png",
+          "label": "this stage Shell/Enemy Cluster Near Pipe Area"
+        }
+      ],
+      "completenessScore": 12
+    },
+    {
+      "id": "Mario_cross_gaps_and_separated_platforms",
+      "name": "Cross Gaps and Separated Platforms With Commitment",
+      "description": "Use committed rightward jumps for pits, missing floor, and separated brick platforms instead of walking off edges or hesitating midair.",
+      "domain": "super_mario_bros",
+      "domainLabel": "Super Mario Bros.",
+      "platformId": "mario",
+      "platform": "Mario",
+      "category": "Game-Based Tasks",
+      "sourcePath": "mario/Mario_cross_gaps_and_separated_platforms",
+      "imageCount": 4,
+      "stateCardCount": 0,
+      "runtimeCardCount": 4,
+      "planStepCount": 0,
+      "tags": [
+        "mario",
+        "platforming",
+        "game"
+      ],
+      "overview": "Use committed rightward jumps for pits, missing floor, and separated brick platforms instead of walking off edges or hesitating midair.",
+      "applicability": [
+        "The ground ahead has a visible gap, pit, or separated platform.",
+        "Mario is close enough that the next action should determine the jump arc.",
+        "There is a visible landing surface to the right."
+      ],
+      "failureModes": [
+        "successful play sometimes reaches far x positions but died at repeated hazard locations; gap states require earlier commitment.",
+        "Treat separated platforms as high-risk even when the current x progress looks strong."
+      ],
+      "skillMarkdown": "# Cross Gaps and Separated Platforms With Commitment\n\nUse committed rightward jumps for pits, missing floor, and separated brick platforms instead of walking off edges or hesitating midair.\n\n## When To Use\n- The ground ahead has a visible gap, pit, or separated platform.\n- Mario is close enough that the next action should determine the jump arc.\n- There is a visible landing surface to the right.\n\n## When Not To Use\n- The floor is continuous and the obstacle is only an enemy.\n- Mario has already landed after the gap.\n- The landing platform is blocked by an enemy cluster requiring enemy-specific handling.\n\n## Decision Procedure\n1. Use `right_a_b` before the edge to build a long jump arc.\n2. Hold right while airborne until Mario is clearly over the landing platform.\n3. Avoid no-op or pure right at the edge; these waste jump timing or cause a fall.\n4. After landing, return to run-right momentum.\n\n## Failure Guidance\n- successful play sometimes reaches far x positions but died at repeated hazard locations; gap states require earlier commitment.\n- Treat separated platforms as high-risk even when the current x progress looks strong.\n\n## Visual State Cards\n- Use `runtime_state_cards.json` to select the most relevant state evidence.\n- This Mario package intentionally uses `full_frame` views only; no focus crops are included.\n- Full-frame images contain red arrows and a short action label showing the recommended next action.\n- Treat the images as reusable game-state patterns, not exact pixel-coordinate templates.\n\n## Verification\n- Mario remains alive and is visibly above or beyond the gap.\n- The x position continues increasing after landing.\n- The previous edge or pit is behind Mario.\n\n## Common Failure Modes\n- Walking off the ledge with `right` only.\n- Jumping too early and descending into the pit.\n- Releasing right midair and falling short of the platform.\n\n## Example State Cards\n- `brick_platform_gap_commit`: this stage Elevated Brick Platform Gap -> expected action `right_a_b`\n- `broken_floor_coin_arc`: this stage Broken Floor With Coin Arc -> expected action `right_a_b`\n- `pipe_after_gap_commit`: this stage Pipe and Landing Zone After Gap -> expected action `right_a_b`\n",
+      "runtimeStates": [
+        {
+          "stateId": "brick_platform_gap_commit",
+          "stateName": "this stage Elevated Brick Platform Gap",
+          "stage": "right_a_b",
+          "imageRole": "state_cue",
+          "whenToUse": "Mario is approaching separated brick/platform terrain.",
+          "whenNotToUse": "Mario is on continuous ground with no gap.",
+          "visibleCues": [
+            "There is a visible separation requiring a forward jump arc."
+          ],
+          "verificationCue": "Mario should reach or cross the next platform area.",
+          "preferredViewOrder": [
+            "full_frame"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/brick_platform_gap_commit.png",
+              "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-cross-gaps-and-separated-platforms/brick-platform-gap-commit.jpg",
+              "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-cross-gaps-and-separated-platforms/brick-platform-gap-commit.png",
+              "useFor": "recognize_game_state",
+              "label": "this stage Elevated Brick Platform Gap"
+            }
+          ]
+        },
+        {
+          "stateId": "broken_floor_coin_arc",
+          "stateName": "this stage Broken Floor With Coin Arc",
+          "stage": "right_a_b",
+          "imageRole": "state_cue",
+          "whenToUse": "The floor ahead is broken or separated, with visible landing ground.",
+          "whenNotToUse": "The floor is continuous and only a pipe is ahead.",
+          "visibleCues": [
+            "A jump arc is needed to cross broken ground safely."
+          ],
+          "verificationCue": "Mario should travel over the gap and keep moving right.",
+          "preferredViewOrder": [
+            "full_frame"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/broken_floor_coin_arc.png",
+              "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-cross-gaps-and-separated-platforms/broken-floor-coin-arc.jpg",
+              "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-cross-gaps-and-separated-platforms/broken-floor-coin-arc.png",
+              "useFor": "recognize_game_state",
+              "label": "this stage Broken Floor With Coin Arc"
+            }
+          ]
+        },
+        {
+          "stateId": "pipe_after_gap_commit",
+          "stateName": "this stage Pipe and Landing Zone After Gap",
+          "stage": "right_a_b",
+          "imageRole": "state_cue",
+          "whenToUse": "A pipe or raised landing zone follows a gap-like section.",
+          "whenNotToUse": "Mario is already on the landing side.",
+          "visibleCues": [
+            "The landing area requires forward commitment and height control."
+          ],
+          "verificationCue": "Mario should land on or past the right-side platform/pipe area.",
+          "preferredViewOrder": [
+            "full_frame"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/pipe_after_gap_commit.png",
+              "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-cross-gaps-and-separated-platforms/pipe-after-gap-commit.jpg",
+              "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-cross-gaps-and-separated-platforms/pipe-after-gap-commit.png",
+              "useFor": "recognize_game_state",
+              "label": "this stage Pipe and Landing Zone After Gap"
+            }
+          ]
+        },
+        {
+          "stateId": "gap_after_paratroopa_commit_jump",
+          "stateName": "this stage Small Gap After Paratroopa Section",
+          "stage": "right_a_b",
+          "imageRole": "state_cue",
+          "whenToUse": "A floor gap or separated platform appears after the opening Paratroopa section.; Mario has room to build a short run-up before the edge.",
+          "whenNotToUse": "Mario is still handling the first low Paratroopa.; There is no visible landing platform to the right.",
+          "visibleCues": [
+            "A break in the floor is visible with Goombas or landing ground beyond it."
+          ],
+          "verificationCue": "Mario should clear the gap and land on the right-side platform without falling short.",
+          "preferredViewOrder": [
+            "full_frame"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/gap_after_paratroopa_commit_jump.png",
+              "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-cross-gaps-and-separated-platforms/gap-after-paratroopa-commit-jump.jpg",
+              "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-cross-gaps-and-separated-platforms/gap-after-paratroopa-commit-jump.png",
+              "useFor": "recognize_game_state",
+              "label": "this stage Small Gap After Paratroopa Section"
+            }
+          ]
+        }
+      ],
+      "imageReferences": [
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/brick_platform_gap_commit.png",
+          "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-cross-gaps-and-separated-platforms/brick-platform-gap-commit.jpg",
+          "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-cross-gaps-and-separated-platforms/brick-platform-gap-commit.png",
+          "label": "this stage Elevated Brick Platform Gap"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/broken_floor_coin_arc.png",
+          "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-cross-gaps-and-separated-platforms/broken-floor-coin-arc.jpg",
+          "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-cross-gaps-and-separated-platforms/broken-floor-coin-arc.png",
+          "label": "this stage Broken Floor With Coin Arc"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/pipe_after_gap_commit.png",
+          "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-cross-gaps-and-separated-platforms/pipe-after-gap-commit.jpg",
+          "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-cross-gaps-and-separated-platforms/pipe-after-gap-commit.png",
+          "label": "this stage Pipe and Landing Zone After Gap"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/gap_after_paratroopa_commit_jump.png",
+          "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-cross-gaps-and-separated-platforms/gap-after-paratroopa-commit-jump.jpg",
+          "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-cross-gaps-and-separated-platforms/gap-after-paratroopa-commit-jump.png",
+          "label": "this stage Small Gap After Paratroopa Section"
+        }
+      ],
+      "completenessScore": 16
+    },
+    {
+      "id": "Mario_handle_bullet_bills_and_projectile_pressure",
+      "name": "Handle Bullet Bills and Projectile Pressure",
+      "description": "Keep movement under projectile pressure without panic jumping into bullets, Lakitu projectiles, or enemy stacks.",
+      "domain": "super_mario_bros",
+      "domainLabel": "Super Mario Bros.",
+      "platformId": "mario",
+      "platform": "Mario",
+      "category": "Game-Based Tasks",
+      "sourcePath": "mario/Mario_handle_bullet_bills_and_projectile_pressure",
+      "imageCount": 3,
+      "stateCardCount": 0,
+      "runtimeCardCount": 3,
+      "planStepCount": 0,
+      "tags": [
+        "mario",
+        "platforming",
+        "game"
+      ],
+      "overview": "Keep movement under projectile pressure without panic jumping into bullets, Lakitu projectiles, or enemy stacks.",
+      "applicability": [
+        "Bullet Bills, Lakitu projectiles, fireballs, or other horizontal/diagonal projectiles are visible.",
+        "A projectile is near Mario's body height or about to cross the lane.",
+        "The scene also contains pipes, enemies, or gaps that make pure dodge timing risky."
+      ],
+      "failureModes": [
+        "Panic jumping into a projectile that would have passed overhead.",
+        "Ignoring a projectile at body height while focusing only on enemies.",
+        "Stopping under projectile pressure until new hazards accumulate."
+      ],
+      "skillMarkdown": "# Handle Bullet Bills and Projectile Pressure\n\nKeep movement under projectile pressure without panic jumping into bullets, Lakitu projectiles, or enemy stacks.\n\n## When To Use\n- Bullet Bills, Lakitu projectiles, fireballs, or other horizontal/diagonal projectiles are visible.\n- A projectile is near Mario's body height or about to cross the lane.\n- The scene also contains pipes, enemies, or gaps that make pure dodge timing risky.\n\n## When Not To Use\n- No projectile is visible or relevant to the next action.\n- A pipe plant or lava/firebar is the dominant hazard; use the specialized skill.\n- The projectile is already behind Mario and cannot intersect him.\n\n## Decision Procedure\n1. If a projectile is above or behind Mario, keep `right_b`/`right` and do not panic jump.\n2. If a projectile crosses Mario's body height, use a short `right_a` only when it also clears the ground hazard.\n3. Do not jump into a Bullet Bill lane unless the jump arc clearly passes over it.\n4. After the projectile passes, resume the enemy/pipe/gap skill that matches the terrain.\n\n## Verification\n- The projectile passes behind or below Mario without life loss.\n- Mario does not stop long enough for additional projectiles to accumulate.\n- Forward progress continues after the dodge.\n\n## Common Failure Modes\n- Panic jumping into a projectile that would have passed overhead.\n- Ignoring a projectile at body height while focusing only on enemies.\n- Stopping under projectile pressure until new hazards accumulate.\n\n## Example State Cards\n- `bullet_bill_between_launchers`: this stage Bullet Bill Between Launchers -> expected action `right_a_b`\n- `opening_enemy_projectile_pressure`: this stage Opening Enemy Pressure -> expected action `right_a`\n- `lakitu_coin_projectile_score`: this stage Lakitu Projectile While Collecting Coins -> expected action `right_b`\n",
+      "runtimeStates": [
+        {
+          "stateId": "bullet_bill_between_launchers",
+          "stateName": "this stage Bullet Bill Between Launchers",
+          "stage": "right_a_b",
+          "imageRole": "state_cue",
+          "whenToUse": "Bullet Bills or launchers are visible while Mario must continue through a narrow rightward lane.",
+          "whenNotToUse": "The projectile is behind Mario and no new launcher is ahead.",
+          "visibleCues": [
+            "Projectiles constrain jump height and timing around pipes/enemies."
+          ],
+          "verificationCue": "Mario should pass the projectile corridor with life unchanged.",
+          "preferredViewOrder": [
+            "full_frame"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/bullet_bill_between_launchers.png",
+              "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-handle-bullet-bills-and-projectile-pressure/bullet-bill-between-launchers.jpg",
+              "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-handle-bullet-bills-and-projectile-pressure/bullet-bill-between-launchers.png",
+              "useFor": "recognize_game_state",
+              "label": "this stage Bullet Bill Between Launchers"
+            }
+          ]
+        },
+        {
+          "stateId": "opening_enemy_projectile_pressure",
+          "stateName": "this stage Opening Enemy Pressure",
+          "stage": "right_a",
+          "imageRole": "state_cue",
+          "whenToUse": "Early this stage enemies create immediate pressure and later projectiles/pipes will appear quickly.",
+          "whenNotToUse": "The opening enemy group has already been cleared.",
+          "visibleCues": [
+            "The first enemy line must be handled quickly to avoid being trapped near pipes/projectiles."
+          ],
+          "verificationCue": "Mario should score or clear the opening group without losing a life.",
+          "preferredViewOrder": [
+            "full_frame"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/opening_enemy_projectile_pressure.png",
+              "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-handle-bullet-bills-and-projectile-pressure/opening-enemy-projectile-pressure.jpg",
+              "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-handle-bullet-bills-and-projectile-pressure/opening-enemy-projectile-pressure.png",
+              "useFor": "recognize_game_state",
+              "label": "this stage Opening Enemy Pressure"
+            }
+          ]
+        },
+        {
+          "stateId": "lakitu_coin_projectile_score",
+          "stateName": "this stage Lakitu Projectile While Collecting Coins",
+          "stage": "right_b",
+          "imageRole": "state_cue",
+          "whenToUse": "Lakitu/projectile pressure is present while Mario is already airborne or collecting coins.",
+          "whenNotToUse": "A projectile directly intersects Mario's landing point.",
+          "visibleCues": [
+            "Do not overreact to a high projectile when forward momentum and landing are still safe."
+          ],
+          "verificationCue": "Mario should keep forward movement and may collect coins/score without life loss.",
+          "preferredViewOrder": [
+            "full_frame"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/lakitu_coin_projectile_score.png",
+              "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-handle-bullet-bills-and-projectile-pressure/lakitu-coin-projectile-score.jpg",
+              "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-handle-bullet-bills-and-projectile-pressure/lakitu-coin-projectile-score.png",
+              "useFor": "recognize_game_state",
+              "label": "this stage Lakitu Projectile While Collecting Coins"
+            }
+          ]
+        }
+      ],
+      "imageReferences": [
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/bullet_bill_between_launchers.png",
+          "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-handle-bullet-bills-and-projectile-pressure/bullet-bill-between-launchers.jpg",
+          "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-handle-bullet-bills-and-projectile-pressure/bullet-bill-between-launchers.png",
+          "label": "this stage Bullet Bill Between Launchers"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/opening_enemy_projectile_pressure.png",
+          "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-handle-bullet-bills-and-projectile-pressure/opening-enemy-projectile-pressure.jpg",
+          "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-handle-bullet-bills-and-projectile-pressure/opening-enemy-projectile-pressure.png",
+          "label": "this stage Opening Enemy Pressure"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/lakitu_coin_projectile_score.png",
+          "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-handle-bullet-bills-and-projectile-pressure/lakitu-coin-projectile-score.jpg",
+          "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-handle-bullet-bills-and-projectile-pressure/lakitu-coin-projectile-score.png",
+          "label": "this stage Lakitu Projectile While Collecting Coins"
+        }
+      ],
+      "completenessScore": 12
+    },
+    {
+      "id": "Mario_handle_vertical_and_airborne_hazards",
+      "name": "Handle Vertical and Airborne Hazards With Timing Windows",
+      "description": "Time movement around Paratroopas, Lakitu, plants, fireballs, and other vertical hazards without overusing run-under.",
+      "domain": "super_mario_bros",
+      "domainLabel": "Super Mario Bros.",
+      "platformId": "mario",
+      "platform": "Mario",
+      "category": "Game-Based Tasks",
+      "sourcePath": "mario/Mario_handle_vertical_and_airborne_hazards",
+      "imageCount": 4,
+      "stateCardCount": 0,
+      "runtimeCardCount": 4,
+      "planStepCount": 0,
+      "tags": [
+        "mario",
+        "platforming",
+        "game"
+      ],
+      "overview": "Use this skill when the danger moves vertically: Paratroopas, Lakitu/Spiny drops, fireballs, pipe plants, or bouncing hazards. The core rule is not \"always run under\" and not \"always jump\"; first classify whether the hazard is high, low, rising, or already intersecting Mario's lane.",
+      "applicability": [
+        "A vertical or airborne hazard is close enough to affect Mario's next 1-2 actions.",
+        "A Paratroopa or bouncing enemy is at Mario height, descending, or about to enter the ground lane.",
+        "A Lakitu/Spiny, plant, or fireball is visible and could intersect the route."
+      ],
+      "failureModes": [],
+      "skillMarkdown": "# Handle Vertical and Airborne Hazards With Timing Windows\n\nUse this skill when the danger moves vertically: Paratroopas, Lakitu/Spiny drops, fireballs, pipe plants, or bouncing hazards. The core rule is not \"always run under\" and not \"always jump\"; first classify whether the hazard is high, low, rising, or already intersecting Mario's lane.\n\n## When To Use\n- A vertical or airborne hazard is close enough to affect Mario's next 1-2 actions.\n- A Paratroopa or bouncing enemy is at Mario height, descending, or about to enter the ground lane.\n- A Lakitu/Spiny, plant, or fireball is visible and could intersect the route.\n\n## When Not To Use\n- The only threat is a stationary ground enemy with no vertical timing.\n- The hazard is far above and clearly irrelevant to the next action.\n- Mario is on a death/restart transition screen.\n\n## Decision Procedure\n1. If a Paratroopa is low, descending, or at Mario height, do not use plain `right_b`; use a controlled `right_a` or `right_a_b` to hop/stomp/clear it.\n2. Only run underneath with `right_b` when there is a clear vertical gap: Mario can pass below the enemy before it descends into the lane.\n3. If a pipe plant is visible at the pipe mouth, treat the pipe top as unsafe; jump away or time the approach instead of standing on it.\n4. Against Lakitu/Spiny, preserve speed when the ground lane is clear, but jump only for floor gaps or projectiles that actually intersect Mario's lane.\n5. After the vertical hazard is cleared, immediately switch to the next relevant skill: gap crossing, enemy cluster clearing, or momentum running.\n\n## Failure Guidance From Recent Runs\n- this stage fails because the previous behavior over-selected `right_b` under low Paratroopas.\n- this stage remained close to successful play because ground-speed preservation is useful, but score dropped when the control strategy became too one-dimensional.\n- Prefer the live screenshot over a generic card: enemy height and descent timing window matter more than the level name.\n\n## Visual State Cards\n- Use `runtime_state_cards.json` to select the closest state pattern.\n- Full-frame images contain red arrows and action labels.\n- The new this stage cards are specifically guardrails against running under low Paratroopas.\n\n## Verification\n- Mario keeps the same life count after the hazard interaction.\n- If the enemy was low, Mario is above/over/past it rather than colliding with its side.\n- If the enemy was high, Mario passes beneath before it descends.\n",
+      "runtimeStates": [
+        {
+          "stateId": "lakitu_above_continue_under",
+          "stateName": "this stage Lakitu Above the Route",
+          "stage": "right_b",
+          "imageRole": "state_cue",
+          "whenToUse": "A Lakitu or airborne hazard is visible above Mario while the floor remains open.",
+          "whenNotToUse": "The hazard is descending into Mario's exact path.",
+          "visibleCues": [
+            "Lakitu is above; the ground route is still usable."
+          ],
+          "verificationCue": "Mario should keep moving and not jump into the airborne hazard.",
+          "preferredViewOrder": [
+            "full_frame"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/lakitu_above_continue_under.png",
+              "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-handle-vertical-and-airborne-hazards/lakitu-above-continue-under.jpg",
+              "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-handle-vertical-and-airborne-hazards/lakitu-above-continue-under.png",
+              "useFor": "recognize_game_state",
+              "label": "this stage Lakitu Above the Route"
+            }
+          ]
+        },
+        {
+          "stateId": "fireball_pipe_escape",
+          "stateName": "this stage Fireball or Plant Near Pipe",
+          "stage": "right_a_b",
+          "imageRole": "state_cue",
+          "whenToUse": "A vertical hazard intersects the route near a pipe or raised obstacle.",
+          "whenNotToUse": "The hazard is safely above and the ground route is clear.",
+          "visibleCues": [
+            "Pipe/plant/fireball geometry makes a timed jump safer."
+          ],
+          "verificationCue": "Mario should clear the pipe hazard without life loss.",
+          "preferredViewOrder": [
+            "full_frame"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/fireball_pipe_escape.png",
+              "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-handle-vertical-and-airborne-hazards/fireball-pipe-escape.jpg",
+              "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-handle-vertical-and-airborne-hazards/fireball-pipe-escape.png",
+              "useFor": "recognize_game_state",
+              "label": "this stage Fireball or Plant Near Pipe"
+            }
+          ]
+        },
+        {
+          "stateId": "bouncing_hazard_continue",
+          "stateName": "this stage Bouncing Hazard With Open Ground",
+          "stage": "right_b",
+          "imageRole": "state_cue",
+          "whenToUse": "A bouncing or vertical hazard is present but the ground route remains available.",
+          "whenNotToUse": "The hazard is directly at Mario's height and contact is imminent.",
+          "visibleCues": [
+            "The visible lane allows continued movement underneath/around the hazard."
+          ],
+          "verificationCue": "Mario should pass the hazard zone while preserving life count.",
+          "preferredViewOrder": [
+            "full_frame"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/bouncing_hazard_continue.png",
+              "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-handle-vertical-and-airborne-hazards/bouncing-hazard-continue.jpg",
+              "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-handle-vertical-and-airborne-hazards/bouncing-hazard-continue.png",
+              "useFor": "recognize_game_state",
+              "label": "this stage Bouncing Hazard With Open Ground"
+            }
+          ]
+        },
+        {
+          "stateId": "low_paratroopa_jump_not_run_under",
+          "stateName": "this stage Low Paratroopa Blocks the Lane",
+          "stage": "right_a",
+          "imageRole": "state_cue",
+          "whenToUse": "A Paratroopa or bouncing Koopa is at Mario's height or descending into the ground lane.; The enemy is close enough that `right_b` underneath would collide.",
+          "whenNotToUse": "The Paratroopa is clearly high above Mario and moving away from the lane.; The ground lane is empty and the enemy is not intersecting Mario's route.",
+          "visibleCues": [
+            "The winged enemy occupies Mario's near-right lane; it is not safe to run under."
+          ],
+          "verificationCue": "Mario should hop/stomp or clear the Paratroopa instead of continuing flat run-right.",
+          "preferredViewOrder": [
+            "full_frame"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/low_paratroopa_jump_not_run_under.png",
+              "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-handle-vertical-and-airborne-hazards/low-paratroopa-jump-not-run-under.jpg",
+              "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-handle-vertical-and-airborne-hazards/low-paratroopa-jump-not-run-under.png",
+              "useFor": "recognize_game_state",
+              "label": "this stage Low Paratroopa Blocks the Lane"
+            }
+          ]
+        }
+      ],
+      "imageReferences": [
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/lakitu_above_continue_under.png",
+          "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-handle-vertical-and-airborne-hazards/lakitu-above-continue-under.jpg",
+          "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-handle-vertical-and-airborne-hazards/lakitu-above-continue-under.png",
+          "label": "this stage Lakitu Above the Route"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/fireball_pipe_escape.png",
+          "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-handle-vertical-and-airborne-hazards/fireball-pipe-escape.jpg",
+          "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-handle-vertical-and-airborne-hazards/fireball-pipe-escape.png",
+          "label": "this stage Fireball or Plant Near Pipe"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/bouncing_hazard_continue.png",
+          "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-handle-vertical-and-airborne-hazards/bouncing-hazard-continue.jpg",
+          "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-handle-vertical-and-airborne-hazards/bouncing-hazard-continue.png",
+          "label": "this stage Bouncing Hazard With Open Ground"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/low_paratroopa_jump_not_run_under.png",
+          "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-handle-vertical-and-airborne-hazards/low-paratroopa-jump-not-run-under.jpg",
+          "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-handle-vertical-and-airborne-hazards/low-paratroopa-jump-not-run-under.png",
+          "label": "this stage Low Paratroopa Blocks the Lane"
+        }
+      ],
+      "completenessScore": 16
+    },
+    {
+      "id": "Mario_maintain_running_momentum_on_safe_ground",
+      "name": "Maintain Running Momentum on Safe Ground",
+      "description": "Use sustained rightward movement, usually with B held, when the visible path is open and no immediate jump is required.",
+      "domain": "super_mario_bros",
+      "domainLabel": "Super Mario Bros.",
+      "platformId": "mario",
+      "platform": "Mario",
+      "category": "Game-Based Tasks",
+      "sourcePath": "mario/Mario_maintain_running_momentum_on_safe_ground",
+      "imageCount": 3,
+      "stateCardCount": 0,
+      "runtimeCardCount": 3,
+      "planStepCount": 0,
+      "tags": [
+        "mario",
+        "platforming",
+        "game"
+      ],
+      "overview": "Use sustained rightward movement, usually with B held, when the visible path is open and no immediate jump is required.",
+      "applicability": [
+        "Mario is on solid ground with a clear horizontal path to the right.",
+        "No enemy, pipe lip, pit, or low ceiling is close enough to require an immediate jump.",
+        "The goal is to preserve speed before a later obstacle instead of hesitating or using no-op."
+      ],
+      "failureModes": [
+        "successful play often makes progress when it held rightward movement through safe sections.",
+        "Deaths usually happened after failing to switch from running to a jump/avoidance control strategy near hazards.",
+        "Use this skill as a default only until a concrete obstacle appears."
+      ],
+      "skillMarkdown": "# Maintain Running Momentum on Safe Ground\n\nUse sustained rightward movement, usually with B held, when the visible path is open and no immediate jump is required.\n\n## When To Use\n- Mario is on solid ground with a clear horizontal path to the right.\n- No enemy, pipe lip, pit, or low ceiling is close enough to require an immediate jump.\n- The goal is to preserve speed before a later obstacle instead of hesitating or using no-op.\n\n## When Not To Use\n- A pit, enemy cluster, pipe, or stair wall is directly ahead.\n- Mario is already airborne and needs jump timing or landing control.\n- The screen is a death/restart transition or non-playable interstitial.\n\n## Decision Procedure\n1. Hold rightward progress; prefer `right_b` when the lane is open so Mario keeps acceleration.\n2. Use plain `right` only for fine positioning near an upcoming enemy, pipe edge, or platform boundary.\n3. Do not alternate left/right or no-op on flat safe ground; lost momentum makes later jumps harder.\n4. Start preparing a running jump before the obstacle enters Mario's immediate collision range.\n\n## Failure Guidance\n- successful play often makes progress when it held rightward movement through safe sections.\n- Deaths usually happened after failing to switch from running to a jump/avoidance control strategy near hazards.\n- Use this skill as a default only until a concrete obstacle appears.\n\n## Visual State Cards\n- Use `runtime_state_cards.json` to select the most relevant state evidence.\n- This Mario package intentionally uses `full_frame` views only; no focus crops are included.\n- Full-frame images contain red arrows and a short action label showing the recommended next action.\n- Treat the images as reusable game-state patterns, not exact pixel-coordinate templates.\n\n## Verification\n- Mario's x position increases steadily across the next frames.\n- Mario remains on the ground or lands safely without losing a life.\n- The next obstacle appears closer while Mario keeps usable forward momentum.\n\n## Common Failure Modes\n- Using no-op on safe ground and allowing enemies or timers to catch up.\n- Jumping too early when the path is still clear, losing speed before a later gap.\n- Continuing `right_b` into an obstacle after the state has changed to a jump state.\n\n## Example State Cards\n- `safe_ground_early_run`: Open this stage Ground With Goombas Still Far -> expected action `right_b`\n- `safe_ground_before_stairs`: Approaching Early this stage Terrain With Space to Run -> expected action `right_b`\n- `safe_ground_before_pipe`: this stage Open Ground Before Pipe Hazard -> expected action `right_b`\n## Score-Oriented Guardrail\n- Do not treat momentum as the only objective: if a stompable enemy row is close, switch to `stomp_enemy_chains_for_score_and_safety`; if a pipe plant, castle firebar, or projectile is active, switch to the specialized hazard skill.\n\n",
+      "runtimeStates": [
+        {
+          "stateId": "safe_ground_early_run",
+          "stateName": "Open this stage Ground With Goombas Still Far",
+          "stage": "right_b",
+          "imageRole": "state_cue",
+          "whenToUse": "Open ground extends to the right and enemies are not yet in collision range.",
+          "whenNotToUse": "A pipe, pit, enemy, or platform edge is directly ahead.",
+          "visibleCues": [
+            "Mario is still on the floor with room to accelerate."
+          ],
+          "verificationCue": "x_pos should increase and Mario should not jump unnecessarily.",
+          "preferredViewOrder": [
+            "full_frame"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/safe_ground_early_run.png",
+              "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-maintain-running-momentum-on-safe-ground/safe-ground-early-run.jpg",
+              "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-maintain-running-momentum-on-safe-ground/safe-ground-early-run.png",
+              "useFor": "recognize_game_state",
+              "label": "Open this stage Ground With Goombas Still Far"
+            }
+          ]
+        },
+        {
+          "stateId": "safe_ground_before_stairs",
+          "stateName": "Approaching Early this stage Terrain With Space to Run",
+          "stage": "right_b",
+          "imageRole": "state_cue",
+          "whenToUse": "There is open space before the next shaped terrain or enemy.",
+          "whenNotToUse": "Mario is at the stair face or enemy contact point.",
+          "visibleCues": [
+            "Open floor and distant terrain make running safe."
+          ],
+          "verificationCue": "Forward progress continues without contact damage.",
+          "preferredViewOrder": [
+            "full_frame"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/safe_ground_before_stairs.png",
+              "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-maintain-running-momentum-on-safe-ground/safe-ground-before-stairs.jpg",
+              "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-maintain-running-momentum-on-safe-ground/safe-ground-before-stairs.png",
+              "useFor": "recognize_game_state",
+              "label": "Approaching Early this stage Terrain With Space to Run"
+            }
+          ]
+        },
+        {
+          "stateId": "safe_ground_before_pipe",
+          "stateName": "this stage Open Ground Before Pipe Hazard",
+          "stage": "right_b",
+          "imageRole": "state_cue",
+          "whenToUse": "Mario has floor ahead and a pipe is still far enough to plan around.",
+          "whenNotToUse": "The pipe or plant is immediately ahead.",
+          "visibleCues": [
+            "The pipe is visible but not yet a jump-timing state."
+          ],
+          "verificationCue": "Mario reaches the pipe approach with speed preserved.",
+          "preferredViewOrder": [
+            "full_frame"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/safe_ground_before_pipe.png",
+              "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-maintain-running-momentum-on-safe-ground/safe-ground-before-pipe.jpg",
+              "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-maintain-running-momentum-on-safe-ground/safe-ground-before-pipe.png",
+              "useFor": "recognize_game_state",
+              "label": "this stage Open Ground Before Pipe Hazard"
+            }
+          ]
+        }
+      ],
+      "imageReferences": [
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/safe_ground_early_run.png",
+          "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-maintain-running-momentum-on-safe-ground/safe-ground-early-run.jpg",
+          "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-maintain-running-momentum-on-safe-ground/safe-ground-early-run.png",
+          "label": "Open this stage Ground With Goombas Still Far"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/safe_ground_before_stairs.png",
+          "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-maintain-running-momentum-on-safe-ground/safe-ground-before-stairs.jpg",
+          "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-maintain-running-momentum-on-safe-ground/safe-ground-before-stairs.png",
+          "label": "Approaching Early this stage Terrain With Space to Run"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/safe_ground_before_pipe.png",
+          "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-maintain-running-momentum-on-safe-ground/safe-ground-before-pipe.jpg",
+          "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-maintain-running-momentum-on-safe-ground/safe-ground-before-pipe.png",
+          "label": "this stage Open Ground Before Pipe Hazard"
+        }
+      ],
+      "completenessScore": 12
+    },
+    {
+      "id": "Mario_restart_after_life_loss_without_wasting_decisions",
+      "name": "Restart After Life Loss Without Wasting Decisions",
+      "description": "After a life-loss restart, immediately re-enter the level plan and avoid repeated no-op or transition reasoning.",
+      "domain": "super_mario_bros",
+      "domainLabel": "Super Mario Bros.",
+      "platformId": "mario",
+      "platform": "Mario",
+      "category": "Game-Based Tasks",
+      "sourcePath": "mario/Mario_restart_after_life_loss_without_wasting_decisions",
+      "imageCount": 3,
+      "stateCardCount": 0,
+      "runtimeCardCount": 3,
+      "planStepCount": 0,
+      "tags": [
+        "mario",
+        "platforming",
+        "game"
+      ],
+      "overview": "After a life-loss restart, immediately re-enter the level plan and avoid repeated no-op or transition reasoning.",
+      "applicability": [
+        "Mario has just lost a life and is back at the level start or a checkpoint.",
+        "The screen is playable again, not a black WORLD transition screen.",
+        "The life count is lower but the route objective is unchanged."
+      ],
+      "failureModes": [
+        "Fast-forward now removes most non-decision restart frames, so the next model call should be actionable.",
+        "Use this skill only after the transition is over; it is not a command to act during black restart screens."
+      ],
+      "skillMarkdown": "# Restart After Life Loss Without Wasting Decisions\n\nAfter a life-loss restart, immediately re-enter the level plan and avoid repeated no-op or transition reasoning.\n\n## When To Use\n- Mario has just lost a life and is back at the level start or a checkpoint.\n- The screen is playable again, not a black WORLD transition screen.\n- The life count is lower but the route objective is unchanged.\n\n## When Not To Use\n- The screen still shows a non-playable WORLD / x lives transition.\n- Mario is mid-level with no recent death/reset.\n- A dangerous obstacle is already immediately ahead after the reset.\n\n## Decision Procedure\n1. Once the playable frame returns, resume `right_b` or `right` to rebuild momentum.\n2. Do not spend multiple decisions describing the transition after it has ended.\n3. Use the previous death location as negative memory: switch to the relevant jump/hazard skill before reaching it again.\n4. If the reset is at a checkpoint, do not assume x_pos is zero; continue from the visible playable state.\n\n## Failure Guidance\n- Fast-forward now removes most non-decision restart frames, so the next model call should be actionable.\n- Use this skill only after the transition is over; it is not a command to act during black restart screens.\n\n## Visual State Cards\n- Use `runtime_state_cards.json` to select the most relevant state evidence.\n- This Mario package intentionally uses `full_frame` views only; no focus crops are included.\n- Full-frame images contain red arrows and a short action label showing the recommended next action.\n- Treat the images as reusable game-state patterns, not exact pixel-coordinate templates.\n\n## Verification\n- Mario starts moving again after the restart.\n- The same early-level safe-ground or obstacle control strategy is applied without extra waiting.\n- The agent plans for the prior failure point before reaching it again.\n\n## Common Failure Modes\n- Repeated no-op after the playable restart frame.\n- Forgetting the prior death and repeating the same collision.\n- Treating a checkpoint restart as a new unrelated task.\n\n## Example State Cards\n- `restart_playable_again_after_life_loss`: this stage Playable Again After Life Loss -> expected action `right_b`\n- `restart_playable_again_near_hazards`: this stage Playable Again After Life Loss -> expected action `right_b`\n- `restart_after_enemy_cluster_death`: this stage Restart After Early Enemy Cluster Death -> expected action `right_b`\n",
+      "runtimeStates": [
+        {
+          "stateId": "restart_playable_again_after_life_loss",
+          "stateName": "this stage Playable Again After Life Loss",
+          "stage": "right_b",
+          "imageRole": "state_cue",
+          "whenToUse": "Mario is back at a playable start frame after losing a life.",
+          "whenNotToUse": "The black WORLD transition screen is still visible.",
+          "visibleCues": [
+            "The level is playable again and the route should resume."
+          ],
+          "verificationCue": "x_pos should begin increasing again after the restart.",
+          "preferredViewOrder": [
+            "full_frame"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/restart_playable_again_after_life_loss.png",
+              "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-restart-after-life-loss-without-wasting-decisions/restart-playable-again-after-life-loss.jpg",
+              "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-restart-after-life-loss-without-wasting-decisions/restart-playable-again-after-life-loss.png",
+              "useFor": "recognize_game_state",
+              "label": "this stage Playable Again After Life Loss"
+            }
+          ]
+        },
+        {
+          "stateId": "restart_playable_again_near_hazards",
+          "stateName": "this stage Playable Again After Life Loss",
+          "stage": "right_b",
+          "imageRole": "state_cue",
+          "whenToUse": "A life was lost and Mario has returned to a playable level frame.",
+          "whenNotToUse": "A hazard is already in immediate collision range.",
+          "visibleCues": [
+            "The start area is playable; waiting wastes decisions."
+          ],
+          "verificationCue": "Mario should rebuild momentum with no extra no-op loop.",
+          "preferredViewOrder": [
+            "full_frame"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/restart_playable_again_near_hazards.png",
+              "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-restart-after-life-loss-without-wasting-decisions/restart-playable-again-near-hazards.jpg",
+              "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-restart-after-life-loss-without-wasting-decisions/restart-playable-again-near-hazards.png",
+              "useFor": "recognize_game_state",
+              "label": "this stage Playable Again After Life Loss"
+            }
+          ]
+        },
+        {
+          "stateId": "restart_after_enemy_cluster_death",
+          "stateName": "this stage Restart After Early Enemy Cluster Death",
+          "stage": "right_b",
+          "imageRole": "state_cue",
+          "whenToUse": "Mario has restarted after dying to the early enemy cluster.",
+          "whenNotToUse": "The transition screen has not completed.",
+          "visibleCues": [
+            "The previous failure point is known: an early cluster appears soon."
+          ],
+          "verificationCue": "Mario should move right and prepare the enemy-cluster skill earlier.",
+          "preferredViewOrder": [
+            "full_frame"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/restart_after_enemy_cluster_death.png",
+              "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-restart-after-life-loss-without-wasting-decisions/restart-after-enemy-cluster-death.jpg",
+              "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-restart-after-life-loss-without-wasting-decisions/restart-after-enemy-cluster-death.png",
+              "useFor": "recognize_game_state",
+              "label": "this stage Restart After Early Enemy Cluster Death"
+            }
+          ]
+        }
+      ],
+      "imageReferences": [
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/restart_playable_again_after_life_loss.png",
+          "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-restart-after-life-loss-without-wasting-decisions/restart-playable-again-after-life-loss.jpg",
+          "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-restart-after-life-loss-without-wasting-decisions/restart-playable-again-after-life-loss.png",
+          "label": "this stage Playable Again After Life Loss"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/restart_playable_again_near_hazards.png",
+          "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-restart-after-life-loss-without-wasting-decisions/restart-playable-again-near-hazards.jpg",
+          "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-restart-after-life-loss-without-wasting-decisions/restart-playable-again-near-hazards.png",
+          "label": "this stage Playable Again After Life Loss"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/restart_after_enemy_cluster_death.png",
+          "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-restart-after-life-loss-without-wasting-decisions/restart-after-enemy-cluster-death.jpg",
+          "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-restart-after-life-loss-without-wasting-decisions/restart-after-enemy-cluster-death.png",
+          "label": "this stage Restart After Early Enemy Cluster Death"
+        }
+      ],
+      "completenessScore": 12
+    },
+    {
+      "id": "Mario_running_jump_over_enemy_or_pipe",
+      "name": "Running Jump Over Enemies, Stairs, and Pipe Hazards",
+      "description": "Choose controlled hops or running jumps for enemies, stairs, low ceilings, pipe lips, and visible pipe plants.",
+      "domain": "super_mario_bros",
+      "domainLabel": "Super Mario Bros.",
+      "platformId": "mario",
+      "platform": "Mario",
+      "category": "Game-Based Tasks",
+      "sourcePath": "mario/Mario_running_jump_over_enemy_or_pipe",
+      "imageCount": 6,
+      "stateCardCount": 0,
+      "runtimeCardCount": 6,
+      "planStepCount": 0,
+      "tags": [
+        "mario",
+        "platforming",
+        "game"
+      ],
+      "overview": "Use this skill when a local obstacle blocks the near-right lane. The important refinement is action scale: not every obstacle wants a max-distance `right_a_b`. Stairs and low ceilings often need a controlled hop; pipe plants need immediate avoidance if already visible.",
+      "applicability": [
+        "A Goomba/Koopa, stair enemy, pipe lip, or visible pipe plant blocks Mario's immediate route.",
+        "There is a visible landing region to the right.",
+        "Mario has enough room for either a short controlled hop or a running jump."
+      ],
+      "failureModes": [],
+      "skillMarkdown": "# Running Jump Over Enemies, Stairs, and Pipe Hazards\n\nUse this skill when a local obstacle blocks the near-right lane. The important refinement is action scale: not every obstacle wants a max-distance `right_a_b`. Stairs and low ceilings often need a controlled hop; pipe plants need immediate avoidance if already visible.\n\n## When To Use\n- A Goomba/Koopa, stair enemy, pipe lip, or visible pipe plant blocks Mario's immediate route.\n- There is a visible landing region to the right.\n- Mario has enough room for either a short controlled hop or a running jump.\n\n## When Not To Use\n- A wide enemy cluster spans the landing area; use the enemy-cluster long-arc skill.\n- The obstacle is still far away and the path is open; keep running momentum first.\n- Mario is already airborne and only needs landing control.\n\n## Decision Procedure\n1. Use `right_a` for a close enemy on stairs or under a low ceiling; avoid hitting overhead blocks or landing inside the enemy.\n2. Use `right_a_b` when the pipe/enemy requires more distance and the sky/landing lane is open.\n3. If a Piranha Plant is visible at a pipe mouth, do not stand on or run across the pipe top; jump out of the plant zone.\n4. If the obstacle is still distant, first build speed with `right_b`, then switch to the jump action before contact range.\n5. After clearing the obstacle, return to `right_b` rather than chaining unnecessary jumps.\n\n## Failure Guidance From Recent Runs\n- this stage lost progress from overusing generic long-jump/run-right policies near stairs, low ceilings, and pipe plants.\n- The card `pipe_plant_do_not_stand_on_pipe` is a high-priority warning: visible plant means the pipe top is unsafe now.\n- The card `low_ceiling_enemy_pair_controlled_hop` should suppress panic long jumps into overhead blocks.\n\n## Visual State Cards\n- Use `runtime_state_cards.json`; full-frame images contain red arrows and action labels.\n- The this stage cards distinguish short-hop, long-jump, and pipe-plant escape states.\n\n## Verification\n- Mario clears or stomps the obstacle without losing a life.\n- Mario does not collide with a stair face, low ceiling, pipe lip, or plant head.\n- Forward progress resumes after the local obstacle is behind Mario.\n",
+      "runtimeStates": [
+        {
+          "stateId": "pipe_and_enemy_running_jump",
+          "stateName": "this stage Pipe and Enemy Require a Running Jump",
+          "stage": "right_a_b",
+          "imageRole": "state_cue",
+          "whenToUse": "A pipe or enemy blocks the near-right path while landing ground is visible.",
+          "whenNotToUse": "The pipe is still far away or Mario is already safely past it.",
+          "visibleCues": [
+            "Mario is near a pipe with enemy pressure; a running jump preserves clearance."
+          ],
+          "verificationCue": "Mario should clear the pipe/enemy and land on the right side.",
+          "preferredViewOrder": [
+            "full_frame"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/pipe_and_enemy_running_jump.png",
+              "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-running-jump-over-enemy-or-pipe/pipe-and-enemy-running-jump.jpg",
+              "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-running-jump-over-enemy-or-pipe/pipe-and-enemy-running-jump.png",
+              "useFor": "recognize_game_state",
+              "label": "this stage Pipe and Enemy Require a Running Jump"
+            }
+          ]
+        },
+        {
+          "stateId": "enemy_pair_running_jump",
+          "stateName": "this stage Enemy Pair Near Blocks",
+          "stage": "right_a_b",
+          "imageRole": "state_cue",
+          "whenToUse": "One or two enemies are near the right path and blocks overhead still leave jump space.",
+          "whenNotToUse": "Too many enemies span the landing zone.",
+          "visibleCues": [
+            "The right path contains enemies; forward jump is safer than running through them."
+          ],
+          "verificationCue": "Mario should pass over or stomp while keeping rightward progress.",
+          "preferredViewOrder": [
+            "full_frame"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/enemy_pair_running_jump.png",
+              "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-running-jump-over-enemy-or-pipe/enemy-pair-running-jump.jpg",
+              "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-running-jump-over-enemy-or-pipe/enemy-pair-running-jump.png",
+              "useFor": "recognize_game_state",
+              "label": "this stage Enemy Pair Near Blocks"
+            }
+          ]
+        },
+        {
+          "stateId": "koopa_pipe_approach_jump",
+          "stateName": "this stage Koopa Near Raised Brick Platform",
+          "stage": "right_a_b",
+          "imageRole": "state_cue",
+          "whenToUse": "A Koopa or enemy is close, with a raised brick/platform structure nearby.",
+          "whenNotToUse": "The enemy is already behind Mario or a low ceiling blocks jump clearance.",
+          "visibleCues": [
+            "Jumping with rightward speed avoids the Koopa and brick edge."
+          ],
+          "verificationCue": "Mario should remain alive and land beyond the enemy.",
+          "preferredViewOrder": [
+            "full_frame"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/koopa_pipe_approach_jump.png",
+              "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-running-jump-over-enemy-or-pipe/koopa-pipe-approach-jump.jpg",
+              "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-running-jump-over-enemy-or-pipe/koopa-pipe-approach-jump.png",
+              "useFor": "recognize_game_state",
+              "label": "this stage Koopa Near Raised Brick Platform"
+            }
+          ]
+        },
+        {
+          "stateId": "stair_enemy_controlled_hop",
+          "stateName": "this stage Stair Enemy Needs a Controlled Hop",
+          "stage": "right_a",
+          "imageRole": "state_cue",
+          "whenToUse": "A Koopa/Goomba is on a stair or step face directly in Mario's lane.; Mario is close enough that pure `right_b` will collide with the enemy or step wall.",
+          "whenNotToUse": "The staircase is still far away and there is room to build speed first.; There is a wide enemy cluster that requires a longer arc.",
+          "visibleCues": [
+            "Enemy body overlaps the stair approach; a smaller controlled hop is safer than running into the step."
+          ],
+          "verificationCue": "Mario should rise over or stomp the stair enemy and land on/after the stair without losing a life.",
+          "preferredViewOrder": [
+            "full_frame"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/stair_enemy_controlled_hop.png",
+              "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-running-jump-over-enemy-or-pipe/stair-enemy-controlled-hop.jpg",
+              "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-running-jump-over-enemy-or-pipe/stair-enemy-controlled-hop.png",
+              "useFor": "recognize_game_state",
+              "label": "this stage Stair Enemy Needs a Controlled Hop"
+            }
+          ]
+        },
+        {
+          "stateId": "low_ceiling_enemy_pair_controlled_hop",
+          "stateName": "this stage Low Ceiling Enemy Pair",
+          "stage": "right_a",
+          "imageRole": "state_cue",
+          "whenToUse": "Enemies are close on the ground while question/brick blocks form a low ceiling above.; A full long jump risks hitting the overhead blocks or landing inside the enemy pair.",
+          "whenNotToUse": "There is open sky and enough landing distance for a long arc.; Mario is already airborne above the enemies.",
+          "visibleCues": [
+            "Ground enemies are under/near a low block row; the action must be controlled instead of a panic long jump."
+          ],
+          "verificationCue": "Mario should avoid both ground contact and the overhead blocks while continuing right.",
+          "preferredViewOrder": [
+            "full_frame"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/low_ceiling_enemy_pair_controlled_hop.png",
+              "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-running-jump-over-enemy-or-pipe/low-ceiling-enemy-pair-controlled-hop.jpg",
+              "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-running-jump-over-enemy-or-pipe/low-ceiling-enemy-pair-controlled-hop.png",
+              "useFor": "recognize_game_state",
+              "label": "this stage Low Ceiling Enemy Pair"
+            }
+          ]
+        },
+        {
+          "stateId": "pipe_plant_do_not_stand_on_pipe",
+          "stateName": "this stage Pipe Plant Is Already Emerging",
+          "stage": "right_a_b",
+          "imageRole": "state_cue",
+          "whenToUse": "Mario is on or next to a pipe while a Piranha Plant is visible at the opening.; The plant overlaps the route or Mario's current standing position.",
+          "whenNotToUse": "The plant is hidden and Mario is still far enough to time the pipe approach.; Mario is safely past the pipe.",
+          "visibleCues": [
+            "The plant is at the pipe mouth; staying or running through the pipe top is unsafe."
+          ],
+          "verificationCue": "Mario should leave the pipe/plant contact zone immediately and preserve life count.",
+          "preferredViewOrder": [
+            "full_frame"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/pipe_plant_do_not_stand_on_pipe.png",
+              "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-running-jump-over-enemy-or-pipe/pipe-plant-do-not-stand-on-pipe.jpg",
+              "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-running-jump-over-enemy-or-pipe/pipe-plant-do-not-stand-on-pipe.png",
+              "useFor": "recognize_game_state",
+              "label": "this stage Pipe Plant Is Already Emerging"
+            }
+          ]
+        }
+      ],
+      "imageReferences": [
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/pipe_and_enemy_running_jump.png",
+          "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-running-jump-over-enemy-or-pipe/pipe-and-enemy-running-jump.jpg",
+          "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-running-jump-over-enemy-or-pipe/pipe-and-enemy-running-jump.png",
+          "label": "this stage Pipe and Enemy Require a Running Jump"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/enemy_pair_running_jump.png",
+          "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-running-jump-over-enemy-or-pipe/enemy-pair-running-jump.jpg",
+          "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-running-jump-over-enemy-or-pipe/enemy-pair-running-jump.png",
+          "label": "this stage Enemy Pair Near Blocks"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/koopa_pipe_approach_jump.png",
+          "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-running-jump-over-enemy-or-pipe/koopa-pipe-approach-jump.jpg",
+          "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-running-jump-over-enemy-or-pipe/koopa-pipe-approach-jump.png",
+          "label": "this stage Koopa Near Raised Brick Platform"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/stair_enemy_controlled_hop.png",
+          "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-running-jump-over-enemy-or-pipe/stair-enemy-controlled-hop.jpg",
+          "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-running-jump-over-enemy-or-pipe/stair-enemy-controlled-hop.png",
+          "label": "this stage Stair Enemy Needs a Controlled Hop"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/low_ceiling_enemy_pair_controlled_hop.png",
+          "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-running-jump-over-enemy-or-pipe/low-ceiling-enemy-pair-controlled-hop.jpg",
+          "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-running-jump-over-enemy-or-pipe/low-ceiling-enemy-pair-controlled-hop.png",
+          "label": "this stage Low Ceiling Enemy Pair"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/pipe_plant_do_not_stand_on_pipe.png",
+          "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-running-jump-over-enemy-or-pipe/pipe-plant-do-not-stand-on-pipe.jpg",
+          "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-running-jump-over-enemy-or-pipe/pipe-plant-do-not-stand-on-pipe.png",
+          "label": "this stage Pipe Plant Is Already Emerging"
+        }
+      ],
+      "completenessScore": 24
+    },
+    {
+      "id": "Mario_stomp_enemy_chains_for_score_and_safety",
+      "name": "Stomp Enemy Chains for Score and Safety",
+      "description": "Turn close enemy rows into score and safe progress by choosing controlled stomp arcs instead of only avoiding enemies.",
+      "domain": "super_mario_bros",
+      "domainLabel": "Super Mario Bros.",
+      "platformId": "mario",
+      "platform": "Mario",
+      "category": "Game-Based Tasks",
+      "sourcePath": "mario/Mario_stomp_enemy_chains_for_score_and_safety",
+      "imageCount": 3,
+      "stateCardCount": 0,
+      "runtimeCardCount": 3,
+      "planStepCount": 0,
+      "tags": [
+        "mario",
+        "platforming",
+        "game"
+      ],
+      "overview": "Turn close enemy rows into score and safe progress by choosing controlled stomp arcs instead of only avoiding enemies.",
+      "applicability": [
+        "Two or more stompable enemies are close and there is safe ground or a platform beyond them.",
+        "A score pop-up or shell/defeated enemy shows that Mario is already in a stomp chain.",
+        "The next safe action can both avoid damage and earn points."
+      ],
+      "failureModes": [
+        "Using plain `right` into a close enemy row.",
+        "Using a max arc when a short stomp is needed, then landing in the next enemy.",
+        "Chasing score when a pipe plant, firebar, or gap makes the landing unsafe."
+      ],
+      "skillMarkdown": "# Stomp Enemy Chains for Score and Safety\n\nTurn close enemy rows into score and safe progress by choosing controlled stomp arcs instead of only avoiding enemies.\n\n## When To Use\n- Two or more stompable enemies are close and there is safe ground or a platform beyond them.\n- A score pop-up or shell/defeated enemy shows that Mario is already in a stomp chain.\n- The next safe action can both avoid damage and earn points.\n\n## When Not To Use\n- The enemy is not stompable or is protected by a plant/firebar/lava hazard.\n- The landing zone after the enemy row is blocked or not visible.\n- Mario is too low/late and must escape rather than chase score.\n\n## Decision Procedure\n1. Prefer `right_a` for close one-by-one stomps under low ceilings or on short platforms.\n2. Prefer `right_a_b` when the enemy row is wider and the sky/landing lane is open.\n3. After the first stomp, keep holding right so Mario lands past the remaining enemies instead of dropping between them.\n4. If a score pop-up appears, treat it as confirmation that the chain is working; continue rightward unless the next enemy is too close.\n\n## Verification\n- Score increases while life count is unchanged.\n- Enemies are behind, below, or defeated rather than touching Mario's side.\n- Mario lands beyond the last enemy or continues into a safe airborne arc.\n\n## Common Failure Modes\n- Using plain `right` into a close enemy row.\n- Using a max arc when a short stomp is needed, then landing in the next enemy.\n- Chasing score when a pipe plant, firebar, or gap makes the landing unsafe.\n\n## Example State Cards\n- `goomba_pair_chain_after_koopa`: this stage Chain Stomp After Koopa -> expected action `right_a_b`\n- `goomba_cluster_score_arc`: this stage Goomba Cluster Score Arc -> expected action `right_a_b`\n- `platform_goomba_chain`: this stage Platform Goomba Chain -> expected action `right_a`\n",
+      "runtimeStates": [
+        {
+          "stateId": "goomba_pair_chain_after_koopa",
+          "stateName": "this stage Chain Stomp After Koopa",
+          "stage": "right_a_b",
+          "imageRole": "state_cue",
+          "whenToUse": "Mario is already clearing a Koopa/Goomba sequence and another enemy row remains ahead.",
+          "whenNotToUse": "No stompable enemy remains or the landing lane is blocked by a pipe/plant.",
+          "visibleCues": [
+            "A defeated enemy/score cue appears while more Goombas are in the path."
+          ],
+          "verificationCue": "Score should increase and Mario should stay airborne or land past the group.",
+          "preferredViewOrder": [
+            "full_frame"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/goomba_pair_chain_after_koopa.png",
+              "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-stomp-enemy-chains-for-score-and-safety/goomba-pair-chain-after-koopa.jpg",
+              "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-stomp-enemy-chains-for-score-and-safety/goomba-pair-chain-after-koopa.png",
+              "useFor": "recognize_game_state",
+              "label": "this stage Chain Stomp After Koopa"
+            }
+          ]
+        },
+        {
+          "stateId": "goomba_cluster_score_arc",
+          "stateName": "this stage Goomba Cluster Score Arc",
+          "stage": "right_a_b",
+          "imageRole": "state_cue",
+          "whenToUse": "Several ground enemies are clustered with open sky above and visible ground beyond.",
+          "whenNotToUse": "A low ceiling prevents a long arc or a plant occupies the landing zone.",
+          "visibleCues": [
+            "A row of Goombas can be cleared or stomped with one committed forward arc."
+          ],
+          "verificationCue": "Mario should gain points or safely pass the full cluster.",
+          "preferredViewOrder": [
+            "full_frame"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/goomba_cluster_score_arc.png",
+              "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-stomp-enemy-chains-for-score-and-safety/goomba-cluster-score-arc.jpg",
+              "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-stomp-enemy-chains-for-score-and-safety/goomba-cluster-score-arc.png",
+              "useFor": "recognize_game_state",
+              "label": "this stage Goomba Cluster Score Arc"
+            }
+          ]
+        },
+        {
+          "stateId": "platform_goomba_chain",
+          "stateName": "this stage Platform Goomba Chain",
+          "stage": "right_a",
+          "imageRole": "state_cue",
+          "whenToUse": "A compact group of Goombas is on the same platform and Mario is close.",
+          "whenNotToUse": "The group spans a gap or pipe plant where a long arc is required.",
+          "visibleCues": [
+            "Close Goombas on a platform are better handled by controlled stomps than by running through."
+          ],
+          "verificationCue": "Score increases while Mario stays on/above the platform.",
+          "preferredViewOrder": [
+            "full_frame"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/platform_goomba_chain.png",
+              "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-stomp-enemy-chains-for-score-and-safety/platform-goomba-chain.jpg",
+              "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-stomp-enemy-chains-for-score-and-safety/platform-goomba-chain.png",
+              "useFor": "recognize_game_state",
+              "label": "this stage Platform Goomba Chain"
+            }
+          ]
+        }
+      ],
+      "imageReferences": [
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/goomba_pair_chain_after_koopa.png",
+          "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-stomp-enemy-chains-for-score-and-safety/goomba-pair-chain-after-koopa.jpg",
+          "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-stomp-enemy-chains-for-score-and-safety/goomba-pair-chain-after-koopa.png",
+          "label": "this stage Chain Stomp After Koopa"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/goomba_cluster_score_arc.png",
+          "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-stomp-enemy-chains-for-score-and-safety/goomba-cluster-score-arc.jpg",
+          "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-stomp-enemy-chains-for-score-and-safety/goomba-cluster-score-arc.png",
+          "label": "this stage Goomba Cluster Score Arc"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/platform_goomba_chain.png",
+          "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-stomp-enemy-chains-for-score-and-safety/platform-goomba-chain.jpg",
+          "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-stomp-enemy-chains-for-score-and-safety/platform-goomba-chain.png",
+          "label": "this stage Platform Goomba Chain"
+        }
+      ],
+      "completenessScore": 12
+    },
+    {
+      "id": "Mario_survive_castle_lava_and_firebar_gaps",
+      "name": "Survive Castle Lava and Firebar Gaps",
+      "description": "In castle states, prioritize lava-gap survival and firebar timing over ordinary rightward momentum.",
+      "domain": "super_mario_bros",
+      "domainLabel": "Super Mario Bros.",
+      "platformId": "mario",
+      "platform": "Mario",
+      "category": "Game-Based Tasks",
+      "sourcePath": "mario/Mario_survive_castle_lava_and_firebar_gaps",
+      "imageCount": 2,
+      "stateCardCount": 0,
+      "runtimeCardCount": 2,
+      "planStepCount": 0,
+      "tags": [
+        "mario",
+        "platforming",
+        "game"
+      ],
+      "overview": "In castle states, prioritize lava-gap survival and firebar timing over ordinary rightward momentum.",
+      "applicability": [
+        "The level has castle tiles, lava, firebars, or narrow platforms over pits.",
+        "Mario must cross a lava gap or pass a rotating firebar.",
+        "The score is already high but x progress is low because survival timing is the bottleneck."
+      ],
+      "failureModes": [
+        "Applying outdoor long-jump timing to a low-ceiling castle gap.",
+        "Jumping into the rotating firebar instead of timing the timing window.",
+        "Walking to the lava edge with `right` only."
+      ],
+      "skillMarkdown": "# Survive Castle Lava and Firebar Gaps\n\nIn castle states, prioritize lava-gap survival and firebar timing over ordinary rightward momentum.\n\n## When To Use\n- The level has castle tiles, lava, firebars, or narrow platforms over pits.\n- Mario must cross a lava gap or pass a rotating firebar.\n- The score is already high but x progress is low because survival timing is the bottleneck.\n\n## When Not To Use\n- The scene is an outdoor ground level with no lava/firebar.\n- The obstacle is only a ground enemy or ordinary pipe.\n- Mario is safely past the castle hazard.\n\n## Decision Procedure\n1. Use `right_a_b` only when the landing platform is visible and the firebar timing window leaves a gap.\n2. Use `right_a` for shorter lava gaps when a high arc would hit the ceiling or firebar.\n3. Do not keep holding plain `right` at a lava edge; commit to the jump before the edge.\n4. If a firebar blocks the arc, wait briefly outside contact range rather than jumping into it.\n\n## Verification\n- Mario crosses lava without falling or touching the firebar.\n- Mario lands on the next castle platform with life unchanged.\n- x progress increases after the hazard rather than resetting near the same castle gap.\n\n## Common Failure Modes\n- Applying outdoor long-jump timing to a low-ceiling castle gap.\n- Jumping into the rotating firebar instead of timing the timing window.\n- Walking to the lava edge with `right` only.\n\n## Example State Cards\n- `lava_gap_under_ceiling`: this stage Lava Gap Under Ceiling -> expected action `right_a_b`\n- `firebar_lava_timing`: this stage Firebar and Lava Timing -> expected action `right_a`\n",
+      "runtimeStates": [
+        {
+          "stateId": "lava_gap_under_ceiling",
+          "stateName": "this stage Lava Gap Under Ceiling",
+          "stage": "right_a_b",
+          "imageRole": "state_cue",
+          "whenToUse": "A lava gap is directly ahead with a low castle ceiling and visible landing platform.",
+          "whenNotToUse": "No lava/firebar is visible or Mario is already airborne past the gap.",
+          "visibleCues": [
+            "Castle ceiling and lava require committed but controlled jump timing."
+          ],
+          "verificationCue": "Mario should land on the next platform without touching lava.",
+          "preferredViewOrder": [
+            "full_frame"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/lava_gap_under_ceiling.png",
+              "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-survive-castle-lava-and-firebar-gaps/lava-gap-under-ceiling.jpg",
+              "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-survive-castle-lava-and-firebar-gaps/lava-gap-under-ceiling.png",
+              "useFor": "recognize_game_state",
+              "label": "this stage Lava Gap Under Ceiling"
+            }
+          ]
+        },
+        {
+          "stateId": "firebar_lava_timing",
+          "stateName": "this stage Firebar and Lava Timing",
+          "stage": "right_a",
+          "imageRole": "state_cue",
+          "whenToUse": "A firebar or fireball is rotating near a lava gap and Mario is at the approach platform.",
+          "whenNotToUse": "The firebar is far away and the next hazard is only a floor step.",
+          "visibleCues": [
+            "The jump must pass both the lava gap and the firebar timing window."
+          ],
+          "verificationCue": "Mario should cross after the firebar opens a safe arc.",
+          "preferredViewOrder": [
+            "full_frame"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/firebar_lava_timing.png",
+              "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-survive-castle-lava-and-firebar-gaps/firebar-lava-timing.jpg",
+              "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-survive-castle-lava-and-firebar-gaps/firebar-lava-timing.png",
+              "useFor": "recognize_game_state",
+              "label": "this stage Firebar and Lava Timing"
+            }
+          ]
+        }
+      ],
+      "imageReferences": [
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/lava_gap_under_ceiling.png",
+          "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-survive-castle-lava-and-firebar-gaps/lava-gap-under-ceiling.jpg",
+          "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-survive-castle-lava-and-firebar-gaps/lava-gap-under-ceiling.png",
+          "label": "this stage Lava Gap Under Ceiling"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/firebar_lava_timing.png",
+          "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-survive-castle-lava-and-firebar-gaps/firebar-lava-timing.jpg",
+          "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-survive-castle-lava-and-firebar-gaps/firebar-lava-timing.png",
+          "label": "this stage Firebar and Lava Timing"
+        }
+      ],
+      "completenessScore": 8
+    },
+    {
+      "id": "Mario_time_pipe_plants_and_pipe_top_exits",
+      "name": "Time Pipe Plants and Pipe-Top Exits",
+      "description": "Handle pipes as timed hazards: plant visibility, pipe height, and the landing side determine whether to wait, short-hop, or jump away.",
+      "domain": "super_mario_bros",
+      "domainLabel": "Super Mario Bros.",
+      "platformId": "mario",
+      "platform": "Mario",
+      "category": "Game-Based Tasks",
+      "sourcePath": "mario/Mario_time_pipe_plants_and_pipe_top_exits",
+      "imageCount": 3,
+      "stateCardCount": 0,
+      "runtimeCardCount": 3,
+      "planStepCount": 0,
+      "tags": [
+        "mario",
+        "platforming",
+        "game"
+      ],
+      "overview": "Handle pipes as timed hazards: plant visibility, pipe height, and the landing side determine whether to wait, short-hop, or jump away.",
+      "applicability": [
+        "A Piranha Plant is visible or likely to emerge from a pipe in Mario's near path.",
+        "Mario is on top of a pipe, next to a pipe lip, or about to land on a pipe.",
+        "The pipe is combined with enemies or a gap, making the timing state more important than generic long jumping."
+      ],
+      "failureModes": [
+        "Treating a visible plant pipe as safe ground.",
+        "Jumping too late and hitting the pipe lip or plant head.",
+        "Landing on top of a pipe while the plant is emerging."
+      ],
+      "skillMarkdown": "# Time Pipe Plants and Pipe-Top Exits\n\nHandle pipes as timed hazards: plant visibility, pipe height, and the landing side determine whether to wait, short-hop, or jump away.\n\n## When To Use\n- A Piranha Plant is visible or likely to emerge from a pipe in Mario's near path.\n- Mario is on top of a pipe, next to a pipe lip, or about to land on a pipe.\n- The pipe is combined with enemies or a gap, making the timing state more important than generic long jumping.\n\n## When Not To Use\n- The pipe is far away and no plant is visible; use momentum or normal pipe jump first.\n- The immediate obstacle is a floor gap with no plant pressure.\n- Mario has already cleared the pipe and the plant cannot reach him.\n\n## Decision Procedure\n1. If the plant is visible at the pipe mouth, do not stand on the pipe top; jump away or delay the pipe approach.\n2. If Mario is approaching a tall pipe with open sky, use `right_a_b` early enough to land beyond the pipe lip.\n3. If enemies are near the pipe base, clear/stomp them first only when the plant is hidden or cannot reach the landing.\n4. After escaping the pipe top, switch back to momentum or enemy-chain control strategy.\n\n## Verification\n- Mario is no longer overlapping the pipe mouth while the plant is visible.\n- Mario lands beyond the pipe or waits outside the plant's contact zone.\n- Life count remains unchanged through the pipe interaction.\n\n## Common Failure Modes\n- Treating a visible plant pipe as safe ground.\n- Jumping too late and hitting the pipe lip or plant head.\n- Landing on top of a pipe while the plant is emerging.\n\n## Example State Cards\n- `tall_pipe_with_plant_approach`: this stage Tall Pipe With Plant Approach -> expected action `right_a_b`\n- `pipe_plant_with_goombas_landing`: this stage Pipe Plant and Goomba Landing -> expected action `right_a`\n- `pipe_plant_after_enemy_clear`: this stage Pipe Plant After Enemy Clear -> expected action `right_a_b`\n",
+      "runtimeStates": [
+        {
+          "stateId": "tall_pipe_with_plant_approach",
+          "stateName": "this stage Tall Pipe With Plant Approach",
+          "stage": "right_a_b",
+          "imageRole": "state_cue",
+          "whenToUse": "A tall pipe is near and a plant may emerge; Mario still has run-up space.",
+          "whenNotToUse": "The plant is already at Mario's body height and contact is immediate.",
+          "visibleCues": [
+            "Tall pipe geometry needs an early arc, not late side contact."
+          ],
+          "verificationCue": "Mario should clear the pipe lip and avoid the plant zone.",
+          "preferredViewOrder": [
+            "full_frame"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/tall_pipe_with_plant_approach.png",
+              "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-time-pipe-plants-and-pipe-top-exits/tall-pipe-with-plant-approach.jpg",
+              "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-time-pipe-plants-and-pipe-top-exits/tall-pipe-with-plant-approach.png",
+              "useFor": "recognize_game_state",
+              "label": "this stage Tall Pipe With Plant Approach"
+            }
+          ]
+        },
+        {
+          "stateId": "pipe_plant_with_goombas_landing",
+          "stateName": "this stage Pipe Plant and Goomba Landing",
+          "stage": "right_a",
+          "imageRole": "state_cue",
+          "whenToUse": "Mario is airborne near a pipe plant with ground enemies in the landing lane.",
+          "whenNotToUse": "The pipe plant is hidden and there are no enemies near the landing.",
+          "visibleCues": [
+            "The landing must avoid both pipe plant and nearby Goombas."
+          ],
+          "verificationCue": "Mario should land past the plant/enemy collision zone.",
+          "preferredViewOrder": [
+            "full_frame"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/pipe_plant_with_goombas_landing.png",
+              "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-time-pipe-plants-and-pipe-top-exits/pipe-plant-with-goombas-landing.jpg",
+              "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-time-pipe-plants-and-pipe-top-exits/pipe-plant-with-goombas-landing.png",
+              "useFor": "recognize_game_state",
+              "label": "this stage Pipe Plant and Goomba Landing"
+            }
+          ]
+        },
+        {
+          "stateId": "pipe_plant_after_enemy_clear",
+          "stateName": "this stage Pipe Plant After Enemy Clear",
+          "stage": "right_a_b",
+          "imageRole": "state_cue",
+          "whenToUse": "A pipe plant is active after Mario has cleared nearby Koopas/Goombas.",
+          "whenNotToUse": "The plant is far behind or the next hazard is only a ground enemy.",
+          "visibleCues": [
+            "The plant threatens the pipe top immediately after an enemy section."
+          ],
+          "verificationCue": "Mario should jump beyond the plant pipe without stalling on top.",
+          "preferredViewOrder": [
+            "full_frame"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/pipe_plant_after_enemy_clear.png",
+              "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-time-pipe-plants-and-pipe-top-exits/pipe-plant-after-enemy-clear.jpg",
+              "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-time-pipe-plants-and-pipe-top-exits/pipe-plant-after-enemy-clear.png",
+              "useFor": "recognize_game_state",
+              "label": "this stage Pipe Plant After Enemy Clear"
+            }
+          ]
+        }
+      ],
+      "imageReferences": [
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/tall_pipe_with_plant_approach.png",
+          "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-time-pipe-plants-and-pipe-top-exits/tall-pipe-with-plant-approach.jpg",
+          "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-time-pipe-plants-and-pipe-top-exits/tall-pipe-with-plant-approach.png",
+          "label": "this stage Tall Pipe With Plant Approach"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/pipe_plant_with_goombas_landing.png",
+          "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-time-pipe-plants-and-pipe-top-exits/pipe-plant-with-goombas-landing.jpg",
+          "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-time-pipe-plants-and-pipe-top-exits/pipe-plant-with-goombas-landing.png",
+          "label": "this stage Pipe Plant and Goomba Landing"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/pipe_plant_after_enemy_clear.png",
+          "previewPath": "assets/skill-library/image-previews/super-mario-bros/mario-time-pipe-plants-and-pipe-top-exits/pipe-plant-after-enemy-clear.jpg",
+          "fullPath": "assets/skill-library/full-images/super-mario-bros/mario-time-pipe-plants-and-pipe-top-exits/pipe-plant-after-enemy-clear.png",
+          "label": "this stage Pipe Plant After Enemy Clear"
+        }
+      ],
+      "completenessScore": 12
+    },
+    {
+      "id": "MINECRAFT_Bootstrap_Wood_Stone_And_Workbench",
+      "name": "Bootstrap Wood, Stone, and Workbench",
+      "description": "Start a run from primitive resources: collect logs or bamboo, make planks/sticks/crafting table, then upgrade into stone tooling.",
+      "domain": "vab_minecraft",
+      "domainLabel": "VAB-Minecraft",
+      "platformId": "vab_minecraft",
+      "platform": "VAB-Minecraft",
+      "category": "Game-Based Tasks",
+      "sourcePath": "vab_minecraft/MINECRAFT_Bootstrap_Wood_Stone_And_Workbench",
+      "imageCount": 6,
+      "stateCardCount": 0,
+      "runtimeCardCount": 3,
+      "planStepCount": 0,
+      "tags": [
+        "minecraft",
+        "crafting",
+        "game"
+      ],
+      "overview": "Start a run from primitive resources: collect logs or bamboo, make planks/sticks/crafting table, then upgrade into stone tooling.",
+      "applicability": [
+        "The dependency chain needs logs, planks, sticks, crafting_table, wooden_pickaxe, stone_tool_materials, cobblestone, or stone_pickaxe."
+      ],
+      "failureModes": [
+        "Trying to mine stone without wooden_pickaxe.",
+        "Crafting extra wood variants unrelated to the target."
+      ],
+      "skillMarkdown": "# Bootstrap Wood, Stone, and Workbench\n\n## When This Skill Applies\n\n- The dependency chain needs logs, planks, sticks, crafting_table, wooden_pickaxe, stone_tool_materials, cobblestone, or stone_pickaxe.\n\n## When Not To Use\n\n- Do not use for late-game ore search once tools and workbench are already available.\n\n## Minecraft Action Pattern\n\n- `execute('punch/chop tree', 'logs', n)`\n- `craft('planks') or craft variant planks`\n- `craft('crafting_table')`\n- `craft('wooden_pickaxe')`\n- `execute('mine stone', 'cobblestone', n)`\n- `craft('stone_pickaxe')`\n\n## Procedure\n\n1. Choose the easiest wood source visible or implied by the biome/init state.\n2. Craft planks and sticks only in the quantity needed for the next tool or workbench.\n3. Upgrade to wooden_pickaxe before mining stone; upgrade to stone_pickaxe before iron.\n4. For tag targets, use recipe lookup to choose a concrete member.\n\n## Visual State Card Usage\n\nVisual state cards for runtime use live in `runtime_state_cards.json`.\n\nLoad only the state whose screenshot and text match the current Minecraft situation. Do not load all images by default. Red boxes indicate action targets or action-relevant regions. Green boxes indicate verification cues. Coordinates, terrain layout, visible item names, and exact counts are examples only.\n\nImage references in this package:\n  - `Images/tree_or_bamboo_source.png`\n  - `Images/tree_or_bamboo_source_focus_crop.png`\n  - `Images/workbench_and_sticks_craft.png`\n  - `Images/workbench_and_sticks_craft_focus_crop.png`\n  - `Images/stone_tool_upgrade_gate.png`\n  - `Images/stone_tool_upgrade_gate_focus_crop.png`\n\n## Result Verification Cues\n\n- Inventory feedback shows the primitive component or the next craft consumes it successfully.\n- Do not continue mining ore until the required pickaxe tier exists.\n\n## Visual Transfer Limits\n\n- Tree species and terrain layout in images are examples only.\n- Do not copy exact counts from the screenshot; use the task recipe/count.\n\n## Common Failure Modes\n\n- Trying to mine stone without wooden_pickaxe.\n- Crafting extra wood variants unrelated to the target.\n",
+      "runtimeStates": [
+        {
+          "stateId": "tree_or_bamboo_source",
+          "stateName": "visible primitive wood source",
+          "stage": "entry_state",
+          "imageRole": "action_target",
+          "whenToUse": "Use when the immediate need is logs, bamboo, or any wooden base material.",
+          "whenNotToUse": "Do not use if enough logs/planks are already in inventory.",
+          "visibleCues": [
+            "A tree or outdoor source is visible near the crosshair.",
+            "The red box indicates a world resource region, not reusable coordinates."
+          ],
+          "verificationCue": "Inventory should increase by the requested log/bamboo count.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/tree_or_bamboo_source.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-bootstrap-wood-stone-and-workbench/tree-or-bamboo-source.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-bootstrap-wood-stone-and-workbench/tree-or-bamboo-source.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "visible primitive wood source"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/tree_or_bamboo_source_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-bootstrap-wood-stone-and-workbench/tree-or-bamboo-source-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-bootstrap-wood-stone-and-workbench/tree-or-bamboo-source-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "visible primitive wood source"
+            }
+          ]
+        },
+        {
+          "stateId": "workbench_and_sticks_craft",
+          "stateName": "basic wooden component craft",
+          "stage": "operation_state",
+          "imageRole": "action_target",
+          "whenToUse": "Use when logs are present and the next step is planks, sticks, or crafting_table.",
+          "whenNotToUse": "Do not use for final wooden decorative variants.",
+          "visibleCues": [
+            "The hotbar/material region is the relevant evidence because craft() is text-feedback driven."
+          ],
+          "verificationCue": "Craft feedback should name the wooden component and count.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/workbench_and_sticks_craft.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-bootstrap-wood-stone-and-workbench/workbench-and-sticks-craft.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-bootstrap-wood-stone-and-workbench/workbench-and-sticks-craft.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "basic wooden component craft"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/workbench_and_sticks_craft_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-bootstrap-wood-stone-and-workbench/workbench-and-sticks-craft-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-bootstrap-wood-stone-and-workbench/workbench-and-sticks-craft-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "basic wooden component craft"
+            }
+          ]
+        },
+        {
+          "stateId": "stone_tool_upgrade_gate",
+          "stateName": "wood-to-stone upgrade gate",
+          "stage": "verification_state",
+          "imageRole": "verification_cue",
+          "whenToUse": "Use before mining iron, diamond, or obsidian to confirm that the current pickaxe tier is sufficient.",
+          "whenNotToUse": "Do not use when the task only needs hand-collectible plants or animals.",
+          "visibleCues": [
+            "The state shows mining/tool progression rather than final item completion.",
+            "Green cue reminds the branch to verify equipment before deeper mining."
+          ],
+          "verificationCue": "The next action should either craft/equip the needed pickaxe or proceed to mining only if already equipped.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/stone_tool_upgrade_gate.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-bootstrap-wood-stone-and-workbench/stone-tool-upgrade-gate.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-bootstrap-wood-stone-and-workbench/stone-tool-upgrade-gate.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "wood-to-stone upgrade gate"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/stone_tool_upgrade_gate_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-bootstrap-wood-stone-and-workbench/stone-tool-upgrade-gate-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-bootstrap-wood-stone-and-workbench/stone-tool-upgrade-gate-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "wood-to-stone upgrade gate"
+            }
+          ]
+        }
+      ],
+      "imageReferences": [
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/tree_or_bamboo_source.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-bootstrap-wood-stone-and-workbench/tree-or-bamboo-source.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-bootstrap-wood-stone-and-workbench/tree-or-bamboo-source.png",
+          "label": "visible primitive wood source"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/tree_or_bamboo_source_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-bootstrap-wood-stone-and-workbench/tree-or-bamboo-source-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-bootstrap-wood-stone-and-workbench/tree-or-bamboo-source-focus-crop.png",
+          "label": "visible primitive wood source"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/workbench_and_sticks_craft.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-bootstrap-wood-stone-and-workbench/workbench-and-sticks-craft.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-bootstrap-wood-stone-and-workbench/workbench-and-sticks-craft.png",
+          "label": "basic wooden component craft"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/workbench_and_sticks_craft_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-bootstrap-wood-stone-and-workbench/workbench-and-sticks-craft-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-bootstrap-wood-stone-and-workbench/workbench-and-sticks-craft-focus-crop.png",
+          "label": "basic wooden component craft"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/stone_tool_upgrade_gate.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-bootstrap-wood-stone-and-workbench/stone-tool-upgrade-gate.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-bootstrap-wood-stone-and-workbench/stone-tool-upgrade-gate.png",
+          "label": "wood-to-stone upgrade gate"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/stone_tool_upgrade_gate_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-bootstrap-wood-stone-and-workbench/stone-tool-upgrade-gate-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-bootstrap-wood-stone-and-workbench/stone-tool-upgrade-gate-focus-crop.png",
+          "label": "wood-to-stone upgrade gate"
+        }
+      ],
+      "completenessScore": 15
+    },
+    {
+      "id": "MINECRAFT_Collect_Surface_Blocks_Sand_Gravel_Stone",
+      "name": "Collect Surface Blocks, Sand, Gravel, and Basic Stone",
+      "description": "Collect hand- or low-tier mineable surface materials such as sand, gravel, stone, cobblestone, sandstone inputs, dirt, and other common terrain blocks.",
+      "domain": "vab_minecraft",
+      "domainLabel": "VAB-Minecraft",
+      "platformId": "vab_minecraft",
+      "platform": "VAB-Minecraft",
+      "category": "Game-Based Tasks",
+      "sourcePath": "vab_minecraft/MINECRAFT_Collect_Surface_Blocks_Sand_Gravel_Stone",
+      "imageCount": 8,
+      "stateCardCount": 0,
+      "runtimeCardCount": 3,
+      "planStepCount": 0,
+      "tags": [
+        "minecraft",
+        "crafting",
+        "game"
+      ],
+      "overview": "Collect hand- or low-tier mineable surface materials such as sand, gravel, stone, cobblestone, sandstone inputs, dirt, and other common terrain blocks.",
+      "applicability": [
+        "The target or dependency is a common surface/basic block rather than an ore or crafted variant."
+      ],
+      "failureModes": [
+        "Searching caves for sand or gravel when a surface search is needed.",
+        "Stopping at sand when glass or sandstone is the final target."
+      ],
+      "skillMarkdown": "# Collect Surface Blocks, Sand, Gravel, and Basic Stone\n\n## When This Skill Applies\n\n- The target or dependency is a common surface/basic block rather than an ore or crafted variant.\n\n## When Not To Use\n\n- Do not use for ore/gem mining or polished/shape conversion after the base block is already present.\n\n## Minecraft Action Pattern\n\n- choose collection method\n- execute concrete collect/mine prompt\n- hand off to smelt/craft variant if needed\n\n## Procedure\n\n1. Classify whether the block can be collected by hand or needs a basic tool.\n2. Use execute with the exact block target and count.\n3. For glass/sandstone or variants, hand off after base material collection.\n4. Avoid deep mining prompts for surface-only materials.\n\n## Visual State Card Usage\n\nVisual state cards for runtime use live in `runtime_state_cards.json`.\n\nLoad only the state whose screenshot and text match the current Minecraft situation. Do not load all images by default. Red boxes indicate action targets or action-relevant regions. Green boxes indicate verification cues. Coordinates, terrain layout, visible item names, and exact counts are examples only.\n\nImage references in this package:\n  - `Images/surface_block_route.png`\n  - `Images/surface_block_route_focus_crop.png`\n  - `Images/surface_collect_execute.png`\n  - `Images/surface_collect_execute_focus_crop.png`\n  - `Images/surface_block_ready.png`\n  - `Images/surface_block_ready_focus_crop.png`\n\n## Result Verification Cues\n\n- Inventory feedback contains the base block or the next recipe consumes it.\n\n## Visual Transfer Limits\n\n- Terrain layout is not transferable; use the image as collection-state evidence.\n\n## Common Failure Modes\n\n- Searching caves for sand or gravel when a surface search is needed.\n- Stopping at sand when glass or sandstone is the final target.\n",
+      "runtimeStates": [
+        {
+          "stateId": "surface_block_route",
+          "stateName": "surface block route",
+          "stage": "entry_state",
+          "imageRole": "state_cue",
+          "whenToUse": "Use when deciding where/how to collect a common block.",
+          "whenNotToUse": "Do not use for ores or mob drops.",
+          "visibleCues": [
+            "Outdoor or terrain context cues surface collection."
+          ],
+          "verificationCue": "The next execute prompt should name a concrete block.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/surface_block_route.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-collect-surface-blocks-sand-gravel-stone/surface-block-route.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-collect-surface-blocks-sand-gravel-stone/surface-block-route.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "surface block route"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/surface_block_route_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-collect-surface-blocks-sand-gravel-stone/surface-block-route-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-collect-surface-blocks-sand-gravel-stone/surface-block-route-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "surface block route"
+            }
+          ]
+        },
+        {
+          "stateId": "surface_collect_execute",
+          "stateName": "surface collect execute",
+          "stage": "operation_state",
+          "imageRole": "action_target",
+          "whenToUse": "Use when the next action should collect or mine the base block.",
+          "whenNotToUse": "Do not use once base block inventory is sufficient.",
+          "visibleCues": [
+            "Red scene region marks generic block collection/search context."
+          ],
+          "verificationCue": "execute feedback should show base block progress.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop",
+            "before",
+            "after"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/surface_collect_execute.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-collect-surface-blocks-sand-gravel-stone/surface-collect-execute.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-collect-surface-blocks-sand-gravel-stone/surface-collect-execute.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "surface collect execute"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/surface_collect_execute_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-collect-surface-blocks-sand-gravel-stone/surface-collect-execute-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-collect-surface-blocks-sand-gravel-stone/surface-collect-execute-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "surface collect execute"
+            },
+            {
+              "viewType": "before",
+              "imagePath": "Images/surface_collect_execute_before.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-collect-surface-blocks-sand-gravel-stone/surface-collect-execute-before.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-collect-surface-blocks-sand-gravel-stone/surface-collect-execute-before.png",
+              "useFor": "compare_precondition_context",
+              "label": "surface collect execute"
+            },
+            {
+              "viewType": "after",
+              "imagePath": "Images/surface_collect_execute_after.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-collect-surface-blocks-sand-gravel-stone/surface-collect-execute-after.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-collect-surface-blocks-sand-gravel-stone/surface-collect-execute-after.png",
+              "useFor": "inspect_outcome_transition",
+              "label": "surface collect execute"
+            }
+          ]
+        },
+        {
+          "stateId": "surface_block_ready",
+          "stateName": "surface block ready",
+          "stage": "verification_state",
+          "imageRole": "verification_cue",
+          "whenToUse": "Use before handing off to smelt/craft or ending base-block tasks.",
+          "whenNotToUse": "Do not accept base block for final variant tasks unless target is base block.",
+          "visibleCues": [
+            "Green HUD cue supports base-block count verification."
+          ],
+          "verificationCue": "Inventory contains required base block count.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/surface_block_ready.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-collect-surface-blocks-sand-gravel-stone/surface-block-ready.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-collect-surface-blocks-sand-gravel-stone/surface-block-ready.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "surface block ready"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/surface_block_ready_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-collect-surface-blocks-sand-gravel-stone/surface-block-ready-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-collect-surface-blocks-sand-gravel-stone/surface-block-ready-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "surface block ready"
+            }
+          ]
+        }
+      ],
+      "imageReferences": [
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/surface_block_route.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-collect-surface-blocks-sand-gravel-stone/surface-block-route.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-collect-surface-blocks-sand-gravel-stone/surface-block-route.png",
+          "label": "surface block route"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/surface_block_route_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-collect-surface-blocks-sand-gravel-stone/surface-block-route-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-collect-surface-blocks-sand-gravel-stone/surface-block-route-focus-crop.png",
+          "label": "surface block route"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/surface_collect_execute.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-collect-surface-blocks-sand-gravel-stone/surface-collect-execute.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-collect-surface-blocks-sand-gravel-stone/surface-collect-execute.png",
+          "label": "surface collect execute"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/surface_collect_execute_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-collect-surface-blocks-sand-gravel-stone/surface-collect-execute-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-collect-surface-blocks-sand-gravel-stone/surface-collect-execute-focus-crop.png",
+          "label": "surface collect execute"
+        },
+        {
+          "viewType": "before",
+          "imagePath": "Images/surface_collect_execute_before.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-collect-surface-blocks-sand-gravel-stone/surface-collect-execute-before.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-collect-surface-blocks-sand-gravel-stone/surface-collect-execute-before.png",
+          "label": "surface collect execute"
+        },
+        {
+          "viewType": "after",
+          "imagePath": "Images/surface_collect_execute_after.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-collect-surface-blocks-sand-gravel-stone/surface-collect-execute-after.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-collect-surface-blocks-sand-gravel-stone/surface-collect-execute-after.png",
+          "label": "surface collect execute"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/surface_block_ready.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-collect-surface-blocks-sand-gravel-stone/surface-block-ready.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-collect-surface-blocks-sand-gravel-stone/surface-block-ready.png",
+          "label": "surface block ready"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/surface_block_ready_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-collect-surface-blocks-sand-gravel-stone/surface-block-ready-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-collect-surface-blocks-sand-gravel-stone/surface-block-ready-focus-crop.png",
+          "label": "surface block ready"
+        }
+      ],
+      "completenessScore": 17
+    },
+    {
+      "id": "MINECRAFT_Craft_Armor_Leather_And_Wearables",
+      "name": "Craft Armor, Leather, and Wearables",
+      "description": "Obtain leather and craft boots, chestplates, helmets, leggings, and other wearable armor across leather, iron, gold, and diamond tiers.",
+      "domain": "vab_minecraft",
+      "domainLabel": "VAB-Minecraft",
+      "platformId": "vab_minecraft",
+      "platform": "VAB-Minecraft",
+      "category": "Game-Based Tasks",
+      "sourcePath": "vab_minecraft/MINECRAFT_Craft_Armor_Leather_And_Wearables",
+      "imageCount": 6,
+      "stateCardCount": 0,
+      "runtimeCardCount": 3,
+      "planStepCount": 0,
+      "tags": [
+        "minecraft",
+        "crafting",
+        "game"
+      ],
+      "overview": "Obtain leather and craft boots, chestplates, helmets, leggings, and other wearable armor across leather, iron, gold, and diamond tiers.",
+      "applicability": [
+        "The target is armor, leather, or a wearable material dependency."
+      ],
+      "failureModes": [
+        "Treating leather as completion when leather_boots or leather_chestplate is requested.",
+        "Crafting the wrong armor slot."
+      ],
+      "skillMarkdown": "# Craft Armor, Leather, and Wearables\n\n## When This Skill Applies\n\n- The target is armor, leather, or a wearable material dependency.\n\n## When Not To Use\n\n- Do not use for tools, swords, or non-wearable ingot products.\n\n## Minecraft Action Pattern\n\n- collect leather or refined material\n- craft exact armor slot\n- equip only if later action benefits\n\n## Procedure\n\n1. Parse armor tier and slot from the target name.\n2. Collect leather from passive mobs or smelt/mine material for metal/diamond armor.\n3. Craft the exact armor slot; do not stop at raw leather/ingot unless that is the target.\n4. Use equip only if the subsequent plan needs worn armor.\n\n## Visual State Card Usage\n\nVisual state cards for runtime use live in `runtime_state_cards.json`.\n\nLoad only the state whose screenshot and text match the current Minecraft situation. Do not load all images by default. Red boxes indicate action targets or action-relevant regions. Green boxes indicate verification cues. Coordinates, terrain layout, visible item names, and exact counts are examples only.\n\nImage references in this package:\n  - `Images/armor_tier_slot_choice.png`\n  - `Images/armor_tier_slot_choice_focus_crop.png`\n  - `Images/leather_or_ingot_collection.png`\n  - `Images/leather_or_ingot_collection_focus_crop.png`\n  - `Images/armor_slot_crafted.png`\n  - `Images/armor_slot_crafted_focus_crop.png`\n\n## Result Verification Cues\n\n- Inventory feedback contains the exact armor or leather target.\n\n## Visual Transfer Limits\n\n- Mob/armor examples transfer by dependency logic, not visible mob species.\n\n## Common Failure Modes\n\n- Treating leather as completion when leather_boots or leather_chestplate is requested.\n- Crafting the wrong armor slot.\n",
+      "runtimeStates": [
+        {
+          "stateId": "armor_tier_slot_choice",
+          "stateName": "armor tier and slot choice",
+          "stage": "entry_state",
+          "imageRole": "state_cue",
+          "whenToUse": "Use when the target implies both material tier and armor slot.",
+          "whenNotToUse": "Do not use for tools or weapons.",
+          "visibleCues": [
+            "The card cues exact slot/tier parsing."
+          ],
+          "verificationCue": "The branch should state material and slot before collection/craft.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/armor_tier_slot_choice.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-armor-leather-and-wearables/armor-tier-slot-choice.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-armor-leather-and-wearables/armor-tier-slot-choice.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "armor tier and slot choice"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/armor_tier_slot_choice_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-armor-leather-and-wearables/armor-tier-slot-choice-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-armor-leather-and-wearables/armor-tier-slot-choice-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "armor tier and slot choice"
+            }
+          ]
+        },
+        {
+          "stateId": "leather_or_ingot_collection",
+          "stateName": "leather or armor material collection",
+          "stage": "operation_state",
+          "imageRole": "action_target",
+          "whenToUse": "Use when leather, ingot, or diamond material must be obtained before armor craft.",
+          "whenNotToUse": "Do not use once material is present and final craft is next.",
+          "visibleCues": [
+            "World/HUD cue supports material acquisition state."
+          ],
+          "verificationCue": "Inventory feedback should show armor material progress.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/leather_or_ingot_collection.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-armor-leather-and-wearables/leather-or-ingot-collection.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-armor-leather-and-wearables/leather-or-ingot-collection.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "leather or armor material collection"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/leather_or_ingot_collection_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-armor-leather-and-wearables/leather-or-ingot-collection-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-armor-leather-and-wearables/leather-or-ingot-collection-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "leather or armor material collection"
+            }
+          ]
+        },
+        {
+          "stateId": "armor_slot_crafted",
+          "stateName": "armor slot crafted",
+          "stage": "verification_state",
+          "imageRole": "verification_cue",
+          "whenToUse": "Use before ending armor tasks.",
+          "whenNotToUse": "Do not accept a different armor slot or raw material.",
+          "visibleCues": [
+            "Green HUD cue supports exact armor-slot verification."
+          ],
+          "verificationCue": "Inventory contains the exact requested armor slot.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/armor_slot_crafted.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-armor-leather-and-wearables/armor-slot-crafted.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-armor-leather-and-wearables/armor-slot-crafted.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "armor slot crafted"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/armor_slot_crafted_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-armor-leather-and-wearables/armor-slot-crafted-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-armor-leather-and-wearables/armor-slot-crafted-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "armor slot crafted"
+            }
+          ]
+        }
+      ],
+      "imageReferences": [
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/armor_tier_slot_choice.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-armor-leather-and-wearables/armor-tier-slot-choice.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-armor-leather-and-wearables/armor-tier-slot-choice.png",
+          "label": "armor tier and slot choice"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/armor_tier_slot_choice_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-armor-leather-and-wearables/armor-tier-slot-choice-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-armor-leather-and-wearables/armor-tier-slot-choice-focus-crop.png",
+          "label": "armor tier and slot choice"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/leather_or_ingot_collection.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-armor-leather-and-wearables/leather-or-ingot-collection.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-armor-leather-and-wearables/leather-or-ingot-collection.png",
+          "label": "leather or armor material collection"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/leather_or_ingot_collection_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-armor-leather-and-wearables/leather-or-ingot-collection-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-armor-leather-and-wearables/leather-or-ingot-collection-focus-crop.png",
+          "label": "leather or armor material collection"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/armor_slot_crafted.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-armor-leather-and-wearables/armor-slot-crafted.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-armor-leather-and-wearables/armor-slot-crafted.png",
+          "label": "armor slot crafted"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/armor_slot_crafted_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-armor-leather-and-wearables/armor-slot-crafted-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-armor-leather-and-wearables/armor-slot-crafted-focus-crop.png",
+          "label": "armor slot crafted"
+        }
+      ],
+      "completenessScore": 15
+    },
+    {
+      "id": "MINECRAFT_Craft_Food_Recipes_And_Animal_Meals",
+      "name": "Craft Food Recipes and Animal Meals",
+      "description": "Assemble cake, bread, rabbit_stew, bowl, sugar, cooked foods, baked potato, and mixed plant/animal food recipes.",
+      "domain": "vab_minecraft",
+      "domainLabel": "VAB-Minecraft",
+      "platformId": "vab_minecraft",
+      "platform": "VAB-Minecraft",
+      "category": "Game-Based Tasks",
+      "sourcePath": "vab_minecraft/MINECRAFT_Craft_Food_Recipes_And_Animal_Meals",
+      "imageCount": 8,
+      "stateCardCount": 0,
+      "runtimeCardCount": 4,
+      "planStepCount": 0,
+      "tags": [
+        "minecraft",
+        "crafting",
+        "game"
+      ],
+      "overview": "Assemble cake, bread, rabbit_stew, bowl, sugar, cooked foods, baked potato, and mixed plant/animal food recipes.",
+      "applicability": [
+        "The target is a food output or a food recipe dependency chain with multiple sources."
+      ],
+      "failureModes": [
+        "Stopping at raw ingredient.",
+        "Smelting/crafting the wrong food route.",
+        "Missing bowl, bucket, sugar, or egg in compound recipes."
+      ],
+      "skillMarkdown": "# Craft Food Recipes and Animal Meals\n\n## When This Skill Applies\n\n- The target is a food output or a food recipe dependency chain with multiple sources.\n\n## When Not To Use\n\n- Do not use for non-food animal drops after the drop is final target.\n\n## Minecraft Action Pattern\n\n- split plant/animal/vessel ingredients\n- collect or smelt missing ingredients\n- craft final food exactly\n\n## Procedure\n\n1. Separate final food output from raw ingredients.\n2. Route crop, animal, vessel, and smelt prerequisites to the right supporting skill.\n3. Craft or smelt the exact food output once all ingredients are ready.\n4. For cake and stew, verify every ingredient class before final craft.\n\n## Visual State Card Usage\n\nVisual state cards for runtime use live in `runtime_state_cards.json`.\n\nLoad only the state whose screenshot and text match the current Minecraft situation. Do not load all images by default. Red boxes indicate action targets or action-relevant regions. Green boxes indicate verification cues. Coordinates, terrain layout, visible item names, and exact counts are examples only.\n\nImage references in this package:\n  - `Images/compound_food_dependency_plan.png`\n  - `Images/compound_food_dependency_plan_focus_crop.png`\n  - `Images/food_ingredient_ready.png`\n  - `Images/food_ingredient_ready_focus_crop.png`\n  - `Images/food_output_craft_or_smelt.png`\n  - `Images/food_output_craft_or_smelt_focus_crop.png`\n  - `Images/food_output_verified.png`\n  - `Images/food_output_verified_focus_crop.png`\n\n## Result Verification Cues\n\n- Inventory feedback contains the exact food target and count.\n\n## Visual Transfer Limits\n\n- Ingredient images are examples; exact recipe/count comes from lookup and task target.\n\n## Common Failure Modes\n\n- Stopping at raw ingredient.\n- Smelting/crafting the wrong food route.\n- Missing bowl, bucket, sugar, or egg in compound recipes.\n",
+      "runtimeStates": [
+        {
+          "stateId": "compound_food_dependency_plan",
+          "stateName": "compound food dependency plan",
+          "stage": "entry_state",
+          "imageRole": "state_cue",
+          "whenToUse": "Use when a food recipe requires multiple source types.",
+          "whenNotToUse": "Do not use for single-step non-food crafting.",
+          "visibleCues": [
+            "The card cues splitting ingredients by source."
+          ],
+          "verificationCue": "The branch should list missing plant, animal, vessel, and smelt ingredients.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/compound_food_dependency_plan.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-food-recipes-and-animal-meals/compound-food-dependency-plan.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-food-recipes-and-animal-meals/compound-food-dependency-plan.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "compound food dependency plan"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/compound_food_dependency_plan_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-food-recipes-and-animal-meals/compound-food-dependency-plan-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-food-recipes-and-animal-meals/compound-food-dependency-plan-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "compound food dependency plan"
+            }
+          ]
+        },
+        {
+          "stateId": "food_ingredient_ready",
+          "stateName": "food ingredient ready",
+          "stage": "operation_state",
+          "imageRole": "action_target",
+          "whenToUse": "Use when a key food ingredient has just been collected and the next ingredient/final step must be chosen.",
+          "whenNotToUse": "Do not use when no food target is active.",
+          "visibleCues": [
+            "HUD/material cue supports ingredient readiness."
+          ],
+          "verificationCue": "The branch should proceed to remaining ingredient or final output.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/food_ingredient_ready.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-food-recipes-and-animal-meals/food-ingredient-ready.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-food-recipes-and-animal-meals/food-ingredient-ready.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "food ingredient ready"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/food_ingredient_ready_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-food-recipes-and-animal-meals/food-ingredient-ready-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-food-recipes-and-animal-meals/food-ingredient-ready-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "food ingredient ready"
+            }
+          ]
+        },
+        {
+          "stateId": "food_output_craft_or_smelt",
+          "stateName": "food output craft or smelt",
+          "stage": "operation_state",
+          "imageRole": "action_target",
+          "whenToUse": "Use when all ingredients exist and final food should be crafted or smelted.",
+          "whenNotToUse": "Do not use while raw ingredients are missing.",
+          "visibleCues": [
+            "Hotbar/material cue supports final food production."
+          ],
+          "verificationCue": "craft/smelt feedback should name the exact food.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/food_output_craft_or_smelt.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-food-recipes-and-animal-meals/food-output-craft-or-smelt.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-food-recipes-and-animal-meals/food-output-craft-or-smelt.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "food output craft or smelt"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/food_output_craft_or_smelt_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-food-recipes-and-animal-meals/food-output-craft-or-smelt-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-food-recipes-and-animal-meals/food-output-craft-or-smelt-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "food output craft or smelt"
+            }
+          ]
+        },
+        {
+          "stateId": "food_output_verified",
+          "stateName": "food output verified",
+          "stage": "verification_state",
+          "imageRole": "verification_cue",
+          "whenToUse": "Use before ending a food task.",
+          "whenNotToUse": "Do not accept raw/partial ingredients.",
+          "visibleCues": [
+            "Green HUD cue supports final food verification."
+          ],
+          "verificationCue": "Inventory contains the exact requested food.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/food_output_verified.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-food-recipes-and-animal-meals/food-output-verified.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-food-recipes-and-animal-meals/food-output-verified.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "food output verified"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/food_output_verified_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-food-recipes-and-animal-meals/food-output-verified-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-food-recipes-and-animal-meals/food-output-verified-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "food output verified"
+            }
+          ]
+        }
+      ],
+      "imageReferences": [
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/compound_food_dependency_plan.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-food-recipes-and-animal-meals/compound-food-dependency-plan.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-food-recipes-and-animal-meals/compound-food-dependency-plan.png",
+          "label": "compound food dependency plan"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/compound_food_dependency_plan_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-food-recipes-and-animal-meals/compound-food-dependency-plan-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-food-recipes-and-animal-meals/compound-food-dependency-plan-focus-crop.png",
+          "label": "compound food dependency plan"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/food_ingredient_ready.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-food-recipes-and-animal-meals/food-ingredient-ready.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-food-recipes-and-animal-meals/food-ingredient-ready.png",
+          "label": "food ingredient ready"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/food_ingredient_ready_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-food-recipes-and-animal-meals/food-ingredient-ready-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-food-recipes-and-animal-meals/food-ingredient-ready-focus-crop.png",
+          "label": "food ingredient ready"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/food_output_craft_or_smelt.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-food-recipes-and-animal-meals/food-output-craft-or-smelt.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-food-recipes-and-animal-meals/food-output-craft-or-smelt.png",
+          "label": "food output craft or smelt"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/food_output_craft_or_smelt_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-food-recipes-and-animal-meals/food-output-craft-or-smelt-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-food-recipes-and-animal-meals/food-output-craft-or-smelt-focus-crop.png",
+          "label": "food output craft or smelt"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/food_output_verified.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-food-recipes-and-animal-meals/food-output-verified.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-food-recipes-and-animal-meals/food-output-verified.png",
+          "label": "food output verified"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/food_output_verified_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-food-recipes-and-animal-meals/food-output-verified-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-food-recipes-and-animal-meals/food-output-verified-focus-crop.png",
+          "label": "food output verified"
+        }
+      ],
+      "completenessScore": 20
+    },
+    {
+      "id": "MINECRAFT_Craft_Stone_Sandstone_Blackstone_Variants",
+      "name": "Craft Stone, Sandstone, and Blackstone Variants",
+      "description": "Produce stone, cobblestone, sandstone, cut sandstone, blackstone, polished blackstone, polished blackstone bricks, cracked bricks, slabs, stairs, walls, buttons, and pressure plates.",
+      "domain": "vab_minecraft",
+      "domainLabel": "VAB-Minecraft",
+      "platformId": "vab_minecraft",
+      "platform": "VAB-Minecraft",
+      "category": "Game-Based Tasks",
+      "sourcePath": "vab_minecraft/MINECRAFT_Craft_Stone_Sandstone_Blackstone_Variants",
+      "imageCount": 6,
+      "stateCardCount": 0,
+      "runtimeCardCount": 3,
+      "planStepCount": 0,
+      "tags": [
+        "minecraft",
+        "crafting",
+        "game"
+      ],
+      "overview": "Produce stone, cobblestone, sandstone, cut sandstone, blackstone, polished blackstone, polished blackstone bricks, cracked bricks, slabs, stairs, walls, buttons, and pressure plates.",
+      "applicability": [
+        "The target is a stone-like base block or exact shape/polished variant."
+      ],
+      "failureModes": [
+        "Stopping at base blackstone when polished or cracked bricks are requested.",
+        "Confusing stone and cobblestone."
+      ],
+      "skillMarkdown": "# Craft Stone, Sandstone, and Blackstone Variants\n\n## When This Skill Applies\n\n- The target is a stone-like base block or exact shape/polished variant.\n\n## When Not To Use\n\n- Do not use for ore mining after the raw ore has already been collected.\n\n## Minecraft Action Pattern\n\n- mine or smelt base block\n- craft/polish/cut exact variant\n- verify exact material prefix and suffix\n\n## Procedure\n\n1. Identify whether the base item is mined, smelted, or crafted from sand/blackstone.\n2. Create the base block before shape conversion.\n3. Use craft/stonecutter-style conversion for slabs, walls, stairs, and polished variants.\n4. For cracked polished blackstone bricks, preserve the extra smelt/process step.\n\n## Visual State Card Usage\n\nVisual state cards for runtime use live in `runtime_state_cards.json`.\n\nLoad only the state whose screenshot and text match the current Minecraft situation. Do not load all images by default. Red boxes indicate action targets or action-relevant regions. Green boxes indicate verification cues. Coordinates, terrain layout, visible item names, and exact counts are examples only.\n\nImage references in this package:\n  - `Images/stone_base_material_route.png`\n  - `Images/stone_base_material_route_focus_crop.png`\n  - `Images/shape_or_polish_conversion.png`\n  - `Images/shape_or_polish_conversion_focus_crop.png`\n  - `Images/stone_variant_verified.png`\n  - `Images/stone_variant_verified_focus_crop.png`\n\n## Result Verification Cues\n\n- Inventory feedback names the exact stone/sandstone/blackstone variant.\n\n## Visual Transfer Limits\n\n- Screenshots are examples of block/material progress, not exact quarry locations.\n\n## Common Failure Modes\n\n- Stopping at base blackstone when polished or cracked bricks are requested.\n- Confusing stone and cobblestone.\n",
+      "runtimeStates": [
+        {
+          "stateId": "stone_base_material_route",
+          "stateName": "stone-like base material route",
+          "stage": "entry_state",
+          "imageRole": "state_cue",
+          "whenToUse": "Use when deciding whether to mine, smelt, or craft the base stone-like block.",
+          "whenNotToUse": "Do not use for wooden variants.",
+          "visibleCues": [
+            "The card cues base-material route selection."
+          ],
+          "verificationCue": "The next action should obtain the correct base material.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/stone_base_material_route.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-stone-sandstone-blackstone-variants/stone-base-material-route.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-stone-sandstone-blackstone-variants/stone-base-material-route.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "stone-like base material route"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/stone_base_material_route_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-stone-sandstone-blackstone-variants/stone-base-material-route-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-stone-sandstone-blackstone-variants/stone-base-material-route-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "stone-like base material route"
+            }
+          ]
+        },
+        {
+          "stateId": "shape_or_polish_conversion",
+          "stateName": "shape or polish conversion",
+          "stage": "operation_state",
+          "imageRole": "action_target",
+          "whenToUse": "Use when the base material is present and a variant conversion is next.",
+          "whenNotToUse": "Do not use while raw base material is missing.",
+          "visibleCues": [
+            "Hotbar/material cue supports conversion readiness."
+          ],
+          "verificationCue": "craft feedback should name the requested variant.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/shape_or_polish_conversion.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-stone-sandstone-blackstone-variants/shape-or-polish-conversion.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-stone-sandstone-blackstone-variants/shape-or-polish-conversion.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "shape or polish conversion"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/shape_or_polish_conversion_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-stone-sandstone-blackstone-variants/shape-or-polish-conversion-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-stone-sandstone-blackstone-variants/shape-or-polish-conversion-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "shape or polish conversion"
+            }
+          ]
+        },
+        {
+          "stateId": "stone_variant_verified",
+          "stateName": "stone variant verified",
+          "stage": "verification_state",
+          "imageRole": "verification_cue",
+          "whenToUse": "Use to reject close-but-wrong stone variants.",
+          "whenNotToUse": "Do not accept raw cobblestone for stone or polished variants.",
+          "visibleCues": [
+            "Green HUD cue supports exact item verification."
+          ],
+          "verificationCue": "Inventory contains the exact stone/sandstone/blackstone target.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/stone_variant_verified.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-stone-sandstone-blackstone-variants/stone-variant-verified.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-stone-sandstone-blackstone-variants/stone-variant-verified.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "stone variant verified"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/stone_variant_verified_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-stone-sandstone-blackstone-variants/stone-variant-verified-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-stone-sandstone-blackstone-variants/stone-variant-verified-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "stone variant verified"
+            }
+          ]
+        }
+      ],
+      "imageReferences": [
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/stone_base_material_route.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-stone-sandstone-blackstone-variants/stone-base-material-route.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-stone-sandstone-blackstone-variants/stone-base-material-route.png",
+          "label": "stone-like base material route"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/stone_base_material_route_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-stone-sandstone-blackstone-variants/stone-base-material-route-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-stone-sandstone-blackstone-variants/stone-base-material-route-focus-crop.png",
+          "label": "stone-like base material route"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/shape_or_polish_conversion.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-stone-sandstone-blackstone-variants/shape-or-polish-conversion.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-stone-sandstone-blackstone-variants/shape-or-polish-conversion.png",
+          "label": "shape or polish conversion"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/shape_or_polish_conversion_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-stone-sandstone-blackstone-variants/shape-or-polish-conversion-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-stone-sandstone-blackstone-variants/shape-or-polish-conversion-focus-crop.png",
+          "label": "shape or polish conversion"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/stone_variant_verified.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-stone-sandstone-blackstone-variants/stone-variant-verified.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-stone-sandstone-blackstone-variants/stone-variant-verified.png",
+          "label": "stone variant verified"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/stone_variant_verified_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-stone-sandstone-blackstone-variants/stone-variant-verified-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-stone-sandstone-blackstone-variants/stone-variant-verified-focus-crop.png",
+          "label": "stone variant verified"
+        }
+      ],
+      "completenessScore": 15
+    },
+    {
+      "id": "MINECRAFT_Craft_Swords_Bows_Crossbows_And_Ammo",
+      "name": "Craft Swords, Bows, Crossbows, and Ammo",
+      "description": "Craft melee and ranged weapons: wooden/stone/iron/golden/diamond swords, bow, crossbow, arrow, and tripwire-hook/string dependencies.",
+      "domain": "vab_minecraft",
+      "domainLabel": "VAB-Minecraft",
+      "platformId": "vab_minecraft",
+      "platform": "VAB-Minecraft",
+      "category": "Game-Based Tasks",
+      "sourcePath": "vab_minecraft/MINECRAFT_Craft_Swords_Bows_Crossbows_And_Ammo",
+      "imageCount": 6,
+      "stateCardCount": 0,
+      "runtimeCardCount": 3,
+      "planStepCount": 0,
+      "tags": [
+        "minecraft",
+        "crafting",
+        "game"
+      ],
+      "overview": "Craft melee and ranged weapons: wooden/stone/iron/golden/diamond swords, bow, crossbow, arrow, and tripwire-hook/string dependencies.",
+      "applicability": [
+        "The target is a sword, bow, crossbow, arrow, or ranged-weapon dependency."
+      ],
+      "failureModes": [
+        "Crafting crossbow before string or tripwire_hook.",
+        "Stopping after feather when arrow is the target."
+      ],
+      "skillMarkdown": "# Craft Swords, Bows, Crossbows, and Ammo\n\n## When This Skill Applies\n\n- The target is a sword, bow, crossbow, arrow, or ranged-weapon dependency.\n\n## When Not To Use\n\n- Do not use for armor or mining tools.\n\n## Minecraft Action Pattern\n\n- collect tier material or string/feather/flint\n- craft weapon or ammo\n- equip weapon only if combat follows\n\n## Procedure\n\n1. Parse whether the target is melee, ranged, or ammo.\n2. For swords, collect tier material and sticks.\n3. For bow/crossbow, collect string and craft intermediate tripwire_hook if required.\n4. For arrows, collect feather/flint/stick before final craft.\n\n## Visual State Card Usage\n\nVisual state cards for runtime use live in `runtime_state_cards.json`.\n\nLoad only the state whose screenshot and text match the current Minecraft situation. Do not load all images by default. Red boxes indicate action targets or action-relevant regions. Green boxes indicate verification cues. Coordinates, terrain layout, visible item names, and exact counts are examples only.\n\nImage references in this package:\n  - `Images/weapon_family_choice.png`\n  - `Images/weapon_family_choice_focus_crop.png`\n  - `Images/string_feather_or_tier_material_ready.png`\n  - `Images/string_feather_or_tier_material_ready_focus_crop.png`\n  - `Images/weapon_output_verified.png`\n  - `Images/weapon_output_verified_focus_crop.png`\n\n## Result Verification Cues\n\n- Inventory feedback contains the exact weapon or ammo target.\n\n## Visual Transfer Limits\n\n- Images are transferable for material/weapon readiness, not combat positioning.\n\n## Common Failure Modes\n\n- Crafting crossbow before string or tripwire_hook.\n- Stopping after feather when arrow is the target.\n",
+      "runtimeStates": [
+        {
+          "stateId": "weapon_family_choice",
+          "stateName": "weapon family choice",
+          "stage": "entry_state",
+          "imageRole": "state_cue",
+          "whenToUse": "Use when choosing between sword, bow, crossbow, or ammo recipe paths.",
+          "whenNotToUse": "Do not use for armor/tool tasks.",
+          "visibleCues": [
+            "The card cues selecting a weapon-specific dependency chain."
+          ],
+          "verificationCue": "The branch should name melee/ranged/ammo route.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/weapon_family_choice.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-swords-bows-crossbows-and-ammo/weapon-family-choice.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-swords-bows-crossbows-and-ammo/weapon-family-choice.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "weapon family choice"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/weapon_family_choice_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-swords-bows-crossbows-and-ammo/weapon-family-choice-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-swords-bows-crossbows-and-ammo/weapon-family-choice-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "weapon family choice"
+            }
+          ]
+        },
+        {
+          "stateId": "string_feather_or_tier_material_ready",
+          "stateName": "weapon material ready",
+          "stage": "operation_state",
+          "imageRole": "action_target",
+          "whenToUse": "Use when weapon components are ready for craft.",
+          "whenNotToUse": "Do not use if string, feather, flint, sticks, or tier materials are still missing.",
+          "visibleCues": [
+            "Hotbar/material cue supports final weapon craft readiness."
+          ],
+          "verificationCue": "craft feedback should name the weapon/ammo.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/string_feather_or_tier_material_ready.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-swords-bows-crossbows-and-ammo/string-feather-or-tier-material-ready.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-swords-bows-crossbows-and-ammo/string-feather-or-tier-material-ready.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "weapon material ready"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/string_feather_or_tier_material_ready_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-swords-bows-crossbows-and-ammo/string-feather-or-tier-material-ready-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-swords-bows-crossbows-and-ammo/string-feather-or-tier-material-ready-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "weapon material ready"
+            }
+          ]
+        },
+        {
+          "stateId": "weapon_output_verified",
+          "stateName": "weapon output verified",
+          "stage": "verification_state",
+          "imageRole": "verification_cue",
+          "whenToUse": "Use before ending weapon or ammo tasks.",
+          "whenNotToUse": "Do not accept an intermediate component as final target.",
+          "visibleCues": [
+            "Green cue supports exact weapon/ammo verification."
+          ],
+          "verificationCue": "Inventory contains the exact requested weapon or ammo.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/weapon_output_verified.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-swords-bows-crossbows-and-ammo/weapon-output-verified.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-swords-bows-crossbows-and-ammo/weapon-output-verified.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "weapon output verified"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/weapon_output_verified_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-swords-bows-crossbows-and-ammo/weapon-output-verified-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-swords-bows-crossbows-and-ammo/weapon-output-verified-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "weapon output verified"
+            }
+          ]
+        }
+      ],
+      "imageReferences": [
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/weapon_family_choice.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-swords-bows-crossbows-and-ammo/weapon-family-choice.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-swords-bows-crossbows-and-ammo/weapon-family-choice.png",
+          "label": "weapon family choice"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/weapon_family_choice_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-swords-bows-crossbows-and-ammo/weapon-family-choice-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-swords-bows-crossbows-and-ammo/weapon-family-choice-focus-crop.png",
+          "label": "weapon family choice"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/string_feather_or_tier_material_ready.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-swords-bows-crossbows-and-ammo/string-feather-or-tier-material-ready.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-swords-bows-crossbows-and-ammo/string-feather-or-tier-material-ready.png",
+          "label": "weapon material ready"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/string_feather_or_tier_material_ready_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-swords-bows-crossbows-and-ammo/string-feather-or-tier-material-ready-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-swords-bows-crossbows-and-ammo/string-feather-or-tier-material-ready-focus-crop.png",
+          "label": "weapon material ready"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/weapon_output_verified.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-swords-bows-crossbows-and-ammo/weapon-output-verified.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-swords-bows-crossbows-and-ammo/weapon-output-verified.png",
+          "label": "weapon output verified"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/weapon_output_verified_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-swords-bows-crossbows-and-ammo/weapon-output-verified-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-swords-bows-crossbows-and-ammo/weapon-output-verified-focus-crop.png",
+          "label": "weapon output verified"
+        }
+      ],
+      "completenessScore": 15
+    },
+    {
+      "id": "MINECRAFT_Craft_Tiered_Tools_And_Mining_Gates",
+      "name": "Craft Tiered Tools and Mining Gates",
+      "description": "Craft and equip wooden, stone, iron, golden, and diamond tools, then use the correct tool tier for mining or collection gates.",
+      "domain": "vab_minecraft",
+      "domainLabel": "VAB-Minecraft",
+      "platformId": "vab_minecraft",
+      "platform": "VAB-Minecraft",
+      "category": "Game-Based Tasks",
+      "sourcePath": "vab_minecraft/MINECRAFT_Craft_Tiered_Tools_And_Mining_Gates",
+      "imageCount": 8,
+      "stateCardCount": 0,
+      "runtimeCardCount": 4,
+      "planStepCount": 0,
+      "tags": [
+        "minecraft",
+        "crafting",
+        "game"
+      ],
+      "overview": "Craft and equip wooden, stone, iron, golden, and diamond tools, then use the correct tool tier for mining or collection gates.",
+      "applicability": [
+        "The target is a pickaxe, axe, shovel, hoe, shears, or a resource gate that requires a specific tool tier."
+      ],
+      "failureModes": [
+        "Mining iron without stone_pickaxe.",
+        "Crafting an axe when the target is a hoe or shovel.",
+        "Forgetting equip before execute."
+      ],
+      "skillMarkdown": "# Craft Tiered Tools and Mining Gates\n\n## When This Skill Applies\n\n- The target is a pickaxe, axe, shovel, hoe, shears, or a resource gate that requires a specific tool tier.\n\n## When Not To Use\n\n- Do not use for swords, bows, armor, or redstone components unless they only need a tool as prerequisite.\n\n## Minecraft Action Pattern\n\n- resolve tier material\n- craft sticks and refined material\n- craft tool\n- equip tool before gated execute\n\n## Procedure\n\n1. Parse the target tier from the item name.\n2. Ensure the required material and sticks are present.\n3. Craft the exact tool type and tier.\n4. Equip it before mining or collecting resources whose success depends on tool tier.\n\n## Visual State Card Usage\n\nVisual state cards for runtime use live in `runtime_state_cards.json`.\n\nLoad only the state whose screenshot and text match the current Minecraft situation. Do not load all images by default. Red boxes indicate action targets or action-relevant regions. Green boxes indicate verification cues. Coordinates, terrain layout, visible item names, and exact counts are examples only.\n\nImage references in this package:\n  - `Images/tool_tier_and_type_decision.png`\n  - `Images/tool_tier_and_type_decision_focus_crop.png`\n  - `Images/tool_materials_and_sticks_ready.png`\n  - `Images/tool_materials_and_sticks_ready_focus_crop.png`\n  - `Images/tool_equipped_for_gate.png`\n  - `Images/tool_equipped_for_gate_focus_crop.png`\n  - `Images/tool_gate_verified.png`\n  - `Images/tool_gate_verified_focus_crop.png`\n\n## Result Verification Cues\n\n- The exact tool is crafted and selected when the next action needs it.\n\n## Visual Transfer Limits\n\n- Tool examples transfer by tier/type logic, not by visible inventory slot.\n\n## Common Failure Modes\n\n- Mining iron without stone_pickaxe.\n- Crafting an axe when the target is a hoe or shovel.\n- Forgetting equip before execute.\n",
+      "runtimeStates": [
+        {
+          "stateId": "tool_tier_and_type_decision",
+          "stateName": "tool tier and type decision",
+          "stage": "entry_state",
+          "imageRole": "state_cue",
+          "whenToUse": "Use when a tool target must be decomposed into tier material plus tool shape.",
+          "whenNotToUse": "Do not use for armor or swords.",
+          "visibleCues": [
+            "The card cues parsing tool tier/type from the task target."
+          ],
+          "verificationCue": "The branch should name tier material, sticks, and exact tool.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/tool_tier_and_type_decision.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-tiered-tools-and-mining-gates/tool-tier-and-type-decision.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-tiered-tools-and-mining-gates/tool-tier-and-type-decision.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "tool tier and type decision"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/tool_tier_and_type_decision_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-tiered-tools-and-mining-gates/tool-tier-and-type-decision-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-tiered-tools-and-mining-gates/tool-tier-and-type-decision-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "tool tier and type decision"
+            }
+          ]
+        },
+        {
+          "stateId": "tool_materials_and_sticks_ready",
+          "stateName": "tool materials and sticks ready",
+          "stage": "operation_state",
+          "imageRole": "action_target",
+          "whenToUse": "Use when the next call should craft the selected tool.",
+          "whenNotToUse": "Do not use if ore/log prerequisites are still missing.",
+          "visibleCues": [
+            "Hotbar/material cue supports tool craft readiness."
+          ],
+          "verificationCue": "craft feedback should name the exact tool.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/tool_materials_and_sticks_ready.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-tiered-tools-and-mining-gates/tool-materials-and-sticks-ready.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-tiered-tools-and-mining-gates/tool-materials-and-sticks-ready.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "tool materials and sticks ready"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/tool_materials_and_sticks_ready_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-tiered-tools-and-mining-gates/tool-materials-and-sticks-ready-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-tiered-tools-and-mining-gates/tool-materials-and-sticks-ready-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "tool materials and sticks ready"
+            }
+          ]
+        },
+        {
+          "stateId": "tool_equipped_for_gate",
+          "stateName": "tool equipped for gate",
+          "stage": "operation_state",
+          "imageRole": "action_target",
+          "whenToUse": "Use when the tool must be equipped before mining, stripping logs, shearing, or other executor actions.",
+          "whenNotToUse": "Do not use for tools that only need to be present as final inventory.",
+          "visibleCues": [
+            "Held/hotbar cue is action-relevant."
+          ],
+          "verificationCue": "equip feedback should select the correct tool.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/tool_equipped_for_gate.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-tiered-tools-and-mining-gates/tool-equipped-for-gate.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-tiered-tools-and-mining-gates/tool-equipped-for-gate.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "tool equipped for gate"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/tool_equipped_for_gate_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-tiered-tools-and-mining-gates/tool-equipped-for-gate-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-tiered-tools-and-mining-gates/tool-equipped-for-gate-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "tool equipped for gate"
+            }
+          ]
+        },
+        {
+          "stateId": "tool_gate_verified",
+          "stateName": "tool gate verified",
+          "stage": "verification_state",
+          "imageRole": "verification_cue",
+          "whenToUse": "Use before proceeding to gated mining/collection or before ending a tool task.",
+          "whenNotToUse": "Do not accept lower-tier substitutes.",
+          "visibleCues": [
+            "Green cue supports exact tool/tier verification."
+          ],
+          "verificationCue": "The right tool tier is available or equipped.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/tool_gate_verified.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-tiered-tools-and-mining-gates/tool-gate-verified.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-tiered-tools-and-mining-gates/tool-gate-verified.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "tool gate verified"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/tool_gate_verified_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-tiered-tools-and-mining-gates/tool-gate-verified-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-tiered-tools-and-mining-gates/tool-gate-verified-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "tool gate verified"
+            }
+          ]
+        }
+      ],
+      "imageReferences": [
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/tool_tier_and_type_decision.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-tiered-tools-and-mining-gates/tool-tier-and-type-decision.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-tiered-tools-and-mining-gates/tool-tier-and-type-decision.png",
+          "label": "tool tier and type decision"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/tool_tier_and_type_decision_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-tiered-tools-and-mining-gates/tool-tier-and-type-decision-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-tiered-tools-and-mining-gates/tool-tier-and-type-decision-focus-crop.png",
+          "label": "tool tier and type decision"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/tool_materials_and_sticks_ready.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-tiered-tools-and-mining-gates/tool-materials-and-sticks-ready.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-tiered-tools-and-mining-gates/tool-materials-and-sticks-ready.png",
+          "label": "tool materials and sticks ready"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/tool_materials_and_sticks_ready_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-tiered-tools-and-mining-gates/tool-materials-and-sticks-ready-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-tiered-tools-and-mining-gates/tool-materials-and-sticks-ready-focus-crop.png",
+          "label": "tool materials and sticks ready"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/tool_equipped_for_gate.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-tiered-tools-and-mining-gates/tool-equipped-for-gate.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-tiered-tools-and-mining-gates/tool-equipped-for-gate.png",
+          "label": "tool equipped for gate"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/tool_equipped_for_gate_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-tiered-tools-and-mining-gates/tool-equipped-for-gate-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-tiered-tools-and-mining-gates/tool-equipped-for-gate-focus-crop.png",
+          "label": "tool equipped for gate"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/tool_gate_verified.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-tiered-tools-and-mining-gates/tool-gate-verified.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-tiered-tools-and-mining-gates/tool-gate-verified.png",
+          "label": "tool gate verified"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/tool_gate_verified_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-tiered-tools-and-mining-gates/tool-gate-verified-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-tiered-tools-and-mining-gates/tool-gate-verified-focus-crop.png",
+          "label": "tool gate verified"
+        }
+      ],
+      "completenessScore": 20
+    },
+    {
+      "id": "MINECRAFT_Craft_Wooden_Building_And_Interactable_Variants",
+      "name": "Craft Wooden Building and Interactable Variants",
+      "description": "Turn logs and planks into exact wooden variants: stripped logs, planks, slabs, stairs, doors, trapdoors, fences, fence gates, buttons, pressure plates, boats, signs, and ladders.",
+      "domain": "vab_minecraft",
+      "domainLabel": "VAB-Minecraft",
+      "platformId": "vab_minecraft",
+      "platform": "VAB-Minecraft",
+      "category": "Game-Based Tasks",
+      "sourcePath": "vab_minecraft/MINECRAFT_Craft_Wooden_Building_And_Interactable_Variants",
+      "imageCount": 8,
+      "stateCardCount": 0,
+      "runtimeCardCount": 4,
+      "planStepCount": 0,
+      "tags": [
+        "minecraft",
+        "crafting",
+        "game"
+      ],
+      "overview": "Turn logs and planks into exact wooden variants: stripped logs, planks, slabs, stairs, doors, trapdoors, fences, fence gates, buttons, pressure plates, boats, signs, and ladders.",
+      "applicability": [
+        "The target has a wood species prefix or a wooden interactable suffix.",
+        "The task depends on logs, planks, sticks, or a wood tag such as logs_that_burn or wooden_slabs."
+      ],
+      "failureModes": [
+        "Crafting oak_planks when oak_trapdoor or oak_fence_gate is requested.",
+        "Ignoring species-specific target names."
+      ],
+      "skillMarkdown": "# Craft Wooden Building and Interactable Variants\n\n## When This Skill Applies\n\n- The target has a wood species prefix or a wooden interactable suffix.\n- The task depends on logs, planks, sticks, or a wood tag such as logs_that_burn or wooden_slabs.\n\n## When Not To Use\n\n- Do not use for stone, sandstone, blackstone, iron, or redstone mechanism variants.\n\n## Minecraft Action Pattern\n\n- collect species-appropriate logs\n- craft planks/sticks if needed\n- craft exact wooden variant\n- verify exact species and suffix\n\n## Procedure\n\n1. Split the target into species/material and suffix.\n2. Collect enough logs and convert to planks only when the recipe needs planks.\n3. Craft the exact suffix; do not substitute a visually similar species.\n4. For stripped logs, use the axe/tool route rather than crafting a plank variant.\n\n## Visual State Card Usage\n\nVisual state cards for runtime use live in `runtime_state_cards.json`.\n\nLoad only the state whose screenshot and text match the current Minecraft situation. Do not load all images by default. Red boxes indicate action targets or action-relevant regions. Green boxes indicate verification cues. Coordinates, terrain layout, visible item names, and exact counts are examples only.\n\nImage references in this package:\n  - `Images/wood_species_or_tag_choice.png`\n  - `Images/wood_species_or_tag_choice_focus_crop.png`\n  - `Images/plank_stick_intermediate_ready.png`\n  - `Images/plank_stick_intermediate_ready_focus_crop.png`\n  - `Images/wood_variant_exact_craft.png`\n  - `Images/wood_variant_exact_craft_focus_crop.png`\n  - `Images/wood_variant_verified.png`\n  - `Images/wood_variant_verified_focus_crop.png`\n\n## Result Verification Cues\n\n- Feedback contains the exact wood species and variant suffix.\n\n## Visual Transfer Limits\n\n- Tree species in images are examples; test env may provide a different valid wood source.\n\n## Common Failure Modes\n\n- Crafting oak_planks when oak_trapdoor or oak_fence_gate is requested.\n- Ignoring species-specific target names.\n",
+      "runtimeStates": [
+        {
+          "stateId": "wood_species_or_tag_choice",
+          "stateName": "wood species or tag choice",
+          "stage": "entry_state",
+          "imageRole": "state_cue",
+          "whenToUse": "Use when a target requires choosing a concrete wood source from a tag or species name.",
+          "whenNotToUse": "Do not use for stone or metal variants.",
+          "visibleCues": [
+            "Outdoor/log context and task target together decide the wood source."
+          ],
+          "verificationCue": "The branch should choose a concrete species/material before crafting.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/wood_species_or_tag_choice.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-wooden-building-and-interactable-variants/wood-species-or-tag-choice.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-wooden-building-and-interactable-variants/wood-species-or-tag-choice.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "wood species or tag choice"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/wood_species_or_tag_choice_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-wooden-building-and-interactable-variants/wood-species-or-tag-choice-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-wooden-building-and-interactable-variants/wood-species-or-tag-choice-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "wood species or tag choice"
+            }
+          ]
+        },
+        {
+          "stateId": "plank_stick_intermediate_ready",
+          "stateName": "plank or stick intermediate ready",
+          "stage": "operation_state",
+          "imageRole": "action_target",
+          "whenToUse": "Use when logs have been collected and the next step is planks, sticks, slabs, or a wood subcomponent.",
+          "whenNotToUse": "Do not use if raw logs are still missing.",
+          "visibleCues": [
+            "Bottom HUD/material cue supports craft readiness."
+          ],
+          "verificationCue": "craft feedback should name the intermediate or final wooden item.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/plank_stick_intermediate_ready.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-wooden-building-and-interactable-variants/plank-stick-intermediate-ready.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-wooden-building-and-interactable-variants/plank-stick-intermediate-ready.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "plank or stick intermediate ready"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/plank_stick_intermediate_ready_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-wooden-building-and-interactable-variants/plank-stick-intermediate-ready-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-wooden-building-and-interactable-variants/plank-stick-intermediate-ready-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "plank or stick intermediate ready"
+            }
+          ]
+        },
+        {
+          "stateId": "wood_variant_exact_craft",
+          "stateName": "exact wooden variant craft",
+          "stage": "operation_state",
+          "imageRole": "action_target",
+          "whenToUse": "Use for trapdoor, fence gate, button, pressure plate, slab, stair, door, boat, or ladder final craft.",
+          "whenNotToUse": "Do not use for raw tree chopping.",
+          "visibleCues": [
+            "Hotbar/material region indicates final variant craft state."
+          ],
+          "verificationCue": "craft feedback should include exact species plus suffix.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/wood_variant_exact_craft.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-wooden-building-and-interactable-variants/wood-variant-exact-craft.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-wooden-building-and-interactable-variants/wood-variant-exact-craft.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "exact wooden variant craft"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/wood_variant_exact_craft_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-wooden-building-and-interactable-variants/wood-variant-exact-craft-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-wooden-building-and-interactable-variants/wood-variant-exact-craft-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "exact wooden variant craft"
+            }
+          ]
+        },
+        {
+          "stateId": "wood_variant_verified",
+          "stateName": "wood variant verified",
+          "stage": "verification_state",
+          "imageRole": "verification_cue",
+          "whenToUse": "Use before ending any wooden variant task.",
+          "whenNotToUse": "Do not accept generic planks unless planks is the target.",
+          "visibleCues": [
+            "Green cue reminds the branch to verify exact target naming."
+          ],
+          "verificationCue": "Inventory contains the requested wood variant.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/wood_variant_verified.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-wooden-building-and-interactable-variants/wood-variant-verified.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-wooden-building-and-interactable-variants/wood-variant-verified.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "wood variant verified"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/wood_variant_verified_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-wooden-building-and-interactable-variants/wood-variant-verified-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-wooden-building-and-interactable-variants/wood-variant-verified-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "wood variant verified"
+            }
+          ]
+        }
+      ],
+      "imageReferences": [
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/wood_species_or_tag_choice.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-wooden-building-and-interactable-variants/wood-species-or-tag-choice.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-wooden-building-and-interactable-variants/wood-species-or-tag-choice.png",
+          "label": "wood species or tag choice"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/wood_species_or_tag_choice_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-wooden-building-and-interactable-variants/wood-species-or-tag-choice-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-wooden-building-and-interactable-variants/wood-species-or-tag-choice-focus-crop.png",
+          "label": "wood species or tag choice"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/plank_stick_intermediate_ready.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-wooden-building-and-interactable-variants/plank-stick-intermediate-ready.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-wooden-building-and-interactable-variants/plank-stick-intermediate-ready.png",
+          "label": "plank or stick intermediate ready"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/plank_stick_intermediate_ready_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-wooden-building-and-interactable-variants/plank-stick-intermediate-ready-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-wooden-building-and-interactable-variants/plank-stick-intermediate-ready-focus-crop.png",
+          "label": "plank or stick intermediate ready"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/wood_variant_exact_craft.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-wooden-building-and-interactable-variants/wood-variant-exact-craft.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-wooden-building-and-interactable-variants/wood-variant-exact-craft.png",
+          "label": "exact wooden variant craft"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/wood_variant_exact_craft_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-wooden-building-and-interactable-variants/wood-variant-exact-craft-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-wooden-building-and-interactable-variants/wood-variant-exact-craft-focus-crop.png",
+          "label": "exact wooden variant craft"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/wood_variant_verified.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-wooden-building-and-interactable-variants/wood-variant-verified.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-wooden-building-and-interactable-variants/wood-variant-verified.png",
+          "label": "wood variant verified"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/wood_variant_verified_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-wooden-building-and-interactable-variants/wood-variant-verified-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-wooden-building-and-interactable-variants/wood-variant-verified-focus-crop.png",
+          "label": "wood variant verified"
+        }
+      ],
+      "completenessScore": 20
+    },
+    {
+      "id": "MINECRAFT_Craft_Wool_Beds_Banners_Paintings_And_Books",
+      "name": "Craft Wool, Beds, Banners, Paintings, and Books",
+      "description": "Use wool, string, dye, planks, paper, leather, and books to craft beds, wool colors, paintings, banner patterns, bookshelves, item frames, and paper/book chains.",
+      "domain": "vab_minecraft",
+      "domainLabel": "VAB-Minecraft",
+      "platformId": "vab_minecraft",
+      "platform": "VAB-Minecraft",
+      "category": "Game-Based Tasks",
+      "sourcePath": "vab_minecraft/MINECRAFT_Craft_Wool_Beds_Banners_Paintings_And_Books",
+      "imageCount": 8,
+      "stateCardCount": 0,
+      "runtimeCardCount": 4,
+      "planStepCount": 0,
+      "tags": [
+        "minecraft",
+        "crafting",
+        "game"
+      ],
+      "overview": "Use wool, string, dye, planks, paper, leather, and books to craft beds, wool colors, paintings, banner patterns, bookshelves, item frames, and paper/book chains.",
+      "applicability": [
+        "The target is wool, bed, painting, banner pattern, paper, book, bookshelf, item_frame, carpet, or a related decor output."
+      ],
+      "failureModes": [
+        "Stopping at dye when wool/bed is target.",
+        "Crafting wrong bed/wool color.",
+        "Missing paper/leather before book/bookshelf."
+      ],
+      "skillMarkdown": "# Craft Wool, Beds, Banners, Paintings, and Books\n\n## When This Skill Applies\n\n- The target is wool, bed, painting, banner pattern, paper, book, bookshelf, item_frame, carpet, or a related decor output.\n\n## When Not To Use\n\n- Do not use for raw flower collection before dye exists.\n\n## Minecraft Action Pattern\n\n- collect wool/string/paper/leather/dye\n- craft intermediate decor material\n- craft exact final decor target\n\n## Procedure\n\n1. Separate color source, fabric/source material, and final decor item.\n2. Collect wool/string/leather/paper before final craft.\n3. Craft exact bed/wool/decor variant; color variants matter.\n4. Verify final target rather than an intermediate like dye or wool unless that is the requested item.\n\n## Visual State Card Usage\n\nVisual state cards for runtime use live in `runtime_state_cards.json`.\n\nLoad only the state whose screenshot and text match the current Minecraft situation. Do not load all images by default. Red boxes indicate action targets or action-relevant regions. Green boxes indicate verification cues. Coordinates, terrain layout, visible item names, and exact counts are examples only.\n\nImage references in this package:\n  - `Images/fabric_decor_dependency_split.png`\n  - `Images/fabric_decor_dependency_split_focus_crop.png`\n  - `Images/wool_paper_or_book_intermediate.png`\n  - `Images/wool_paper_or_book_intermediate_focus_crop.png`\n  - `Images/final_decor_fabric_craft.png`\n  - `Images/final_decor_fabric_craft_focus_crop.png`\n  - `Images/decor_fabric_verified.png`\n  - `Images/decor_fabric_verified_focus_crop.png`\n\n## Result Verification Cues\n\n- Inventory feedback contains the exact decor/book/fabric target.\n\n## Visual Transfer Limits\n\n- Visual cards are examples of dependency readiness, not final item appearance guarantees.\n\n## Common Failure Modes\n\n- Stopping at dye when wool/bed is target.\n- Crafting wrong bed/wool color.\n- Missing paper/leather before book/bookshelf.\n",
+      "runtimeStates": [
+        {
+          "stateId": "fabric_decor_dependency_split",
+          "stateName": "fabric/decor dependency split",
+          "stage": "entry_state",
+          "imageRole": "state_cue",
+          "whenToUse": "Use when decor requires multiple sources such as dye, wool, paper, or leather.",
+          "whenNotToUse": "Do not use for simple stone/wood structural variants.",
+          "visibleCues": [
+            "The card cues multi-source decor planning."
+          ],
+          "verificationCue": "The branch should list missing dye/fabric/book components.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/fabric_decor_dependency_split.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-wool-beds-banners-paintings-and-books/fabric-decor-dependency-split.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-wool-beds-banners-paintings-and-books/fabric-decor-dependency-split.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "fabric/decor dependency split"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/fabric_decor_dependency_split_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-wool-beds-banners-paintings-and-books/fabric-decor-dependency-split-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-wool-beds-banners-paintings-and-books/fabric-decor-dependency-split-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "fabric/decor dependency split"
+            }
+          ]
+        },
+        {
+          "stateId": "wool_paper_or_book_intermediate",
+          "stateName": "wool paper or book intermediate",
+          "stage": "operation_state",
+          "imageRole": "action_target",
+          "whenToUse": "Use when crafting or collecting the intermediate decor material.",
+          "whenNotToUse": "Do not use after final decor is ready to craft.",
+          "visibleCues": [
+            "Hotbar/material cue supports intermediate readiness."
+          ],
+          "verificationCue": "Feedback should show wool/paper/book/intermediate progress.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/wool_paper_or_book_intermediate.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-wool-beds-banners-paintings-and-books/wool-paper-or-book-intermediate.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-wool-beds-banners-paintings-and-books/wool-paper-or-book-intermediate.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "wool paper or book intermediate"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/wool_paper_or_book_intermediate_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-wool-beds-banners-paintings-and-books/wool-paper-or-book-intermediate-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-wool-beds-banners-paintings-and-books/wool-paper-or-book-intermediate-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "wool paper or book intermediate"
+            }
+          ]
+        },
+        {
+          "stateId": "final_decor_fabric_craft",
+          "stateName": "final decor/fabric craft",
+          "stage": "operation_state",
+          "imageRole": "action_target",
+          "whenToUse": "Use when the next call should craft final bed, painting, banner pattern, bookshelf, or item frame.",
+          "whenNotToUse": "Do not use for flower/dye source collection.",
+          "visibleCues": [
+            "Hotbar/material region supports final craft readiness."
+          ],
+          "verificationCue": "craft feedback should name the exact final item.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/final_decor_fabric_craft.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-wool-beds-banners-paintings-and-books/final-decor-fabric-craft.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-wool-beds-banners-paintings-and-books/final-decor-fabric-craft.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "final decor/fabric craft"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/final_decor_fabric_craft_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-wool-beds-banners-paintings-and-books/final-decor-fabric-craft-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-wool-beds-banners-paintings-and-books/final-decor-fabric-craft-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "final decor/fabric craft"
+            }
+          ]
+        },
+        {
+          "stateId": "decor_fabric_verified",
+          "stateName": "decor/fabric verified",
+          "stage": "verification_state",
+          "imageRole": "verification_cue",
+          "whenToUse": "Use before ending fabric/decor/book tasks.",
+          "whenNotToUse": "Do not accept a wrong color or intermediate.",
+          "visibleCues": [
+            "Green HUD cue supports exact item verification."
+          ],
+          "verificationCue": "Inventory contains the exact target decor/fabric item.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/decor_fabric_verified.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-wool-beds-banners-paintings-and-books/decor-fabric-verified.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-wool-beds-banners-paintings-and-books/decor-fabric-verified.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "decor/fabric verified"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/decor_fabric_verified_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-wool-beds-banners-paintings-and-books/decor-fabric-verified-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-wool-beds-banners-paintings-and-books/decor-fabric-verified-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "decor/fabric verified"
+            }
+          ]
+        }
+      ],
+      "imageReferences": [
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/fabric_decor_dependency_split.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-wool-beds-banners-paintings-and-books/fabric-decor-dependency-split.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-wool-beds-banners-paintings-and-books/fabric-decor-dependency-split.png",
+          "label": "fabric/decor dependency split"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/fabric_decor_dependency_split_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-wool-beds-banners-paintings-and-books/fabric-decor-dependency-split-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-wool-beds-banners-paintings-and-books/fabric-decor-dependency-split-focus-crop.png",
+          "label": "fabric/decor dependency split"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/wool_paper_or_book_intermediate.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-wool-beds-banners-paintings-and-books/wool-paper-or-book-intermediate.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-wool-beds-banners-paintings-and-books/wool-paper-or-book-intermediate.png",
+          "label": "wool paper or book intermediate"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/wool_paper_or_book_intermediate_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-wool-beds-banners-paintings-and-books/wool-paper-or-book-intermediate-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-wool-beds-banners-paintings-and-books/wool-paper-or-book-intermediate-focus-crop.png",
+          "label": "wool paper or book intermediate"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/final_decor_fabric_craft.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-wool-beds-banners-paintings-and-books/final-decor-fabric-craft.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-wool-beds-banners-paintings-and-books/final-decor-fabric-craft.png",
+          "label": "final decor/fabric craft"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/final_decor_fabric_craft_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-wool-beds-banners-paintings-and-books/final-decor-fabric-craft-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-wool-beds-banners-paintings-and-books/final-decor-fabric-craft-focus-crop.png",
+          "label": "final decor/fabric craft"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/decor_fabric_verified.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-wool-beds-banners-paintings-and-books/decor-fabric-verified.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-wool-beds-banners-paintings-and-books/decor-fabric-verified.png",
+          "label": "decor/fabric verified"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/decor_fabric_verified_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-wool-beds-banners-paintings-and-books/decor-fabric-verified-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-wool-beds-banners-paintings-and-books/decor-fabric-verified-focus-crop.png",
+          "label": "decor/fabric verified"
+        }
+      ],
+      "completenessScore": 20
+    },
+    {
+      "id": "MINECRAFT_Craft_Workstations_Storage_And_Utility_Blocks",
+      "name": "Craft Workstations, Storage, and Utility Blocks",
+      "description": "Craft and use utility blocks such as furnace, crafting table, chest, barrel, smoker, blast furnace, grindstone, stonecutter, composter, torch, ladder, campfire, and lantern.",
+      "domain": "vab_minecraft",
+      "domainLabel": "VAB-Minecraft",
+      "platformId": "vab_minecraft",
+      "platform": "VAB-Minecraft",
+      "category": "Game-Based Tasks",
+      "sourcePath": "vab_minecraft/MINECRAFT_Craft_Workstations_Storage_And_Utility_Blocks",
+      "imageCount": 6,
+      "stateCardCount": 0,
+      "runtimeCardCount": 3,
+      "planStepCount": 0,
+      "tags": [
+        "minecraft",
+        "crafting",
+        "game"
+      ],
+      "overview": "Craft and use utility blocks such as furnace, crafting table, chest, barrel, smoker, blast furnace, grindstone, stonecutter, composter, torch, ladder, campfire, and lantern.",
+      "applicability": [
+        "The target is a workstation, storage block, light source, ladder, campfire, or recipe utility block.",
+        "A later recipe requires a utility block before smelt/craft can proceed."
+      ],
+      "failureModes": [
+        "Stopping after crafting a prerequisite utility when the task target is still missing.",
+        "Confusing smoker, furnace, and blast_furnace recipes."
+      ],
+      "skillMarkdown": "# Craft Workstations, Storage, and Utility Blocks\n\n## When This Skill Applies\n\n- The target is a workstation, storage block, light source, ladder, campfire, or recipe utility block.\n- A later recipe requires a utility block before smelt/craft can proceed.\n\n## When Not To Use\n\n- Do not use for pure structural variants such as stairs, slabs, walls, doors, or fences.\n\n## Minecraft Action Pattern\n\n- resolve missing primitive material\n- craft the utility block by exact item name\n- use the utility block only if the next operation explicitly depends on it\n\n## Procedure\n\n1. Identify whether the utility block is the final target or only a prerequisite.\n2. Collect wood, cobblestone, iron, coal, or other components before crafting the utility.\n3. Craft the exact utility item, preserving variants such as blast_furnace versus furnace.\n4. After crafting a prerequisite, immediately hand off to smelt/craft/verify instead of looping on setup.\n\n## Visual State Card Usage\n\nVisual state cards for runtime use live in `runtime_state_cards.json`.\n\nLoad only the state whose screenshot and text match the current Minecraft situation. Do not load all images by default. Red boxes indicate action targets or action-relevant regions. Green boxes indicate verification cues. Coordinates, terrain layout, visible item names, and exact counts are examples only.\n\nImage references in this package:\n  - `Images/utility_dependency_choice.png`\n  - `Images/utility_dependency_choice_focus_crop.png`\n  - `Images/utility_materials_ready.png`\n  - `Images/utility_materials_ready_focus_crop.png`\n  - `Images/utility_block_crafted.png`\n  - `Images/utility_block_crafted_focus_crop.png`\n\n## Result Verification Cues\n\n- Feedback names the exact utility block requested.\n- If the utility is a prerequisite, the next dependency can now be executed.\n\n## Visual Transfer Limits\n\n- Do not infer placement coordinates from the example screenshots.\n\n## Common Failure Modes\n\n- Stopping after crafting a prerequisite utility when the task target is still missing.\n- Confusing smoker, furnace, and blast_furnace recipes.\n",
+      "runtimeStates": [
+        {
+          "stateId": "utility_dependency_choice",
+          "stateName": "utility dependency choice",
+          "stage": "entry_state",
+          "imageRole": "state_cue",
+          "whenToUse": "Use when deciding whether a workstation or storage block is required before the main target.",
+          "whenNotToUse": "Do not use when the next item is a shape variant like slab or fence.",
+          "visibleCues": [
+            "The card cues utility-block dependency reasoning rather than world navigation."
+          ],
+          "verificationCue": "The branch should name the utility block and whether it is final or prerequisite.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/utility_dependency_choice.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-workstations-storage-and-utility-blocks/utility-dependency-choice.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-workstations-storage-and-utility-blocks/utility-dependency-choice.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "utility dependency choice"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/utility_dependency_choice_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-workstations-storage-and-utility-blocks/utility-dependency-choice-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-workstations-storage-and-utility-blocks/utility-dependency-choice-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "utility dependency choice"
+            }
+          ]
+        },
+        {
+          "stateId": "utility_materials_ready",
+          "stateName": "utility materials ready",
+          "stage": "operation_state",
+          "imageRole": "action_target",
+          "whenToUse": "Use when wood, cobblestone, iron, coal, or stone ingredients are ready for utility crafting.",
+          "whenNotToUse": "Do not use when the missing component still needs mining or chopping.",
+          "visibleCues": [
+            "Hotbar/material feedback region is the transferable evidence."
+          ],
+          "verificationCue": "The next call should be craft(exact_utility).",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/utility_materials_ready.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-workstations-storage-and-utility-blocks/utility-materials-ready.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-workstations-storage-and-utility-blocks/utility-materials-ready.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "utility materials ready"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/utility_materials_ready_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-workstations-storage-and-utility-blocks/utility-materials-ready-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-workstations-storage-and-utility-blocks/utility-materials-ready-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "utility materials ready"
+            }
+          ]
+        },
+        {
+          "stateId": "utility_block_crafted",
+          "stateName": "utility block crafted",
+          "stage": "verification_state",
+          "imageRole": "verification_cue",
+          "whenToUse": "Use after crafting to decide whether to stop or continue to the dependent recipe.",
+          "whenNotToUse": "Do not accept a base ingredient as utility completion.",
+          "visibleCues": [
+            "Green HUD cue indicates exact item verification."
+          ],
+          "verificationCue": "Inventory feedback contains the exact utility block.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/utility_block_crafted.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-workstations-storage-and-utility-blocks/utility-block-crafted.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-workstations-storage-and-utility-blocks/utility-block-crafted.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "utility block crafted"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/utility_block_crafted_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-workstations-storage-and-utility-blocks/utility-block-crafted-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-workstations-storage-and-utility-blocks/utility-block-crafted-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "utility block crafted"
+            }
+          ]
+        }
+      ],
+      "imageReferences": [
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/utility_dependency_choice.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-workstations-storage-and-utility-blocks/utility-dependency-choice.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-workstations-storage-and-utility-blocks/utility-dependency-choice.png",
+          "label": "utility dependency choice"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/utility_dependency_choice_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-workstations-storage-and-utility-blocks/utility-dependency-choice-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-workstations-storage-and-utility-blocks/utility-dependency-choice-focus-crop.png",
+          "label": "utility dependency choice"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/utility_materials_ready.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-workstations-storage-and-utility-blocks/utility-materials-ready.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-workstations-storage-and-utility-blocks/utility-materials-ready.png",
+          "label": "utility materials ready"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/utility_materials_ready_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-workstations-storage-and-utility-blocks/utility-materials-ready-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-workstations-storage-and-utility-blocks/utility-materials-ready-focus-crop.png",
+          "label": "utility materials ready"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/utility_block_crafted.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-workstations-storage-and-utility-blocks/utility-block-crafted.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-workstations-storage-and-utility-blocks/utility-block-crafted.png",
+          "label": "utility block crafted"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/utility_block_crafted_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-craft-workstations-storage-and-utility-blocks/utility-block-crafted-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-craft-workstations-storage-and-utility-blocks/utility-block-crafted-focus-crop.png",
+          "label": "utility block crafted"
+        }
+      ],
+      "completenessScore": 15
+    },
+    {
+      "id": "MINECRAFT_Ender_Brewing_Beacon_Chains",
+      "name": "Handle Ender, Brewing, and Beacon Chains",
+      "description": "Use preloaded or spawned special materials to craft blaze_powder, ender_eye, ender_chest, brewing_stand, beacon, and obsidian/glass/nether_star chains.",
+      "domain": "vab_minecraft",
+      "domainLabel": "VAB-Minecraft",
+      "platformId": "vab_minecraft",
+      "platform": "VAB-Minecraft",
+      "category": "Game-Based Tasks",
+      "sourcePath": "vab_minecraft/MINECRAFT_Ender_Brewing_Beacon_Chains",
+      "imageCount": 8,
+      "stateCardCount": 0,
+      "runtimeCardCount": 4,
+      "planStepCount": 0,
+      "tags": [
+        "minecraft",
+        "crafting",
+        "game"
+      ],
+      "overview": "Use preloaded or spawned special materials to craft blaze_powder, ender_eye, ender_chest, brewing_stand, beacon, and obsidian/glass/nether_star chains.",
+      "applicability": [
+        "The target involves blaze_powder, blaze_rod, ender_pearl, ender_eye, ender_chest, brewing_stand, beacon, obsidian, glass, or nether_star."
+      ],
+      "failureModes": [
+        "Searching for rare materials already in init_inventory.",
+        "Stopping at blaze_powder when ender_eye is target.",
+        "Missing glass/obsidian for beacon/ender_chest."
+      ],
+      "skillMarkdown": "# Handle Ender, Brewing, and Beacon Chains\n\n## When This Skill Applies\n\n- The target involves blaze_powder, blaze_rod, ender_pearl, ender_eye, ender_chest, brewing_stand, beacon, obsidian, glass, or nether_star.\n\n## When Not To Use\n\n- Do not use for netherite_ingot/scrap unless ender/brewing/beacon chain is also involved.\n\n## Minecraft Action Pattern\n\n- check init inventory first\n- convert blaze/ender materials\n- collect spawned rare drop if needed\n- craft exact special target\n\n## Procedure\n\n1. Read init_inventory before searching; special tests often preload rare materials.\n2. Convert blaze_rod to blaze_powder before ender_eye or brewing chains.\n3. Use ender_pearl with blaze_powder for ender_eye; add obsidian/chest for ender_chest route.\n4. For beacon, combine nether_star, obsidian, and glass prerequisites without searching for Wither if nether_star is preloaded.\n\n## Visual State Card Usage\n\nVisual state cards for runtime use live in `runtime_state_cards.json`.\n\nLoad only the state whose screenshot and text match the current Minecraft situation. Do not load all images by default. Red boxes indicate action targets or action-relevant regions. Green boxes indicate verification cues. Coordinates, terrain layout, visible item names, and exact counts are examples only.\n\nImage references in this package:\n  - `Images/special_inventory_first_check.png`\n  - `Images/special_inventory_first_check_focus_crop.png`\n  - `Images/blaze_ender_conversion.png`\n  - `Images/blaze_ender_conversion_focus_crop.png`\n  - `Images/beacon_or_ender_container_craft.png`\n  - `Images/beacon_or_ender_container_craft_focus_crop.png`\n  - `Images/ender_brewing_beacon_verified.png`\n  - `Images/ender_brewing_beacon_verified_focus_crop.png`\n\n## Result Verification Cues\n\n- Inventory feedback contains the exact special target.\n\n## Visual Transfer Limits\n\n- Visual evidence is often proxy HUD/material state because special mobs/worlds are sparse in training data.\n\n## Common Failure Modes\n\n- Searching for rare materials already in init_inventory.\n- Stopping at blaze_powder when ender_eye is target.\n- Missing glass/obsidian for beacon/ender_chest.\n",
+      "runtimeStates": [
+        {
+          "stateId": "special_inventory_first_check",
+          "stateName": "special inventory first check",
+          "stage": "entry_state",
+          "imageRole": "state_cue",
+          "whenToUse": "Use before searching for rare Ender/Brewing/Beacon materials.",
+          "whenNotToUse": "Do not use for ordinary overworld resources.",
+          "visibleCues": [
+            "Hotbar/material cue represents inventory-first reasoning."
+          ],
+          "verificationCue": "The branch should identify preloaded rare inputs.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/special_inventory_first_check.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-ender-brewing-beacon-chains/special-inventory-first-check.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-ender-brewing-beacon-chains/special-inventory-first-check.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "special inventory first check"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/special_inventory_first_check_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-ender-brewing-beacon-chains/special-inventory-first-check-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-ender-brewing-beacon-chains/special-inventory-first-check-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "special inventory first check"
+            }
+          ]
+        },
+        {
+          "stateId": "blaze_ender_conversion",
+          "stateName": "blaze and ender conversion",
+          "stage": "operation_state",
+          "imageRole": "action_target",
+          "whenToUse": "Use when converting blaze_rod/powder and ender_pearl into ender/brewing outputs.",
+          "whenNotToUse": "Do not use for netherite chains.",
+          "visibleCues": [
+            "Hotbar/material cue supports special conversion craft."
+          ],
+          "verificationCue": "craft feedback should name blaze_powder, ender_eye, or brewing_stand.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/blaze_ender_conversion.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-ender-brewing-beacon-chains/blaze-ender-conversion.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-ender-brewing-beacon-chains/blaze-ender-conversion.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "blaze and ender conversion"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/blaze_ender_conversion_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-ender-brewing-beacon-chains/blaze-ender-conversion-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-ender-brewing-beacon-chains/blaze-ender-conversion-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "blaze and ender conversion"
+            }
+          ]
+        },
+        {
+          "stateId": "beacon_or_ender_container_craft",
+          "stateName": "beacon or ender container craft",
+          "stage": "operation_state",
+          "imageRole": "action_target",
+          "whenToUse": "Use when obsidian/glass/nether_star/chest special container components are ready.",
+          "whenNotToUse": "Do not use while core special components are missing.",
+          "visibleCues": [
+            "Hotbar/material cue supports final special craft readiness."
+          ],
+          "verificationCue": "craft feedback should name beacon or ender_chest.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/beacon_or_ender_container_craft.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-ender-brewing-beacon-chains/beacon-or-ender-container-craft.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-ender-brewing-beacon-chains/beacon-or-ender-container-craft.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "beacon or ender container craft"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/beacon_or_ender_container_craft_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-ender-brewing-beacon-chains/beacon-or-ender-container-craft-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-ender-brewing-beacon-chains/beacon-or-ender-container-craft-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "beacon or ender container craft"
+            }
+          ]
+        },
+        {
+          "stateId": "ender_brewing_beacon_verified",
+          "stateName": "ender brewing beacon verified",
+          "stage": "verification_state",
+          "imageRole": "verification_cue",
+          "whenToUse": "Use before ending Ender/Brewing/Beacon tasks.",
+          "whenNotToUse": "Do not accept only an intermediate special material.",
+          "visibleCues": [
+            "Green HUD cue supports final special-item verification."
+          ],
+          "verificationCue": "Inventory contains requested special item.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/ender_brewing_beacon_verified.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-ender-brewing-beacon-chains/ender-brewing-beacon-verified.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-ender-brewing-beacon-chains/ender-brewing-beacon-verified.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "ender brewing beacon verified"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/ender_brewing_beacon_verified_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-ender-brewing-beacon-chains/ender-brewing-beacon-verified-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-ender-brewing-beacon-chains/ender-brewing-beacon-verified-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "ender brewing beacon verified"
+            }
+          ]
+        }
+      ],
+      "imageReferences": [
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/special_inventory_first_check.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-ender-brewing-beacon-chains/special-inventory-first-check.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-ender-brewing-beacon-chains/special-inventory-first-check.png",
+          "label": "special inventory first check"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/special_inventory_first_check_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-ender-brewing-beacon-chains/special-inventory-first-check-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-ender-brewing-beacon-chains/special-inventory-first-check-focus-crop.png",
+          "label": "special inventory first check"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/blaze_ender_conversion.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-ender-brewing-beacon-chains/blaze-ender-conversion.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-ender-brewing-beacon-chains/blaze-ender-conversion.png",
+          "label": "blaze and ender conversion"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/blaze_ender_conversion_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-ender-brewing-beacon-chains/blaze-ender-conversion-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-ender-brewing-beacon-chains/blaze-ender-conversion-focus-crop.png",
+          "label": "blaze and ender conversion"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/beacon_or_ender_container_craft.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-ender-brewing-beacon-chains/beacon-or-ender-container-craft.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-ender-brewing-beacon-chains/beacon-or-ender-container-craft.png",
+          "label": "beacon or ender container craft"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/beacon_or_ender_container_craft_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-ender-brewing-beacon-chains/beacon-or-ender-container-craft-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-ender-brewing-beacon-chains/beacon-or-ender-container-craft-focus-crop.png",
+          "label": "beacon or ender container craft"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/ender_brewing_beacon_verified.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-ender-brewing-beacon-chains/ender-brewing-beacon-verified.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-ender-brewing-beacon-chains/ender-brewing-beacon-verified.png",
+          "label": "ender brewing beacon verified"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/ender_brewing_beacon_verified_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-ender-brewing-beacon-chains/ender-brewing-beacon-verified-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-ender-brewing-beacon-chains/ender-brewing-beacon-verified-focus-crop.png",
+          "label": "ender brewing beacon verified"
+        }
+      ],
+      "completenessScore": 20
+    },
+    {
+      "id": "MINECRAFT_Farm_Hostile_And_Rare_Mob_Drops",
+      "name": "Farm Hostile and Rare Mob Drops",
+      "description": "Obtain string, spider_eye, bone, gunpowder, slime_ball, shulker_shell, ender_pearl, and similar hostile or rare spawned drops.",
+      "domain": "vab_minecraft",
+      "domainLabel": "VAB-Minecraft",
+      "platformId": "vab_minecraft",
+      "platform": "VAB-Minecraft",
+      "category": "Game-Based Tasks",
+      "sourcePath": "vab_minecraft/MINECRAFT_Farm_Hostile_And_Rare_Mob_Drops",
+      "imageCount": 6,
+      "stateCardCount": 0,
+      "runtimeCardCount": 3,
+      "planStepCount": 0,
+      "tags": [
+        "minecraft",
+        "crafting",
+        "game"
+      ],
+      "overview": "Obtain string, spider_eye, bone, gunpowder, slime_ball, shulker_shell, ender_pearl, and similar hostile or rare spawned drops.",
+      "applicability": [
+        "The target or dependency is a hostile/rare mob drop or a recipe component sourced from those mobs."
+      ],
+      "failureModes": [
+        "Searching generically when init_command spawned the mob.",
+        "Crafting derivative before the drop exists."
+      ],
+      "skillMarkdown": "# Farm Hostile and Rare Mob Drops\n\n## When This Skill Applies\n\n- The target or dependency is a hostile/rare mob drop or a recipe component sourced from those mobs.\n\n## When Not To Use\n\n- Do not use for passive food/animal products unless they are only secondary dependencies.\n\n## Minecraft Action Pattern\n\n- identify spawned mob/drop\n- equip weapon if needed\n- execute concrete kill/interact prompt\n- verify drop before crafting derivative\n\n## Procedure\n\n1. Use target and init_command to infer the exact mob/drop pair.\n2. Prefer spawned entities over broad biome searching.\n3. Equip a weapon when repeated combat attempts fail.\n4. Verify the drop before crafting bow, crossbow, dispenser, sticky_piston, or ender chains.\n\n## Visual State Card Usage\n\nVisual state cards for runtime use live in `runtime_state_cards.json`.\n\nLoad only the state whose screenshot and text match the current Minecraft situation. Do not load all images by default. Red boxes indicate action targets or action-relevant regions. Green boxes indicate verification cues. Coordinates, terrain layout, visible item names, and exact counts are examples only.\n\nImage references in this package:\n  - `Images/hostile_drop_pair_choice.png`\n  - `Images/hostile_drop_pair_choice_focus_crop.png`\n  - `Images/hostile_combat_execute.png`\n  - `Images/hostile_combat_execute_focus_crop.png`\n  - `Images/rare_drop_verified.png`\n  - `Images/rare_drop_verified_focus_crop.png`\n\n## Result Verification Cues\n\n- Inventory feedback contains the exact hostile/rare drop.\n\n## Visual Transfer Limits\n\n- Some rare mobs are sparsely represented in training images; action semantics carry the transfer.\n\n## Common Failure Modes\n\n- Searching generically when init_command spawned the mob.\n- Crafting derivative before the drop exists.\n",
+      "runtimeStates": [
+        {
+          "stateId": "hostile_drop_pair_choice",
+          "stateName": "hostile drop pair choice",
+          "stage": "entry_state",
+          "imageRole": "state_cue",
+          "whenToUse": "Use when selecting the mob source for a hostile or rare drop.",
+          "whenNotToUse": "Do not use for passive mob food products.",
+          "visibleCues": [
+            "The card cues mob/drop mapping from target and init_command."
+          ],
+          "verificationCue": "The branch should state mob, drop, and count.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/hostile_drop_pair_choice.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-farm-hostile-and-rare-mob-drops/hostile-drop-pair-choice.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-farm-hostile-and-rare-mob-drops/hostile-drop-pair-choice.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "hostile drop pair choice"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/hostile_drop_pair_choice_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-farm-hostile-and-rare-mob-drops/hostile-drop-pair-choice-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-farm-hostile-and-rare-mob-drops/hostile-drop-pair-choice-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "hostile drop pair choice"
+            }
+          ]
+        },
+        {
+          "stateId": "hostile_combat_execute",
+          "stateName": "hostile combat execute",
+          "stage": "operation_state",
+          "imageRole": "action_target",
+          "whenToUse": "Use when the next action should kill or interact with the hostile/rare mob.",
+          "whenNotToUse": "Do not use once enough drop count exists.",
+          "visibleCues": [
+            "Red scene region marks combat/search context."
+          ],
+          "verificationCue": "execute feedback should show drop progress.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/hostile_combat_execute.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-farm-hostile-and-rare-mob-drops/hostile-combat-execute.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-farm-hostile-and-rare-mob-drops/hostile-combat-execute.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "hostile combat execute"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/hostile_combat_execute_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-farm-hostile-and-rare-mob-drops/hostile-combat-execute-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-farm-hostile-and-rare-mob-drops/hostile-combat-execute-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "hostile combat execute"
+            }
+          ]
+        },
+        {
+          "stateId": "rare_drop_verified",
+          "stateName": "rare drop verified",
+          "stage": "verification_state",
+          "imageRole": "verification_cue",
+          "whenToUse": "Use before crafting derivatives from rare/hostile drops.",
+          "whenNotToUse": "Do not accept a derivative if the current target is raw drop.",
+          "visibleCues": [
+            "Green HUD cue supports exact drop verification."
+          ],
+          "verificationCue": "Inventory contains the required drop.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/rare_drop_verified.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-farm-hostile-and-rare-mob-drops/rare-drop-verified.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-farm-hostile-and-rare-mob-drops/rare-drop-verified.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "rare drop verified"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/rare_drop_verified_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-farm-hostile-and-rare-mob-drops/rare-drop-verified-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-farm-hostile-and-rare-mob-drops/rare-drop-verified-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "rare drop verified"
+            }
+          ]
+        }
+      ],
+      "imageReferences": [
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/hostile_drop_pair_choice.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-farm-hostile-and-rare-mob-drops/hostile-drop-pair-choice.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-farm-hostile-and-rare-mob-drops/hostile-drop-pair-choice.png",
+          "label": "hostile drop pair choice"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/hostile_drop_pair_choice_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-farm-hostile-and-rare-mob-drops/hostile-drop-pair-choice-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-farm-hostile-and-rare-mob-drops/hostile-drop-pair-choice-focus-crop.png",
+          "label": "hostile drop pair choice"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/hostile_combat_execute.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-farm-hostile-and-rare-mob-drops/hostile-combat-execute.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-farm-hostile-and-rare-mob-drops/hostile-combat-execute.png",
+          "label": "hostile combat execute"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/hostile_combat_execute_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-farm-hostile-and-rare-mob-drops/hostile-combat-execute-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-farm-hostile-and-rare-mob-drops/hostile-combat-execute-focus-crop.png",
+          "label": "hostile combat execute"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/rare_drop_verified.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-farm-hostile-and-rare-mob-drops/rare-drop-verified.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-farm-hostile-and-rare-mob-drops/rare-drop-verified.png",
+          "label": "rare drop verified"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/rare_drop_verified_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-farm-hostile-and-rare-mob-drops/rare-drop-verified-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-farm-hostile-and-rare-mob-drops/rare-drop-verified-focus-crop.png",
+          "label": "rare drop verified"
+        }
+      ],
+      "completenessScore": 15
+    },
+    {
+      "id": "MINECRAFT_Gather_Crops_Sugar_Cane_Bamboo_And_Kelp",
+      "name": "Gather Crops, Sugar Cane, Bamboo, and Kelp",
+      "description": "Collect plant/crop resources and route them into sugar, paper, bread, baked potato, carrot, bamboo, kelp, dried_kelp, and dried_kelp_block chains.",
+      "domain": "vab_minecraft",
+      "domainLabel": "VAB-Minecraft",
+      "platformId": "vab_minecraft",
+      "platform": "VAB-Minecraft",
+      "category": "Game-Based Tasks",
+      "sourcePath": "vab_minecraft/MINECRAFT_Gather_Crops_Sugar_Cane_Bamboo_And_Kelp",
+      "imageCount": 7,
+      "stateCardCount": 0,
+      "runtimeCardCount": 3,
+      "planStepCount": 0,
+      "tags": [
+        "minecraft",
+        "crafting",
+        "game"
+      ],
+      "overview": "Collect plant/crop resources and route them into sugar, paper, bread, baked potato, carrot, bamboo, kelp, dried_kelp, and dried_kelp_block chains.",
+      "applicability": [
+        "The target or dependency is a crop, cane, bamboo, kelp, or a food/paper derivative from plants."
+      ],
+      "failureModes": [
+        "Crafting sugar before collecting sugar_cane.",
+        "Stopping at raw kelp when dried_kelp_block is requested."
+      ],
+      "skillMarkdown": "# Gather Crops, Sugar Cane, Bamboo, and Kelp\n\n## When This Skill Applies\n\n- The target or dependency is a crop, cane, bamboo, kelp, or a food/paper derivative from plants.\n\n## When Not To Use\n\n- Do not use for flowers whose main purpose is dye; use the dye skill.\n\n## Minecraft Action Pattern\n\n- search near spawn/waterline if needed\n- execute collect exact plant\n- smelt/craft derivative after raw plant exists\n\n## Procedure\n\n1. Use init_command/env hints to decide whether the crop was spawned near start.\n2. Collect the concrete plant item first.\n3. Convert sugar cane to sugar/paper, wheat to bread, potato to baked_potato, and kelp to dried forms as required.\n4. Verify raw versus processed target distinction.\n\n## Visual State Card Usage\n\nVisual state cards for runtime use live in `runtime_state_cards.json`.\n\nLoad only the state whose screenshot and text match the current Minecraft situation. Do not load all images by default. Red boxes indicate action targets or action-relevant regions. Green boxes indicate verification cues. Coordinates, terrain layout, visible item names, and exact counts are examples only.\n\nImage references in this package:\n  - `Images/crop_source_from_spawn_or_water.png`\n  - `Images/crop_source_from_spawn_or_water_focus_crop.png`\n  - `Images/crop_harvest_action.png`\n  - `Images/crop_harvest_action_focus_crop.png`\n  - `Images/plant_derivative_ready.png`\n  - `Images/plant_derivative_ready_focus_crop.png`\n\n## Result Verification Cues\n\n- Inventory contains the raw plant or processed plant-derived target required.\n\n## Visual Transfer Limits\n\n- Plant location in screenshots is only an example; spawn commands may place resources elsewhere.\n\n## Common Failure Modes\n\n- Crafting sugar before collecting sugar_cane.\n- Stopping at raw kelp when dried_kelp_block is requested.\n",
+      "runtimeStates": [
+        {
+          "stateId": "crop_source_from_spawn_or_water",
+          "stateName": "crop source from spawn or water",
+          "stage": "entry_state",
+          "imageRole": "state_cue",
+          "whenToUse": "Use when a crop/plant resource is likely placed by init_command or near water.",
+          "whenNotToUse": "Do not use for flowers/dyes or mob drops.",
+          "visibleCues": [
+            "Outdoor/waterline context supports local crop search."
+          ],
+          "verificationCue": "The branch should name the concrete plant to collect.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/crop_source_from_spawn_or_water.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-gather-crops-sugar-cane-bamboo-and-kelp/crop-source-from-spawn-or-water.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-gather-crops-sugar-cane-bamboo-and-kelp/crop-source-from-spawn-or-water.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "crop source from spawn or water"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/crop_source_from_spawn_or_water_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-gather-crops-sugar-cane-bamboo-and-kelp/crop-source-from-spawn-or-water-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-gather-crops-sugar-cane-bamboo-and-kelp/crop-source-from-spawn-or-water-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "crop source from spawn or water"
+            }
+          ]
+        },
+        {
+          "stateId": "crop_harvest_action",
+          "stateName": "crop harvest action",
+          "stage": "operation_state",
+          "imageRole": "action_target",
+          "whenToUse": "Use when execute should collect the raw crop/plant.",
+          "whenNotToUse": "Do not use after raw material is already enough.",
+          "visibleCues": [
+            "Red scene region marks harvest/search context."
+          ],
+          "verificationCue": "execute feedback should report plant/crop collection.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop",
+            "before"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/crop_harvest_action.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-gather-crops-sugar-cane-bamboo-and-kelp/crop-harvest-action.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-gather-crops-sugar-cane-bamboo-and-kelp/crop-harvest-action.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "crop harvest action"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/crop_harvest_action_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-gather-crops-sugar-cane-bamboo-and-kelp/crop-harvest-action-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-gather-crops-sugar-cane-bamboo-and-kelp/crop-harvest-action-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "crop harvest action"
+            },
+            {
+              "viewType": "before",
+              "imagePath": "Images/crop_harvest_action_before.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-gather-crops-sugar-cane-bamboo-and-kelp/crop-harvest-action-before.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-gather-crops-sugar-cane-bamboo-and-kelp/crop-harvest-action-before.png",
+              "useFor": "compare_precondition_context",
+              "label": "crop harvest action"
+            }
+          ]
+        },
+        {
+          "stateId": "plant_derivative_ready",
+          "stateName": "plant derivative ready",
+          "stage": "verification_state",
+          "imageRole": "verification_cue",
+          "whenToUse": "Use when deciding whether to craft/smelt plant derivatives or finish.",
+          "whenNotToUse": "Do not accept raw plant if processed target remains.",
+          "visibleCues": [
+            "Green HUD cue supports raw/processed plant verification."
+          ],
+          "verificationCue": "Inventory contains the target plant derivative or enough raw input for it.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/plant_derivative_ready.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-gather-crops-sugar-cane-bamboo-and-kelp/plant-derivative-ready.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-gather-crops-sugar-cane-bamboo-and-kelp/plant-derivative-ready.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "plant derivative ready"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/plant_derivative_ready_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-gather-crops-sugar-cane-bamboo-and-kelp/plant-derivative-ready-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-gather-crops-sugar-cane-bamboo-and-kelp/plant-derivative-ready-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "plant derivative ready"
+            }
+          ]
+        }
+      ],
+      "imageReferences": [
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/crop_source_from_spawn_or_water.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-gather-crops-sugar-cane-bamboo-and-kelp/crop-source-from-spawn-or-water.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-gather-crops-sugar-cane-bamboo-and-kelp/crop-source-from-spawn-or-water.png",
+          "label": "crop source from spawn or water"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/crop_source_from_spawn_or_water_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-gather-crops-sugar-cane-bamboo-and-kelp/crop-source-from-spawn-or-water-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-gather-crops-sugar-cane-bamboo-and-kelp/crop-source-from-spawn-or-water-focus-crop.png",
+          "label": "crop source from spawn or water"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/crop_harvest_action.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-gather-crops-sugar-cane-bamboo-and-kelp/crop-harvest-action.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-gather-crops-sugar-cane-bamboo-and-kelp/crop-harvest-action.png",
+          "label": "crop harvest action"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/crop_harvest_action_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-gather-crops-sugar-cane-bamboo-and-kelp/crop-harvest-action-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-gather-crops-sugar-cane-bamboo-and-kelp/crop-harvest-action-focus-crop.png",
+          "label": "crop harvest action"
+        },
+        {
+          "viewType": "before",
+          "imagePath": "Images/crop_harvest_action_before.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-gather-crops-sugar-cane-bamboo-and-kelp/crop-harvest-action-before.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-gather-crops-sugar-cane-bamboo-and-kelp/crop-harvest-action-before.png",
+          "label": "crop harvest action"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/plant_derivative_ready.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-gather-crops-sugar-cane-bamboo-and-kelp/plant-derivative-ready.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-gather-crops-sugar-cane-bamboo-and-kelp/plant-derivative-ready.png",
+          "label": "plant derivative ready"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/plant_derivative_ready_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-gather-crops-sugar-cane-bamboo-and-kelp/plant-derivative-ready-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-gather-crops-sugar-cane-bamboo-and-kelp/plant-derivative-ready-focus-crop.png",
+          "label": "plant derivative ready"
+        }
+      ],
+      "completenessScore": 16
+    },
+    {
+      "id": "MINECRAFT_Gather_Flowers_And_Craft_Dyes",
+      "name": "Gather Flowers and Craft Dyes",
+      "description": "Collect flowers and bone/ink-derived materials, then craft exact dyes such as white, light gray, gray, black, red, orange, pink, and bone meal.",
+      "domain": "vab_minecraft",
+      "domainLabel": "VAB-Minecraft",
+      "platformId": "vab_minecraft",
+      "platform": "VAB-Minecraft",
+      "category": "Game-Based Tasks",
+      "sourcePath": "vab_minecraft/MINECRAFT_Gather_Flowers_And_Craft_Dyes",
+      "imageCount": 8,
+      "stateCardCount": 0,
+      "runtimeCardCount": 3,
+      "planStepCount": 0,
+      "tags": [
+        "minecraft",
+        "crafting",
+        "game"
+      ],
+      "overview": "Collect flowers and bone/ink-derived materials, then craft exact dyes such as white, light gray, gray, black, red, orange, pink, and bone meal.",
+      "applicability": [
+        "The target or dependency is a flower, dye, bone_meal, bone_block, or color source."
+      ],
+      "failureModes": [
+        "Using white_dye for light_gray_dye without the missing mixing step.",
+        "Stopping at flower source when dye is the final target."
+      ],
+      "skillMarkdown": "# Gather Flowers and Craft Dyes\n\n## When This Skill Applies\n\n- The target or dependency is a flower, dye, bone_meal, bone_block, or color source.\n\n## When Not To Use\n\n- Do not use for wool/bed/banner final assembly after dye and wool are ready.\n\n## Minecraft Action Pattern\n\n- choose flower/drop source\n- execute collect source or craft bone_meal\n- craft exact dye color\n- verify exact color name\n\n## Procedure\n\n1. Resolve the exact color target; similar colors are not interchangeable.\n2. Collect the flower or mob drop source for that dye.\n3. Craft intermediate bone_meal/black_dye/white_dye where required.\n4. Verify exact dye color before handing off to wool/decor.\n\n## Visual State Card Usage\n\nVisual state cards for runtime use live in `runtime_state_cards.json`.\n\nLoad only the state whose screenshot and text match the current Minecraft situation. Do not load all images by default. Red boxes indicate action targets or action-relevant regions. Green boxes indicate verification cues. Coordinates, terrain layout, visible item names, and exact counts are examples only.\n\nImage references in this package:\n  - `Images/dye_color_source_decision.png`\n  - `Images/dye_color_source_decision_focus_crop.png`\n  - `Images/flower_or_bone_collection.png`\n  - `Images/flower_or_bone_collection_focus_crop.png`\n  - `Images/exact_dye_crafted.png`\n  - `Images/exact_dye_crafted_focus_crop.png`\n\n## Result Verification Cues\n\n- Inventory feedback contains the exact dye or color source requested.\n\n## Visual Transfer Limits\n\n- Flower colors in screenshots are examples only; use target name and recipe feedback.\n\n## Common Failure Modes\n\n- Using white_dye for light_gray_dye without the missing mixing step.\n- Stopping at flower source when dye is the final target.\n",
+      "runtimeStates": [
+        {
+          "stateId": "dye_color_source_decision",
+          "stateName": "dye color source decision",
+          "stage": "entry_state",
+          "imageRole": "state_cue",
+          "whenToUse": "Use when choosing the correct flower, bone, ink, or mixing route for a dye.",
+          "whenNotToUse": "Do not use for non-colored resources.",
+          "visibleCues": [
+            "The card cues exact color-source reasoning."
+          ],
+          "verificationCue": "The branch should name source material and dye target.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/dye_color_source_decision.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-gather-flowers-and-craft-dyes/dye-color-source-decision.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-gather-flowers-and-craft-dyes/dye-color-source-decision.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "dye color source decision"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/dye_color_source_decision_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-gather-flowers-and-craft-dyes/dye-color-source-decision-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-gather-flowers-and-craft-dyes/dye-color-source-decision-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "dye color source decision"
+            }
+          ]
+        },
+        {
+          "stateId": "flower_or_bone_collection",
+          "stateName": "flower or bone collection",
+          "stage": "operation_state",
+          "imageRole": "action_target",
+          "whenToUse": "Use when collecting flower/bone source before dye craft.",
+          "whenNotToUse": "Do not use after dye materials are present.",
+          "visibleCues": [
+            "Red scene/HUD cue supports source acquisition."
+          ],
+          "verificationCue": "Inventory feedback should contain the source material.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop",
+            "before",
+            "after"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/flower_or_bone_collection.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-gather-flowers-and-craft-dyes/flower-or-bone-collection.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-gather-flowers-and-craft-dyes/flower-or-bone-collection.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "flower or bone collection"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/flower_or_bone_collection_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-gather-flowers-and-craft-dyes/flower-or-bone-collection-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-gather-flowers-and-craft-dyes/flower-or-bone-collection-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "flower or bone collection"
+            },
+            {
+              "viewType": "before",
+              "imagePath": "Images/flower_or_bone_collection_before.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-gather-flowers-and-craft-dyes/flower-or-bone-collection-before.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-gather-flowers-and-craft-dyes/flower-or-bone-collection-before.png",
+              "useFor": "compare_precondition_context",
+              "label": "flower or bone collection"
+            },
+            {
+              "viewType": "after",
+              "imagePath": "Images/flower_or_bone_collection_after.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-gather-flowers-and-craft-dyes/flower-or-bone-collection-after.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-gather-flowers-and-craft-dyes/flower-or-bone-collection-after.png",
+              "useFor": "inspect_outcome_transition",
+              "label": "flower or bone collection"
+            }
+          ]
+        },
+        {
+          "stateId": "exact_dye_crafted",
+          "stateName": "exact dye crafted",
+          "stage": "verification_state",
+          "imageRole": "verification_cue",
+          "whenToUse": "Use before using dye in wool, bed, or decor recipes.",
+          "whenNotToUse": "Do not accept a different color dye.",
+          "visibleCues": [
+            "Green HUD cue supports exact color verification."
+          ],
+          "verificationCue": "Inventory contains the exact dye color.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/exact_dye_crafted.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-gather-flowers-and-craft-dyes/exact-dye-crafted.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-gather-flowers-and-craft-dyes/exact-dye-crafted.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "exact dye crafted"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/exact_dye_crafted_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-gather-flowers-and-craft-dyes/exact-dye-crafted-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-gather-flowers-and-craft-dyes/exact-dye-crafted-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "exact dye crafted"
+            }
+          ]
+        }
+      ],
+      "imageReferences": [
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/dye_color_source_decision.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-gather-flowers-and-craft-dyes/dye-color-source-decision.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-gather-flowers-and-craft-dyes/dye-color-source-decision.png",
+          "label": "dye color source decision"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/dye_color_source_decision_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-gather-flowers-and-craft-dyes/dye-color-source-decision-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-gather-flowers-and-craft-dyes/dye-color-source-decision-focus-crop.png",
+          "label": "dye color source decision"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/flower_or_bone_collection.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-gather-flowers-and-craft-dyes/flower-or-bone-collection.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-gather-flowers-and-craft-dyes/flower-or-bone-collection.png",
+          "label": "flower or bone collection"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/flower_or_bone_collection_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-gather-flowers-and-craft-dyes/flower-or-bone-collection-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-gather-flowers-and-craft-dyes/flower-or-bone-collection-focus-crop.png",
+          "label": "flower or bone collection"
+        },
+        {
+          "viewType": "before",
+          "imagePath": "Images/flower_or_bone_collection_before.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-gather-flowers-and-craft-dyes/flower-or-bone-collection-before.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-gather-flowers-and-craft-dyes/flower-or-bone-collection-before.png",
+          "label": "flower or bone collection"
+        },
+        {
+          "viewType": "after",
+          "imagePath": "Images/flower_or_bone_collection_after.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-gather-flowers-and-craft-dyes/flower-or-bone-collection-after.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-gather-flowers-and-craft-dyes/flower-or-bone-collection-after.png",
+          "label": "flower or bone collection"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/exact_dye_crafted.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-gather-flowers-and-craft-dyes/exact-dye-crafted.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-gather-flowers-and-craft-dyes/exact-dye-crafted.png",
+          "label": "exact dye crafted"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/exact_dye_crafted_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-gather-flowers-and-craft-dyes/exact-dye-crafted-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-gather-flowers-and-craft-dyes/exact-dye-crafted-focus-crop.png",
+          "label": "exact dye crafted"
+        }
+      ],
+      "completenessScore": 17
+    },
+    {
+      "id": "MINECRAFT_Gather_Passive_Mob_Products",
+      "name": "Gather Passive Mob Products",
+      "description": "Collect wool, leather, feather, egg, milk, raw meat, rabbit products, and other passive-mob ingredients through kill, shear, milk, or pickup actions.",
+      "domain": "vab_minecraft",
+      "domainLabel": "VAB-Minecraft",
+      "platformId": "vab_minecraft",
+      "platform": "VAB-Minecraft",
+      "category": "Game-Based Tasks",
+      "sourcePath": "vab_minecraft/MINECRAFT_Gather_Passive_Mob_Products",
+      "imageCount": 6,
+      "stateCardCount": 0,
+      "runtimeCardCount": 3,
+      "planStepCount": 0,
+      "tags": [
+        "minecraft",
+        "crafting",
+        "game"
+      ],
+      "overview": "Collect wool, leather, feather, egg, milk, raw meat, rabbit products, and other passive-mob ingredients through kill, shear, milk, or pickup actions.",
+      "applicability": [
+        "The target or dependency comes from passive mobs such as sheep, cow, chicken, rabbit, or similar spawned animals."
+      ],
+      "failureModes": [
+        "Killing when shearing is required for wool efficiency.",
+        "Trying milk_bucket without a bucket.",
+        "Stopping at raw meat when cooked food is target."
+      ],
+      "skillMarkdown": "# Gather Passive Mob Products\n\n## When This Skill Applies\n\n- The target or dependency comes from passive mobs such as sheep, cow, chicken, rabbit, or similar spawned animals.\n\n## When Not To Use\n\n- Do not use for hostile drops such as gunpowder, spider_eye, slime_ball, or shulker_shell.\n\n## Minecraft Action Pattern\n\n- infer mob source\n- teleport_to_spawn if spawned\n- equip tool/vessel if needed\n- execute concrete mob interaction\n\n## Procedure\n\n1. Map the desired drop to the likely passive mob.\n2. Return to spawn when init_command likely placed the mob there.\n3. Equip shears or bucket before sheep/cow interactions when required.\n4. Collect only the missing drop count before handing off to craft/smelt/verify.\n\n## Visual State Card Usage\n\nVisual state cards for runtime use live in `runtime_state_cards.json`.\n\nLoad only the state whose screenshot and text match the current Minecraft situation. Do not load all images by default. Red boxes indicate action targets or action-relevant regions. Green boxes indicate verification cues. Coordinates, terrain layout, visible item names, and exact counts are examples only.\n\nImage references in this package:\n  - `Images/passive_drop_source_choice.png`\n  - `Images/passive_drop_source_choice_focus_crop.png`\n  - `Images/passive_mob_interaction.png`\n  - `Images/passive_mob_interaction_focus_crop.png`\n  - `Images/passive_product_ready.png`\n  - `Images/passive_product_ready_focus_crop.png`\n\n## Result Verification Cues\n\n- Inventory feedback contains the passive-mob drop or ingredient.\n\n## Visual Transfer Limits\n\n- Animal placement and species visibility vary; use images as interaction-state examples.\n\n## Common Failure Modes\n\n- Killing when shearing is required for wool efficiency.\n- Trying milk_bucket without a bucket.\n- Stopping at raw meat when cooked food is target.\n",
+      "runtimeStates": [
+        {
+          "stateId": "passive_drop_source_choice",
+          "stateName": "passive drop source choice",
+          "stage": "entry_state",
+          "imageRole": "state_cue",
+          "whenToUse": "Use when mapping target ingredient to passive mob/source.",
+          "whenNotToUse": "Do not use for hostile mob drops or ores.",
+          "visibleCues": [
+            "World-search context plus task target defines the source mob."
+          ],
+          "verificationCue": "The branch should choose mob and interaction type.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/passive_drop_source_choice.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-gather-passive-mob-products/passive-drop-source-choice.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-gather-passive-mob-products/passive-drop-source-choice.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "passive drop source choice"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/passive_drop_source_choice_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-gather-passive-mob-products/passive-drop-source-choice-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-gather-passive-mob-products/passive-drop-source-choice-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "passive drop source choice"
+            }
+          ]
+        },
+        {
+          "stateId": "passive_mob_interaction",
+          "stateName": "passive mob interaction",
+          "stage": "operation_state",
+          "imageRole": "action_target",
+          "whenToUse": "Use when the next action should kill, shear, milk, or collect from passive mob.",
+          "whenNotToUse": "Do not use after enough drop count exists.",
+          "visibleCues": [
+            "Red scene region marks the local interaction/search context."
+          ],
+          "verificationCue": "execute feedback should report the passive drop.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/passive_mob_interaction.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-gather-passive-mob-products/passive-mob-interaction.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-gather-passive-mob-products/passive-mob-interaction.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "passive mob interaction"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/passive_mob_interaction_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-gather-passive-mob-products/passive-mob-interaction-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-gather-passive-mob-products/passive-mob-interaction-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "passive mob interaction"
+            }
+          ]
+        },
+        {
+          "stateId": "passive_product_ready",
+          "stateName": "passive product ready",
+          "stage": "verification_state",
+          "imageRole": "verification_cue",
+          "whenToUse": "Use before crafting/cooking or ending passive-product tasks.",
+          "whenNotToUse": "Do not accept a raw product if the final target is processed.",
+          "visibleCues": [
+            "Green HUD cue supports product count verification."
+          ],
+          "verificationCue": "Inventory contains the required passive product.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/passive_product_ready.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-gather-passive-mob-products/passive-product-ready.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-gather-passive-mob-products/passive-product-ready.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "passive product ready"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/passive_product_ready_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-gather-passive-mob-products/passive-product-ready-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-gather-passive-mob-products/passive-product-ready-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "passive product ready"
+            }
+          ]
+        }
+      ],
+      "imageReferences": [
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/passive_drop_source_choice.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-gather-passive-mob-products/passive-drop-source-choice.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-gather-passive-mob-products/passive-drop-source-choice.png",
+          "label": "passive drop source choice"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/passive_drop_source_choice_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-gather-passive-mob-products/passive-drop-source-choice-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-gather-passive-mob-products/passive-drop-source-choice-focus-crop.png",
+          "label": "passive drop source choice"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/passive_mob_interaction.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-gather-passive-mob-products/passive-mob-interaction.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-gather-passive-mob-products/passive-mob-interaction.png",
+          "label": "passive mob interaction"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/passive_mob_interaction_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-gather-passive-mob-products/passive-mob-interaction-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-gather-passive-mob-products/passive-mob-interaction-focus-crop.png",
+          "label": "passive mob interaction"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/passive_product_ready.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-gather-passive-mob-products/passive-product-ready.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-gather-passive-mob-products/passive-product-ready.png",
+          "label": "passive product ready"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/passive_product_ready_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-gather-passive-mob-products/passive-product-ready-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-gather-passive-mob-products/passive-product-ready-focus-crop.png",
+          "label": "passive product ready"
+        }
+      ],
+      "completenessScore": 15
+    },
+    {
+      "id": "MINECRAFT_Handle_Buckets_Bottles_And_Liquid_Ingredients",
+      "name": "Handle Buckets, Bottles, and Liquid Ingredients",
+      "description": "Manage bucket, milk_bucket, glass, glass_bottle, water, honey_bottle-like vessel chains, and liquid source interactions.",
+      "domain": "vab_minecraft",
+      "domainLabel": "VAB-Minecraft",
+      "platformId": "vab_minecraft",
+      "platform": "VAB-Minecraft",
+      "category": "Game-Based Tasks",
+      "sourcePath": "vab_minecraft/MINECRAFT_Handle_Buckets_Bottles_And_Liquid_Ingredients",
+      "imageCount": 6,
+      "stateCardCount": 0,
+      "runtimeCardCount": 3,
+      "planStepCount": 0,
+      "tags": [
+        "minecraft",
+        "crafting",
+        "game"
+      ],
+      "overview": "Manage bucket, milk_bucket, glass, glass_bottle, water, honey_bottle-like vessel chains, and liquid source interactions.",
+      "applicability": [
+        "The target/dependency involves bucket, milk_bucket, glass_bottle, glass, water, honey_bottle, or a liquid/vessel ingredient."
+      ],
+      "failureModes": [
+        "Trying to collect milk before crafting/equipping bucket.",
+        "Confusing glass with glass_bottle.",
+        "Repeating execute without the required empty vessel."
+      ],
+      "skillMarkdown": "# Handle Buckets, Bottles, and Liquid Ingredients\n\n## When This Skill Applies\n\n- The target/dependency involves bucket, milk_bucket, glass_bottle, glass, water, honey_bottle, or a liquid/vessel ingredient.\n\n## When Not To Use\n\n- Do not use for ordinary smelting after glass is already produced and no vessel/liquid interaction remains.\n\n## Minecraft Action Pattern\n\n- craft bucket or glass_bottle\n- equip bucket/bottle if interaction is needed\n- `execute('milk cow' or collect liquid/source)`\n- verify filled vessel.\n\n## Procedure\n\n1. Resolve whether the task needs an empty vessel or a filled vessel.\n2. For bucket, craft from iron_ingot after smelting ore if needed.\n3. For milk_bucket, equip bucket and use cow/source interaction.\n4. For glass_bottle, smelt glass from sand then craft bottle.\n5. If source was spawned by init_command, search near spawn first.\n\n## Visual State Card Usage\n\nVisual state cards for runtime use live in `runtime_state_cards.json`.\n\nLoad only the state whose screenshot and text match the current Minecraft situation. Do not load all images by default. Red boxes indicate action targets or action-relevant regions. Green boxes indicate verification cues. Coordinates, terrain layout, visible item names, and exact counts are examples only.\n\nImage references in this package:\n  - `Images/empty_vessel_prerequisite.png`\n  - `Images/empty_vessel_prerequisite_focus_crop.png`\n  - `Images/liquid_or_animal_source_interaction.png`\n  - `Images/liquid_or_animal_source_interaction_focus_crop.png`\n  - `Images/filled_vessel_or_bottle_verified.png`\n  - `Images/filled_vessel_or_bottle_verified_focus_crop.png`\n\n## Result Verification Cues\n\n- Inventory feedback distinguishes empty bucket/bottle from filled milk_bucket or other liquid output.\n\n## Visual Transfer Limits\n\n- Current training screenshots do not contain a dedicated bucket UI; use images only as generic inventory/source-state cues.\n\n## Common Failure Modes\n\n- Trying to collect milk before crafting/equipping bucket.\n- Confusing glass with glass_bottle.\n- Repeating execute without the required empty vessel.\n",
+      "runtimeStates": [
+        {
+          "stateId": "empty_vessel_prerequisite",
+          "stateName": "empty vessel prerequisite",
+          "stage": "entry_state",
+          "imageRole": "state_cue",
+          "whenToUse": "Use when a recipe requires an empty bucket or bottle before a filled ingredient can be obtained.",
+          "whenNotToUse": "Do not use when the target is raw ore/sand collection.",
+          "visibleCues": [
+            "Hotbar/material region cues whether vessel materials are ready."
+          ],
+          "verificationCue": "The branch should decide whether to craft bucket, smelt glass, or collect source first.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/empty_vessel_prerequisite.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-handle-buckets-bottles-and-liquid-ingredients/empty-vessel-prerequisite.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-handle-buckets-bottles-and-liquid-ingredients/empty-vessel-prerequisite.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "empty vessel prerequisite"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/empty_vessel_prerequisite_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-handle-buckets-bottles-and-liquid-ingredients/empty-vessel-prerequisite-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-handle-buckets-bottles-and-liquid-ingredients/empty-vessel-prerequisite-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "empty vessel prerequisite"
+            }
+          ]
+        },
+        {
+          "stateId": "liquid_or_animal_source_interaction",
+          "stateName": "liquid or animal source interaction",
+          "stage": "operation_state",
+          "imageRole": "action_target",
+          "whenToUse": "Use when the next action is to fill or use a vessel on a source such as cow/water.",
+          "whenNotToUse": "Do not use if the empty vessel is missing.",
+          "visibleCues": [
+            "World scene cue represents source interaction; exact source may differ."
+          ],
+          "verificationCue": "execute/equip feedback should advance toward the filled vessel.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/liquid_or_animal_source_interaction.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-handle-buckets-bottles-and-liquid-ingredients/liquid-or-animal-source-interaction.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-handle-buckets-bottles-and-liquid-ingredients/liquid-or-animal-source-interaction.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "liquid or animal source interaction"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/liquid_or_animal_source_interaction_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-handle-buckets-bottles-and-liquid-ingredients/liquid-or-animal-source-interaction-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-handle-buckets-bottles-and-liquid-ingredients/liquid-or-animal-source-interaction-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "liquid or animal source interaction"
+            }
+          ]
+        },
+        {
+          "stateId": "filled_vessel_or_bottle_verified",
+          "stateName": "filled vessel or bottle verified",
+          "stage": "verification_state",
+          "imageRole": "verification_cue",
+          "whenToUse": "Use before crafting cake or other recipes that require filled or shaped vessels.",
+          "whenNotToUse": "Do not use if only raw sand/glass is available.",
+          "visibleCues": [
+            "Green HUD cue reminds the branch to verify the filled/empty vessel distinction."
+          ],
+          "verificationCue": "Inventory feedback names bucket, milk_bucket, glass_bottle, or the exact vessel target.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/filled_vessel_or_bottle_verified.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-handle-buckets-bottles-and-liquid-ingredients/filled-vessel-or-bottle-verified.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-handle-buckets-bottles-and-liquid-ingredients/filled-vessel-or-bottle-verified.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "filled vessel or bottle verified"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/filled_vessel_or_bottle_verified_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-handle-buckets-bottles-and-liquid-ingredients/filled-vessel-or-bottle-verified-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-handle-buckets-bottles-and-liquid-ingredients/filled-vessel-or-bottle-verified-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "filled vessel or bottle verified"
+            }
+          ]
+        }
+      ],
+      "imageReferences": [
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/empty_vessel_prerequisite.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-handle-buckets-bottles-and-liquid-ingredients/empty-vessel-prerequisite.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-handle-buckets-bottles-and-liquid-ingredients/empty-vessel-prerequisite.png",
+          "label": "empty vessel prerequisite"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/empty_vessel_prerequisite_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-handle-buckets-bottles-and-liquid-ingredients/empty-vessel-prerequisite-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-handle-buckets-bottles-and-liquid-ingredients/empty-vessel-prerequisite-focus-crop.png",
+          "label": "empty vessel prerequisite"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/liquid_or_animal_source_interaction.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-handle-buckets-bottles-and-liquid-ingredients/liquid-or-animal-source-interaction.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-handle-buckets-bottles-and-liquid-ingredients/liquid-or-animal-source-interaction.png",
+          "label": "liquid or animal source interaction"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/liquid_or_animal_source_interaction_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-handle-buckets-bottles-and-liquid-ingredients/liquid-or-animal-source-interaction-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-handle-buckets-bottles-and-liquid-ingredients/liquid-or-animal-source-interaction-focus-crop.png",
+          "label": "liquid or animal source interaction"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/filled_vessel_or_bottle_verified.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-handle-buckets-bottles-and-liquid-ingredients/filled-vessel-or-bottle-verified.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-handle-buckets-bottles-and-liquid-ingredients/filled-vessel-or-bottle-verified.png",
+          "label": "filled vessel or bottle verified"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/filled_vessel_or_bottle_verified_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-handle-buckets-bottles-and-liquid-ingredients/filled-vessel-or-bottle-verified-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-handle-buckets-bottles-and-liquid-ingredients/filled-vessel-or-bottle-verified-focus-crop.png",
+          "label": "filled vessel or bottle verified"
+        }
+      ],
+      "completenessScore": 15
+    },
+    {
+      "id": "MINECRAFT_Mine_Overworld_Ores_Fuels_And_Gems",
+      "name": "Mine Overworld Ores, Fuels, and Gems",
+      "description": "Mine coal, coal_ore, iron_ore, gold_ores, redstone, diamond, diamond_ore, quartz-like ore dependencies, and fuel resources while enforcing tool tiers.",
+      "domain": "vab_minecraft",
+      "domainLabel": "VAB-Minecraft",
+      "platformId": "vab_minecraft",
+      "platform": "VAB-Minecraft",
+      "category": "Game-Based Tasks",
+      "sourcePath": "vab_minecraft/MINECRAFT_Mine_Overworld_Ores_Fuels_And_Gems",
+      "imageCount": 8,
+      "stateCardCount": 0,
+      "runtimeCardCount": 3,
+      "planStepCount": 0,
+      "tags": [
+        "minecraft",
+        "crafting",
+        "game"
+      ],
+      "overview": "Mine coal, coal_ore, iron_ore, gold_ores, redstone, diamond, diamond_ore, quartz-like ore dependencies, and fuel resources while enforcing tool tiers.",
+      "applicability": [
+        "The target or dependency is an ore, gem, coal/fuel, redstone, or mined mineral."
+      ],
+      "failureModes": [
+        "Mining higher-tier ore with the wrong pickaxe.",
+        "Stopping with raw ore when ingot is the final target."
+      ],
+      "skillMarkdown": "# Mine Overworld Ores, Fuels, and Gems\n\n## When This Skill Applies\n\n- The target or dependency is an ore, gem, coal/fuel, redstone, or mined mineral.\n\n## When Not To Use\n\n- Do not use for surface blocks like sand/stone once no ore/fuel search remains.\n\n## Minecraft Action Pattern\n\n- check pickaxe tier\n- execute a concrete mining/search prompt\n- smelt ore when ingot is required\n\n## Procedure\n\n1. Confirm the minimum pickaxe tier.\n2. Use concrete execute prompts for the exact ore/fuel target and count.\n3. If the target is ingot, hand off to smelt after raw ore is collected.\n4. Change search strategy after executor stalls.\n\n## Visual State Card Usage\n\nVisual state cards for runtime use live in `runtime_state_cards.json`.\n\nLoad only the state whose screenshot and text match the current Minecraft situation. Do not load all images by default. Red boxes indicate action targets or action-relevant regions. Green boxes indicate verification cues. Coordinates, terrain layout, visible item names, and exact counts are examples only.\n\nImage references in this package:\n  - `Images/ore_pickaxe_requirement.png`\n  - `Images/ore_pickaxe_requirement_focus_crop.png`\n  - `Images/ore_search_execute.png`\n  - `Images/ore_search_execute_focus_crop.png`\n  - `Images/raw_or_refined_ore_progress.png`\n  - `Images/raw_or_refined_ore_progress_focus_crop.png`\n\n## Result Verification Cues\n\n- Inventory feedback shows the ore/fuel/gem target or enough raw input for smelting.\n\n## Visual Transfer Limits\n\n- Ore screenshots are proxy search states; exact ore visibility is not guaranteed.\n\n## Common Failure Modes\n\n- Mining higher-tier ore with the wrong pickaxe.\n- Stopping with raw ore when ingot is the final target.\n",
+      "runtimeStates": [
+        {
+          "stateId": "ore_pickaxe_requirement",
+          "stateName": "ore pickaxe requirement",
+          "stage": "entry_state",
+          "imageRole": "state_cue",
+          "whenToUse": "Use before mining ores, gems, or fuel blocks.",
+          "whenNotToUse": "Do not use for hand-harvested plants or passive drops.",
+          "visibleCues": [
+            "Hotbar/tool cue helps enforce mining tier."
+          ],
+          "verificationCue": "The branch should verify or craft the minimum pickaxe tier.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/ore_pickaxe_requirement.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-mine-overworld-ores-fuels-and-gems/ore-pickaxe-requirement.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-mine-overworld-ores-fuels-and-gems/ore-pickaxe-requirement.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "ore pickaxe requirement"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/ore_pickaxe_requirement_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-mine-overworld-ores-fuels-and-gems/ore-pickaxe-requirement-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-mine-overworld-ores-fuels-and-gems/ore-pickaxe-requirement-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "ore pickaxe requirement"
+            }
+          ]
+        },
+        {
+          "stateId": "ore_search_execute",
+          "stateName": "ore search execute",
+          "stage": "operation_state",
+          "imageRole": "action_target",
+          "whenToUse": "Use when the next action should search or dig for an ore/fuel/gem.",
+          "whenNotToUse": "Do not use when raw ore is already collected and smelting is next.",
+          "visibleCues": [
+            "Central terrain/crosshair region marks mining/search context."
+          ],
+          "verificationCue": "execute feedback should advance toward target count.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop",
+            "before",
+            "after"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/ore_search_execute.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-mine-overworld-ores-fuels-and-gems/ore-search-execute.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-mine-overworld-ores-fuels-and-gems/ore-search-execute.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "ore search execute"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/ore_search_execute_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-mine-overworld-ores-fuels-and-gems/ore-search-execute-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-mine-overworld-ores-fuels-and-gems/ore-search-execute-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "ore search execute"
+            },
+            {
+              "viewType": "before",
+              "imagePath": "Images/ore_search_execute_before.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-mine-overworld-ores-fuels-and-gems/ore-search-execute-before.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-mine-overworld-ores-fuels-and-gems/ore-search-execute-before.png",
+              "useFor": "compare_precondition_context",
+              "label": "ore search execute"
+            },
+            {
+              "viewType": "after",
+              "imagePath": "Images/ore_search_execute_after.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-mine-overworld-ores-fuels-and-gems/ore-search-execute-after.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-mine-overworld-ores-fuels-and-gems/ore-search-execute-after.png",
+              "useFor": "inspect_outcome_transition",
+              "label": "ore search execute"
+            }
+          ]
+        },
+        {
+          "stateId": "raw_or_refined_ore_progress",
+          "stateName": "raw or refined ore progress",
+          "stage": "verification_state",
+          "imageRole": "verification_cue",
+          "whenToUse": "Use after mining to decide whether to continue mining or smelt/craft.",
+          "whenNotToUse": "Do not use as final verification for crafted mechanisms.",
+          "visibleCues": [
+            "Green cue supports inventory/progress checking."
+          ],
+          "verificationCue": "The raw ore, fuel, gem, or refined material is present as required.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/raw_or_refined_ore_progress.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-mine-overworld-ores-fuels-and-gems/raw-or-refined-ore-progress.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-mine-overworld-ores-fuels-and-gems/raw-or-refined-ore-progress.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "raw or refined ore progress"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/raw_or_refined_ore_progress_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-mine-overworld-ores-fuels-and-gems/raw-or-refined-ore-progress-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-mine-overworld-ores-fuels-and-gems/raw-or-refined-ore-progress-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "raw or refined ore progress"
+            }
+          ]
+        }
+      ],
+      "imageReferences": [
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/ore_pickaxe_requirement.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-mine-overworld-ores-fuels-and-gems/ore-pickaxe-requirement.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-mine-overworld-ores-fuels-and-gems/ore-pickaxe-requirement.png",
+          "label": "ore pickaxe requirement"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/ore_pickaxe_requirement_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-mine-overworld-ores-fuels-and-gems/ore-pickaxe-requirement-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-mine-overworld-ores-fuels-and-gems/ore-pickaxe-requirement-focus-crop.png",
+          "label": "ore pickaxe requirement"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/ore_search_execute.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-mine-overworld-ores-fuels-and-gems/ore-search-execute.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-mine-overworld-ores-fuels-and-gems/ore-search-execute.png",
+          "label": "ore search execute"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/ore_search_execute_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-mine-overworld-ores-fuels-and-gems/ore-search-execute-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-mine-overworld-ores-fuels-and-gems/ore-search-execute-focus-crop.png",
+          "label": "ore search execute"
+        },
+        {
+          "viewType": "before",
+          "imagePath": "Images/ore_search_execute_before.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-mine-overworld-ores-fuels-and-gems/ore-search-execute-before.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-mine-overworld-ores-fuels-and-gems/ore-search-execute-before.png",
+          "label": "ore search execute"
+        },
+        {
+          "viewType": "after",
+          "imagePath": "Images/ore_search_execute_after.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-mine-overworld-ores-fuels-and-gems/ore-search-execute-after.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-mine-overworld-ores-fuels-and-gems/ore-search-execute-after.png",
+          "label": "ore search execute"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/raw_or_refined_ore_progress.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-mine-overworld-ores-fuels-and-gems/raw-or-refined-ore-progress.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-mine-overworld-ores-fuels-and-gems/raw-or-refined-ore-progress.png",
+          "label": "raw or refined ore progress"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/raw_or_refined_ore_progress_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-mine-overworld-ores-fuels-and-gems/raw-or-refined-ore-progress-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-mine-overworld-ores-fuels-and-gems/raw-or-refined-ore-progress-focus-crop.png",
+          "label": "raw or refined ore progress"
+        }
+      ],
+      "completenessScore": 17
+    },
+    {
+      "id": "MINECRAFT_Netherite_Obsidian_And_Deep_Specials",
+      "name": "Handle Netherite, Obsidian, and Deep Special Materials",
+      "description": "Process ancient_debris into netherite_scrap and netherite_ingot, mine obsidian with diamond_pickaxe, and manage deep/special material gates.",
+      "domain": "vab_minecraft",
+      "domainLabel": "VAB-Minecraft",
+      "platformId": "vab_minecraft",
+      "platform": "VAB-Minecraft",
+      "category": "Game-Based Tasks",
+      "sourcePath": "vab_minecraft/MINECRAFT_Netherite_Obsidian_And_Deep_Specials",
+      "imageCount": 8,
+      "stateCardCount": 0,
+      "runtimeCardCount": 4,
+      "planStepCount": 0,
+      "tags": [
+        "minecraft",
+        "crafting",
+        "game"
+      ],
+      "overview": "Process ancient_debris into netherite_scrap and netherite_ingot, mine obsidian with diamond_pickaxe, and manage deep/special material gates.",
+      "applicability": [
+        "The target is netherite_scrap, netherite_ingot, ancient_debris, obsidian, diamond_pickaxe, or a deep progression material."
+      ],
+      "failureModes": [
+        "Mining obsidian without diamond_pickaxe.",
+        "Crafting netherite_ingot before smelting ancient_debris.",
+        "Forgetting gold_ingot for netherite_ingot."
+      ],
+      "skillMarkdown": "# Handle Netherite, Obsidian, and Deep Special Materials\n\n## When This Skill Applies\n\n- The target is netherite_scrap, netherite_ingot, ancient_debris, obsidian, diamond_pickaxe, or a deep progression material.\n\n## When Not To Use\n\n- Do not use for Ender/Brewing special chains unless netherite/obsidian tool gate is the active bottleneck.\n\n## Minecraft Action Pattern\n\n- check preloaded special material\n- craft/equip diamond_pickaxe for obsidian\n- smelt ancient_debris\n- combine scrap with gold_ingot\n\n## Procedure\n\n1. Check whether ancient_debris, obsidian, or high-tier tools are already in init_inventory.\n2. For obsidian, require diamond_pickaxe before mining.\n3. For netherite_scrap, smelt ancient_debris.\n4. For netherite_ingot, combine netherite_scrap with gold_ingot after gold chain is resolved.\n\n## Visual State Card Usage\n\nVisual state cards for runtime use live in `runtime_state_cards.json`.\n\nLoad only the state whose screenshot and text match the current Minecraft situation. Do not load all images by default. Red boxes indicate action targets or action-relevant regions. Green boxes indicate verification cues. Coordinates, terrain layout, visible item names, and exact counts are examples only.\n\nImage references in this package:\n  - `Images/deep_special_gate_check.png`\n  - `Images/deep_special_gate_check_focus_crop.png`\n  - `Images/obsidian_or_ancient_debris_action.png`\n  - `Images/obsidian_or_ancient_debris_action_focus_crop.png`\n  - `Images/netherite_material_craft.png`\n  - `Images/netherite_material_craft_focus_crop.png`\n  - `Images/deep_special_verified.png`\n  - `Images/deep_special_verified_focus_crop.png`\n\n## Result Verification Cues\n\n- Inventory feedback contains the requested deep/special material.\n\n## Visual Transfer Limits\n\n- Training imagery may only show proxy deep mining/smelting states; follow tool/material gates exactly.\n\n## Common Failure Modes\n\n- Mining obsidian without diamond_pickaxe.\n- Crafting netherite_ingot before smelting ancient_debris.\n- Forgetting gold_ingot for netherite_ingot.\n",
+      "runtimeStates": [
+        {
+          "stateId": "deep_special_gate_check",
+          "stateName": "deep special gate check",
+          "stage": "entry_state",
+          "imageRole": "state_cue",
+          "whenToUse": "Use when obsidian/netherite chain requires high-tier prerequisite checks.",
+          "whenNotToUse": "Do not use for ordinary iron/gold smelting.",
+          "visibleCues": [
+            "The card cues checking preloaded deep materials and tool gates."
+          ],
+          "verificationCue": "The branch should name missing diamond_pickaxe, ancient_debris, or gold chain.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/deep_special_gate_check.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-netherite-obsidian-and-deep-specials/deep-special-gate-check.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-netherite-obsidian-and-deep-specials/deep-special-gate-check.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "deep special gate check"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/deep_special_gate_check_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-netherite-obsidian-and-deep-specials/deep-special-gate-check-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-netherite-obsidian-and-deep-specials/deep-special-gate-check-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "deep special gate check"
+            }
+          ]
+        },
+        {
+          "stateId": "obsidian_or_ancient_debris_action",
+          "stateName": "obsidian or ancient debris action",
+          "stage": "operation_state",
+          "imageRole": "action_target",
+          "whenToUse": "Use for mining obsidian or processing ancient_debris.",
+          "whenNotToUse": "Do not use when final netherite craft is ready.",
+          "visibleCues": [
+            "Deep-resource scene/HUD cue supports gated progression."
+          ],
+          "verificationCue": "The action should respect diamond_pickaxe/smelt requirements.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/obsidian_or_ancient_debris_action.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-netherite-obsidian-and-deep-specials/obsidian-or-ancient-debris-action.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-netherite-obsidian-and-deep-specials/obsidian-or-ancient-debris-action.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "obsidian or ancient debris action"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/obsidian_or_ancient_debris_action_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-netherite-obsidian-and-deep-specials/obsidian-or-ancient-debris-action-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-netherite-obsidian-and-deep-specials/obsidian-or-ancient-debris-action-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "obsidian or ancient debris action"
+            }
+          ]
+        },
+        {
+          "stateId": "netherite_material_craft",
+          "stateName": "netherite material craft",
+          "stage": "operation_state",
+          "imageRole": "action_target",
+          "whenToUse": "Use when netherite_scrap and gold_ingot are ready for netherite_ingot.",
+          "whenNotToUse": "Do not use while scrap or gold is missing.",
+          "visibleCues": [
+            "Hotbar/material cue supports final netherite craft."
+          ],
+          "verificationCue": "craft feedback should name netherite_ingot.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/netherite_material_craft.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-netherite-obsidian-and-deep-specials/netherite-material-craft.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-netherite-obsidian-and-deep-specials/netherite-material-craft.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "netherite material craft"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/netherite_material_craft_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-netherite-obsidian-and-deep-specials/netherite-material-craft-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-netherite-obsidian-and-deep-specials/netherite-material-craft-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "netherite material craft"
+            }
+          ]
+        },
+        {
+          "stateId": "deep_special_verified",
+          "stateName": "deep special verified",
+          "stage": "verification_state",
+          "imageRole": "verification_cue",
+          "whenToUse": "Use before ending netherite/obsidian tasks.",
+          "whenNotToUse": "Do not accept lower-tier intermediate materials.",
+          "visibleCues": [
+            "Green HUD cue supports exact special-material verification."
+          ],
+          "verificationCue": "Inventory contains obsidian, netherite_scrap, or netherite_ingot as requested.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/deep_special_verified.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-netherite-obsidian-and-deep-specials/deep-special-verified.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-netherite-obsidian-and-deep-specials/deep-special-verified.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "deep special verified"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/deep_special_verified_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-netherite-obsidian-and-deep-specials/deep-special-verified-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-netherite-obsidian-and-deep-specials/deep-special-verified-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "deep special verified"
+            }
+          ]
+        }
+      ],
+      "imageReferences": [
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/deep_special_gate_check.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-netherite-obsidian-and-deep-specials/deep-special-gate-check.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-netherite-obsidian-and-deep-specials/deep-special-gate-check.png",
+          "label": "deep special gate check"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/deep_special_gate_check_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-netherite-obsidian-and-deep-specials/deep-special-gate-check-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-netherite-obsidian-and-deep-specials/deep-special-gate-check-focus-crop.png",
+          "label": "deep special gate check"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/obsidian_or_ancient_debris_action.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-netherite-obsidian-and-deep-specials/obsidian-or-ancient-debris-action.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-netherite-obsidian-and-deep-specials/obsidian-or-ancient-debris-action.png",
+          "label": "obsidian or ancient debris action"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/obsidian_or_ancient_debris_action_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-netherite-obsidian-and-deep-specials/obsidian-or-ancient-debris-action-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-netherite-obsidian-and-deep-specials/obsidian-or-ancient-debris-action-focus-crop.png",
+          "label": "obsidian or ancient debris action"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/netherite_material_craft.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-netherite-obsidian-and-deep-specials/netherite-material-craft.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-netherite-obsidian-and-deep-specials/netherite-material-craft.png",
+          "label": "netherite material craft"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/netherite_material_craft_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-netherite-obsidian-and-deep-specials/netherite-material-craft-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-netherite-obsidian-and-deep-specials/netherite-material-craft-focus-crop.png",
+          "label": "netherite material craft"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/deep_special_verified.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-netherite-obsidian-and-deep-specials/deep-special-verified.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-netherite-obsidian-and-deep-specials/deep-special-verified.png",
+          "label": "deep special verified"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/deep_special_verified_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-netherite-obsidian-and-deep-specials/deep-special-verified-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-netherite-obsidian-and-deep-specials/deep-special-verified-focus-crop.png",
+          "label": "deep special verified"
+        }
+      ],
+      "completenessScore": 20
+    },
+    {
+      "id": "MINECRAFT_Rails_Minecarts_And_Powered_Transport",
+      "name": "Craft Rails, Minecarts, and Powered Transport",
+      "description": "Craft rail, powered_rail, minecart, furnace_minecart, and rail transport chains with iron, sticks, gold, redstone, and furnace dependencies.",
+      "domain": "vab_minecraft",
+      "domainLabel": "VAB-Minecraft",
+      "platformId": "vab_minecraft",
+      "platform": "VAB-Minecraft",
+      "category": "Game-Based Tasks",
+      "sourcePath": "vab_minecraft/MINECRAFT_Rails_Minecarts_And_Powered_Transport",
+      "imageCount": 6,
+      "stateCardCount": 0,
+      "runtimeCardCount": 3,
+      "planStepCount": 0,
+      "tags": [
+        "minecraft",
+        "crafting",
+        "game"
+      ],
+      "overview": "Craft rail, powered_rail, minecart, furnace_minecart, and rail transport chains with iron, sticks, gold, redstone, and furnace dependencies.",
+      "applicability": [
+        "The target is rail-like transport, powered rails, minecart, or a minecart derivative."
+      ],
+      "failureModes": [
+        "Treating powered_rail as rail.",
+        "Missing furnace for furnace_minecart.",
+        "Ignoring recipe output count."
+      ],
+      "skillMarkdown": "# Craft Rails, Minecarts, and Powered Transport\n\n## When This Skill Applies\n\n- The target is rail-like transport, powered rails, minecart, or a minecart derivative.\n\n## When Not To Use\n\n- Do not use for non-transport redstone controls or pistons.\n\n## Minecraft Action Pattern\n\n- collect refined metals and sticks\n- craft intermediate furnace/minecart if needed\n- craft exact transport target\n- verify output count\n\n## Procedure\n\n1. Classify ordinary rail, powered_rail, minecart, or derivative.\n2. Collect/smelt iron or gold, and obtain redstone/sticks/furnace where required.\n3. Craft intermediate minecart/furnace before derivative target.\n4. Verify final target and count; rail recipes may output multiple items.\n\n## Visual State Card Usage\n\nVisual state cards for runtime use live in `runtime_state_cards.json`.\n\nLoad only the state whose screenshot and text match the current Minecraft situation. Do not load all images by default. Red boxes indicate action targets or action-relevant regions. Green boxes indicate verification cues. Coordinates, terrain layout, visible item names, and exact counts are examples only.\n\nImage references in this package:\n  - `Images/transport_recipe_route.png`\n  - `Images/transport_recipe_route_focus_crop.png`\n  - `Images/transport_materials_ready.png`\n  - `Images/transport_materials_ready_focus_crop.png`\n  - `Images/transport_output_verified.png`\n  - `Images/transport_output_verified_focus_crop.png`\n\n## Result Verification Cues\n\n- Inventory feedback contains exact transport item and sufficient count.\n\n## Visual Transfer Limits\n\n- Transport item visuals are not usually visible in-world; rely on craft/inventory feedback.\n\n## Common Failure Modes\n\n- Treating powered_rail as rail.\n- Missing furnace for furnace_minecart.\n- Ignoring recipe output count.\n",
+      "runtimeStates": [
+        {
+          "stateId": "transport_recipe_route",
+          "stateName": "transport recipe route",
+          "stage": "entry_state",
+          "imageRole": "state_cue",
+          "whenToUse": "Use when distinguishing rail, powered_rail, minecart, or derivative route.",
+          "whenNotToUse": "Do not use for non-transport redstone items.",
+          "visibleCues": [
+            "The card cues transport-specific recipe planning."
+          ],
+          "verificationCue": "The branch should name metal, redstone, stick, and utility needs.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/transport_recipe_route.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-rails-minecarts-and-powered-transport/transport-recipe-route.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-rails-minecarts-and-powered-transport/transport-recipe-route.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "transport recipe route"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/transport_recipe_route_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-rails-minecarts-and-powered-transport/transport-recipe-route-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-rails-minecarts-and-powered-transport/transport-recipe-route-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "transport recipe route"
+            }
+          ]
+        },
+        {
+          "stateId": "transport_materials_ready",
+          "stateName": "transport materials ready",
+          "stage": "operation_state",
+          "imageRole": "action_target",
+          "whenToUse": "Use when metals/sticks/redstone/furnace are ready for transport craft.",
+          "whenNotToUse": "Do not use while ore still needs smelting.",
+          "visibleCues": [
+            "Hotbar/material cue supports transport craft readiness."
+          ],
+          "verificationCue": "craft feedback should name the transport item.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/transport_materials_ready.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-rails-minecarts-and-powered-transport/transport-materials-ready.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-rails-minecarts-and-powered-transport/transport-materials-ready.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "transport materials ready"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/transport_materials_ready_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-rails-minecarts-and-powered-transport/transport-materials-ready-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-rails-minecarts-and-powered-transport/transport-materials-ready-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "transport materials ready"
+            }
+          ]
+        },
+        {
+          "stateId": "transport_output_verified",
+          "stateName": "transport output verified",
+          "stage": "verification_state",
+          "imageRole": "verification_cue",
+          "whenToUse": "Use before ending rail/minecart tasks.",
+          "whenNotToUse": "Do not accept component metals as final target.",
+          "visibleCues": [
+            "Green HUD cue supports exact transport count verification."
+          ],
+          "verificationCue": "Inventory contains the requested transport item.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/transport_output_verified.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-rails-minecarts-and-powered-transport/transport-output-verified.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-rails-minecarts-and-powered-transport/transport-output-verified.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "transport output verified"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/transport_output_verified_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-rails-minecarts-and-powered-transport/transport-output-verified-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-rails-minecarts-and-powered-transport/transport-output-verified-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "transport output verified"
+            }
+          ]
+        }
+      ],
+      "imageReferences": [
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/transport_recipe_route.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-rails-minecarts-and-powered-transport/transport-recipe-route.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-rails-minecarts-and-powered-transport/transport-recipe-route.png",
+          "label": "transport recipe route"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/transport_recipe_route_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-rails-minecarts-and-powered-transport/transport-recipe-route-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-rails-minecarts-and-powered-transport/transport-recipe-route-focus-crop.png",
+          "label": "transport recipe route"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/transport_materials_ready.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-rails-minecarts-and-powered-transport/transport-materials-ready.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-rails-minecarts-and-powered-transport/transport-materials-ready.png",
+          "label": "transport materials ready"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/transport_materials_ready_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-rails-minecarts-and-powered-transport/transport-materials-ready-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-rails-minecarts-and-powered-transport/transport-materials-ready-focus-crop.png",
+          "label": "transport materials ready"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/transport_output_verified.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-rails-minecarts-and-powered-transport/transport-output-verified.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-rails-minecarts-and-powered-transport/transport-output-verified.png",
+          "label": "transport output verified"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/transport_output_verified_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-rails-minecarts-and-powered-transport/transport-output-verified-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-rails-minecarts-and-powered-transport/transport-output-verified-focus-crop.png",
+          "label": "transport output verified"
+        }
+      ],
+      "completenessScore": 15
+    },
+    {
+      "id": "MINECRAFT_Redstone_Controls_Buttons_Plates_And_Detectors",
+      "name": "Craft Redstone Controls, Buttons, Plates, and Detectors",
+      "description": "Craft simple redstone/control components: oak/stone buttons, wooden/stone pressure plates, lever, redstone_torch, daylight_detector, and quartz-dependent controls.",
+      "domain": "vab_minecraft",
+      "domainLabel": "VAB-Minecraft",
+      "platformId": "vab_minecraft",
+      "platform": "VAB-Minecraft",
+      "category": "Game-Based Tasks",
+      "sourcePath": "vab_minecraft/MINECRAFT_Redstone_Controls_Buttons_Plates_And_Detectors",
+      "imageCount": 6,
+      "stateCardCount": 0,
+      "runtimeCardCount": 3,
+      "planStepCount": 0,
+      "tags": [
+        "minecraft",
+        "crafting",
+        "game"
+      ],
+      "overview": "Craft simple redstone/control components: oak/stone buttons, wooden/stone pressure plates, lever, redstone_torch, daylight_detector, and quartz-dependent controls.",
+      "applicability": [
+        "The target is a simple control/sensor redstone item or pressure/button plate variant."
+      ],
+      "failureModes": [
+        "Crafting oak_button when stone_button is required.",
+        "Missing quartz/glass for daylight_detector."
+      ],
+      "skillMarkdown": "# Craft Redstone Controls, Buttons, Plates, and Detectors\n\n## When This Skill Applies\n\n- The target is a simple control/sensor redstone item or pressure/button plate variant.\n\n## When Not To Use\n\n- Do not use for pistons, dispensers, rails, minecarts, or complex mechanism cores.\n\n## Minecraft Action Pattern\n\n- obtain base material\n- craft exact control component\n- verify variant/material\n\n## Procedure\n\n1. Classify the control by base material and redstone/quartz dependency.\n2. Collect wood/stone/quartz/redstone ingredients.\n3. Craft the exact component; material suffix matters.\n4. For daylight_detector, resolve glass/quartz/wood dependencies first.\n\n## Visual State Card Usage\n\nVisual state cards for runtime use live in `runtime_state_cards.json`.\n\nLoad only the state whose screenshot and text match the current Minecraft situation. Do not load all images by default. Red boxes indicate action targets or action-relevant regions. Green boxes indicate verification cues. Coordinates, terrain layout, visible item names, and exact counts are examples only.\n\nImage references in this package:\n  - `Images/control_component_route.png`\n  - `Images/control_component_route_focus_crop.png`\n  - `Images/control_materials_ready.png`\n  - `Images/control_materials_ready_focus_crop.png`\n  - `Images/control_component_verified.png`\n  - `Images/control_component_verified_focus_crop.png`\n\n## Result Verification Cues\n\n- Inventory feedback contains the exact control/sensor target.\n\n## Visual Transfer Limits\n\n- Do not substitute button/plate variants based on screenshot appearance.\n\n## Common Failure Modes\n\n- Crafting oak_button when stone_button is required.\n- Missing quartz/glass for daylight_detector.\n",
+      "runtimeStates": [
+        {
+          "stateId": "control_component_route",
+          "stateName": "control component route",
+          "stage": "entry_state",
+          "imageRole": "state_cue",
+          "whenToUse": "Use when selecting recipe route for button, plate, lever, torch, or detector.",
+          "whenNotToUse": "Do not use for pistons/rails/dispenser.",
+          "visibleCues": [
+            "The card cues exact control variant planning."
+          ],
+          "verificationCue": "The branch should state base material and special ingredients.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/control_component_route.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-redstone-controls-buttons-plates-and-detectors/control-component-route.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-redstone-controls-buttons-plates-and-detectors/control-component-route.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "control component route"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/control_component_route_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-redstone-controls-buttons-plates-and-detectors/control-component-route-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-redstone-controls-buttons-plates-and-detectors/control-component-route-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "control component route"
+            }
+          ]
+        },
+        {
+          "stateId": "control_materials_ready",
+          "stateName": "control materials ready",
+          "stage": "operation_state",
+          "imageRole": "action_target",
+          "whenToUse": "Use when control ingredients are ready for final craft.",
+          "whenNotToUse": "Do not use if quartz/redstone/base block still needs collection.",
+          "visibleCues": [
+            "Hotbar/material cue supports final control craft."
+          ],
+          "verificationCue": "craft feedback should name the exact control component.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/control_materials_ready.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-redstone-controls-buttons-plates-and-detectors/control-materials-ready.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-redstone-controls-buttons-plates-and-detectors/control-materials-ready.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "control materials ready"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/control_materials_ready_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-redstone-controls-buttons-plates-and-detectors/control-materials-ready-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-redstone-controls-buttons-plates-and-detectors/control-materials-ready-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "control materials ready"
+            }
+          ]
+        },
+        {
+          "stateId": "control_component_verified",
+          "stateName": "control component verified",
+          "stage": "verification_state",
+          "imageRole": "verification_cue",
+          "whenToUse": "Use before ending simple redstone control tasks.",
+          "whenNotToUse": "Do not accept a related control with wrong material.",
+          "visibleCues": [
+            "Green HUD cue supports exact variant verification."
+          ],
+          "verificationCue": "Inventory contains the exact control/sensor item.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/control_component_verified.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-redstone-controls-buttons-plates-and-detectors/control-component-verified.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-redstone-controls-buttons-plates-and-detectors/control-component-verified.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "control component verified"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/control_component_verified_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-redstone-controls-buttons-plates-and-detectors/control-component-verified-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-redstone-controls-buttons-plates-and-detectors/control-component-verified-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "control component verified"
+            }
+          ]
+        }
+      ],
+      "imageReferences": [
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/control_component_route.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-redstone-controls-buttons-plates-and-detectors/control-component-route.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-redstone-controls-buttons-plates-and-detectors/control-component-route.png",
+          "label": "control component route"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/control_component_route_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-redstone-controls-buttons-plates-and-detectors/control-component-route-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-redstone-controls-buttons-plates-and-detectors/control-component-route-focus-crop.png",
+          "label": "control component route"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/control_materials_ready.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-redstone-controls-buttons-plates-and-detectors/control-materials-ready.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-redstone-controls-buttons-plates-and-detectors/control-materials-ready.png",
+          "label": "control materials ready"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/control_materials_ready_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-redstone-controls-buttons-plates-and-detectors/control-materials-ready-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-redstone-controls-buttons-plates-and-detectors/control-materials-ready-focus-crop.png",
+          "label": "control materials ready"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/control_component_verified.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-redstone-controls-buttons-plates-and-detectors/control-component-verified.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-redstone-controls-buttons-plates-and-detectors/control-component-verified.png",
+          "label": "control component verified"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/control_component_verified_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-redstone-controls-buttons-plates-and-detectors/control-component-verified-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-redstone-controls-buttons-plates-and-detectors/control-component-verified-focus-crop.png",
+          "label": "control component verified"
+        }
+      ],
+      "completenessScore": 15
+    },
+    {
+      "id": "MINECRAFT_Redstone_Mechanism_Cores_Pistons_Dispenser",
+      "name": "Assemble Redstone Mechanism Cores, Pistons, and Dispenser",
+      "description": "Build piston, sticky_piston, dispenser, and mechanism-core chains that require cobblestone, iron, redstone, bow, string, or slime_ball.",
+      "domain": "vab_minecraft",
+      "domainLabel": "VAB-Minecraft",
+      "platformId": "vab_minecraft",
+      "platform": "VAB-Minecraft",
+      "category": "Game-Based Tasks",
+      "sourcePath": "vab_minecraft/MINECRAFT_Redstone_Mechanism_Cores_Pistons_Dispenser",
+      "imageCount": 8,
+      "stateCardCount": 0,
+      "runtimeCardCount": 4,
+      "planStepCount": 0,
+      "tags": [
+        "minecraft",
+        "crafting",
+        "game"
+      ],
+      "overview": "Build piston, sticky_piston, dispenser, and mechanism-core chains that require cobblestone, iron, redstone, bow, string, or slime_ball.",
+      "applicability": [
+        "The target is piston, sticky_piston, dispenser, or a mechanism whose core depends on redstone plus mob/resource components."
+      ],
+      "failureModes": [
+        "Crafting sticky_piston before slime_ball.",
+        "Crafting dispenser before bow.",
+        "Missing redstone or iron for piston."
+      ],
+      "skillMarkdown": "# Assemble Redstone Mechanism Cores, Pistons, and Dispenser\n\n## When This Skill Applies\n\n- The target is piston, sticky_piston, dispenser, or a mechanism whose core depends on redstone plus mob/resource components.\n\n## When Not To Use\n\n- Do not use for simple buttons, plates, rails, or detector-only tasks.\n\n## Minecraft Action Pattern\n\n- look up component chain\n- collect ore/mob components\n- craft intermediate bow/piston\n- craft final mechanism\n\n## Procedure\n\n1. Identify special component: slime_ball for sticky_piston, bow for dispenser, iron/redstone for piston.\n2. Collect or craft intermediate components before final mechanism.\n3. Avoid trying final craft until every component exists.\n4. Verify final mechanism, not component progress.\n\n## Visual State Card Usage\n\nVisual state cards for runtime use live in `runtime_state_cards.json`.\n\nLoad only the state whose screenshot and text match the current Minecraft situation. Do not load all images by default. Red boxes indicate action targets or action-relevant regions. Green boxes indicate verification cues. Coordinates, terrain layout, visible item names, and exact counts are examples only.\n\nImage references in this package:\n  - `Images/mechanism_core_dependency_plan.png`\n  - `Images/mechanism_core_dependency_plan_focus_crop.png`\n  - `Images/mechanism_component_ready.png`\n  - `Images/mechanism_component_ready_focus_crop.png`\n  - `Images/mechanism_core_final_craft.png`\n  - `Images/mechanism_core_final_craft_focus_crop.png`\n  - `Images/mechanism_core_verified.png`\n  - `Images/mechanism_core_verified_focus_crop.png`\n\n## Result Verification Cues\n\n- Inventory feedback contains piston, sticky_piston, dispenser, or exact mechanism target.\n\n## Visual Transfer Limits\n\n- Screenshots are component-readiness examples; exact recipes come from lookup/current feedback.\n\n## Common Failure Modes\n\n- Crafting sticky_piston before slime_ball.\n- Crafting dispenser before bow.\n- Missing redstone or iron for piston.\n",
+      "runtimeStates": [
+        {
+          "stateId": "mechanism_core_dependency_plan",
+          "stateName": "mechanism core dependency plan",
+          "stage": "entry_state",
+          "imageRole": "state_cue",
+          "whenToUse": "Use when a redstone mechanism expands into several components.",
+          "whenNotToUse": "Do not use for simple one-step control components.",
+          "visibleCues": [
+            "The card cues component-chain planning."
+          ],
+          "verificationCue": "The branch should name the missing core component.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/mechanism_core_dependency_plan.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-redstone-mechanism-cores-pistons-dispenser/mechanism-core-dependency-plan.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-redstone-mechanism-cores-pistons-dispenser/mechanism-core-dependency-plan.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "mechanism core dependency plan"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/mechanism_core_dependency_plan_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-redstone-mechanism-cores-pistons-dispenser/mechanism-core-dependency-plan-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-redstone-mechanism-cores-pistons-dispenser/mechanism-core-dependency-plan-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "mechanism core dependency plan"
+            }
+          ]
+        },
+        {
+          "stateId": "mechanism_component_ready",
+          "stateName": "mechanism component ready",
+          "stage": "operation_state",
+          "imageRole": "action_target",
+          "whenToUse": "Use when an intermediate such as bow, slime_ball, redstone, or iron is ready/needed.",
+          "whenNotToUse": "Do not use for final verification.",
+          "visibleCues": [
+            "World/HUD cue supports component progress."
+          ],
+          "verificationCue": "The next action should collect/craft the missing component or final mechanism.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/mechanism_component_ready.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-redstone-mechanism-cores-pistons-dispenser/mechanism-component-ready.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-redstone-mechanism-cores-pistons-dispenser/mechanism-component-ready.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "mechanism component ready"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/mechanism_component_ready_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-redstone-mechanism-cores-pistons-dispenser/mechanism-component-ready-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-redstone-mechanism-cores-pistons-dispenser/mechanism-component-ready-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "mechanism component ready"
+            }
+          ]
+        },
+        {
+          "stateId": "mechanism_core_final_craft",
+          "stateName": "mechanism core final craft",
+          "stage": "operation_state",
+          "imageRole": "action_target",
+          "whenToUse": "Use when all components are ready and final mechanism craft should occur.",
+          "whenNotToUse": "Do not use if bow/slime/redstone/iron is missing.",
+          "visibleCues": [
+            "Hotbar/material cue supports final craft readiness."
+          ],
+          "verificationCue": "craft feedback should name the final mechanism.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/mechanism_core_final_craft.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-redstone-mechanism-cores-pistons-dispenser/mechanism-core-final-craft.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-redstone-mechanism-cores-pistons-dispenser/mechanism-core-final-craft.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "mechanism core final craft"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/mechanism_core_final_craft_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-redstone-mechanism-cores-pistons-dispenser/mechanism-core-final-craft-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-redstone-mechanism-cores-pistons-dispenser/mechanism-core-final-craft-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "mechanism core final craft"
+            }
+          ]
+        },
+        {
+          "stateId": "mechanism_core_verified",
+          "stateName": "mechanism core verified",
+          "stage": "verification_state",
+          "imageRole": "verification_cue",
+          "whenToUse": "Use before ending piston/dispenser tasks.",
+          "whenNotToUse": "Do not accept intermediate bow or slime.",
+          "visibleCues": [
+            "Green HUD cue supports final mechanism verification."
+          ],
+          "verificationCue": "Inventory contains the requested mechanism.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/mechanism_core_verified.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-redstone-mechanism-cores-pistons-dispenser/mechanism-core-verified.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-redstone-mechanism-cores-pistons-dispenser/mechanism-core-verified.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "mechanism core verified"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/mechanism_core_verified_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-redstone-mechanism-cores-pistons-dispenser/mechanism-core-verified-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-redstone-mechanism-cores-pistons-dispenser/mechanism-core-verified-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "mechanism core verified"
+            }
+          ]
+        }
+      ],
+      "imageReferences": [
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/mechanism_core_dependency_plan.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-redstone-mechanism-cores-pistons-dispenser/mechanism-core-dependency-plan.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-redstone-mechanism-cores-pistons-dispenser/mechanism-core-dependency-plan.png",
+          "label": "mechanism core dependency plan"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/mechanism_core_dependency_plan_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-redstone-mechanism-cores-pistons-dispenser/mechanism-core-dependency-plan-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-redstone-mechanism-cores-pistons-dispenser/mechanism-core-dependency-plan-focus-crop.png",
+          "label": "mechanism core dependency plan"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/mechanism_component_ready.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-redstone-mechanism-cores-pistons-dispenser/mechanism-component-ready.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-redstone-mechanism-cores-pistons-dispenser/mechanism-component-ready.png",
+          "label": "mechanism component ready"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/mechanism_component_ready_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-redstone-mechanism-cores-pistons-dispenser/mechanism-component-ready-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-redstone-mechanism-cores-pistons-dispenser/mechanism-component-ready-focus-crop.png",
+          "label": "mechanism component ready"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/mechanism_core_final_craft.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-redstone-mechanism-cores-pistons-dispenser/mechanism-core-final-craft.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-redstone-mechanism-cores-pistons-dispenser/mechanism-core-final-craft.png",
+          "label": "mechanism core final craft"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/mechanism_core_final_craft_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-redstone-mechanism-cores-pistons-dispenser/mechanism-core-final-craft-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-redstone-mechanism-cores-pistons-dispenser/mechanism-core-final-craft-focus-crop.png",
+          "label": "mechanism core final craft"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/mechanism_core_verified.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-redstone-mechanism-cores-pistons-dispenser/mechanism-core-verified.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-redstone-mechanism-cores-pistons-dispenser/mechanism-core-verified.png",
+          "label": "mechanism core verified"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/mechanism_core_verified_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-redstone-mechanism-cores-pistons-dispenser/mechanism-core-verified-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-redstone-mechanism-cores-pistons-dispenser/mechanism-core-verified-focus-crop.png",
+          "label": "mechanism core verified"
+        }
+      ],
+      "completenessScore": 20
+    },
+    {
+      "id": "MINECRAFT_Resolve_Recipes_Tags_And_Dependency_Order",
+      "name": "Resolve Recipes, Tags, and Dependency Order",
+      "description": "Use look_up output, step rewards, and tag targets to choose the next concrete Minecraft subgoal instead of guessing a recipe.",
+      "domain": "vab_minecraft",
+      "domainLabel": "VAB-Minecraft",
+      "platformId": "vab_minecraft",
+      "platform": "VAB-Minecraft",
+      "category": "Game-Based Tasks",
+      "sourcePath": "vab_minecraft/MINECRAFT_Resolve_Recipes_Tags_And_Dependency_Order",
+      "imageCount": 6,
+      "stateCardCount": 0,
+      "runtimeCardCount": 3,
+      "planStepCount": 0,
+      "tags": [
+        "minecraft",
+        "crafting",
+        "game"
+      ],
+      "overview": "Use look_up output, step rewards, and tag targets to choose the next concrete Minecraft subgoal instead of guessing a recipe.",
+      "applicability": [
+        "The target is unknown, tag-like, or recipe-dependent, such as stone_tool_materials, logs_that_burn, planks, wooden_slabs, or gold_ores.",
+        "A task has many dependencies and the next action should be a single concrete function call."
+      ],
+      "failureModes": [
+        "Looping on look_up without acting.",
+        "Trying craft() on a tag instead of a concrete item."
+      ],
+      "skillMarkdown": "# Resolve Recipes, Tags, and Dependency Order\n\n## When This Skill Applies\n\n- The target is unknown, tag-like, or recipe-dependent, such as stone_tool_materials, logs_that_burn, planks, wooden_slabs, or gold_ores.\n- A task has many dependencies and the next action should be a single concrete function call.\n\n## When Not To Use\n\n- Do not use after the next concrete item, count, and function are already obvious.\n\n## Minecraft Action Pattern\n\n- `Prefer look_up(target) before crafting unfamiliar targets or tags.`\n- Expand tags to a concrete reachable item, then request only the missing item/count.\n- Commit to one next action: execute, craft, smelt, or equip.\n\n## Procedure\n\n1. Read the task target and any visible inventory feedback.\n2. If the target is a tag, call look_up on the tag and pick the easiest available member.\n3. Order dependencies from primitive resources to processed components to final craft.\n4. Avoid repeating look_up once the recipe chain is clear; move to the missing dependency.\n\n## Visual State Card Usage\n\nVisual state cards for runtime use live in `runtime_state_cards.json`.\n\nLoad only the state whose screenshot and text match the current Minecraft situation. Do not load all images by default. Red boxes indicate action targets or action-relevant regions. Green boxes indicate verification cues. Coordinates, terrain layout, visible item names, and exact counts are examples only.\n\nImage references in this package:\n  - `Images/recipe_lookup_surface.png`\n  - `Images/recipe_lookup_surface_focus_crop.png`\n  - `Images/tag_expansion_commit.png`\n  - `Images/tag_expansion_commit_focus_crop.png`\n  - `Images/next_dependency_selected.png`\n  - `Images/next_dependency_selected_focus_crop.png`\n\n## Result Verification Cues\n\n- The next planned action names a concrete item, not a vague tag.\n- The selected dependency is actually missing from inventory feedback.\n\n## Visual Transfer Limits\n\n- Example recipes and item names are not exhaustive; use current look_up output as source of truth.\n\n## Common Failure Modes\n\n- Looping on look_up without acting.\n- Trying craft() on a tag instead of a concrete item.\n",
+      "runtimeStates": [
+        {
+          "stateId": "recipe_lookup_surface",
+          "stateName": "unknown target lookup",
+          "stage": "entry_state",
+          "imageRole": "state_cue",
+          "whenToUse": "Use when the agent has not yet decomposed the requested item.",
+          "whenNotToUse": "Do not use when a concrete next item is already selected.",
+          "visibleCues": [
+            "The screenshot is only a Minecraft state cue; the useful evidence is the trajectory action and feedback around look_up.",
+            "The state should trigger recipe reasoning, not world interaction."
+          ],
+          "verificationCue": "After this state, the branch should return a concrete dependency chain.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/recipe_lookup_surface.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-resolve-recipes-tags-and-dependency-order/recipe-lookup-surface.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-resolve-recipes-tags-and-dependency-order/recipe-lookup-surface.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "unknown target lookup"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/recipe_lookup_surface_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-resolve-recipes-tags-and-dependency-order/recipe-lookup-surface-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-resolve-recipes-tags-and-dependency-order/recipe-lookup-surface-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "unknown target lookup"
+            }
+          ]
+        },
+        {
+          "stateId": "tag_expansion_commit",
+          "stateName": "tag expansion to reachable material",
+          "stage": "operation_state",
+          "imageRole": "state_cue",
+          "whenToUse": "Use when a target such as planks, logs_that_burn, or stone_tool_materials must be converted into an obtainable item.",
+          "whenNotToUse": "Do not use if the target is already a precise item such as oak_planks or cobblestone.",
+          "visibleCues": [
+            "The image is a planning checkpoint; the target is selected from recipe feedback rather than from coordinates."
+          ],
+          "verificationCue": "The selected tag member should be passed to execute/craft/smelt as a concrete item.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/tag_expansion_commit.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-resolve-recipes-tags-and-dependency-order/tag-expansion-commit.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-resolve-recipes-tags-and-dependency-order/tag-expansion-commit.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "tag expansion to reachable material"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/tag_expansion_commit_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-resolve-recipes-tags-and-dependency-order/tag-expansion-commit-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-resolve-recipes-tags-and-dependency-order/tag-expansion-commit-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "tag expansion to reachable material"
+            }
+          ]
+        },
+        {
+          "stateId": "next_dependency_selected",
+          "stateName": "next dependency selected",
+          "stage": "verification_state",
+          "imageRole": "verification_cue",
+          "whenToUse": "Use to verify that planning ended with a specific next subgoal and not an ambiguous task restatement.",
+          "whenNotToUse": "Do not use as final inventory verification.",
+          "visibleCues": [
+            "The bottom HUD and feedback context are used as a reminder to check current inventory before selecting the next action."
+          ],
+          "verificationCue": "The branch output should include next_action, target_item, target_count, and why that target is next.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/next_dependency_selected.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-resolve-recipes-tags-and-dependency-order/next-dependency-selected.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-resolve-recipes-tags-and-dependency-order/next-dependency-selected.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "next dependency selected"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/next_dependency_selected_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-resolve-recipes-tags-and-dependency-order/next-dependency-selected-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-resolve-recipes-tags-and-dependency-order/next-dependency-selected-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "next dependency selected"
+            }
+          ]
+        }
+      ],
+      "imageReferences": [
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/recipe_lookup_surface.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-resolve-recipes-tags-and-dependency-order/recipe-lookup-surface.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-resolve-recipes-tags-and-dependency-order/recipe-lookup-surface.png",
+          "label": "unknown target lookup"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/recipe_lookup_surface_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-resolve-recipes-tags-and-dependency-order/recipe-lookup-surface-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-resolve-recipes-tags-and-dependency-order/recipe-lookup-surface-focus-crop.png",
+          "label": "unknown target lookup"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/tag_expansion_commit.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-resolve-recipes-tags-and-dependency-order/tag-expansion-commit.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-resolve-recipes-tags-and-dependency-order/tag-expansion-commit.png",
+          "label": "tag expansion to reachable material"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/tag_expansion_commit_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-resolve-recipes-tags-and-dependency-order/tag-expansion-commit-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-resolve-recipes-tags-and-dependency-order/tag-expansion-commit-focus-crop.png",
+          "label": "tag expansion to reachable material"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/next_dependency_selected.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-resolve-recipes-tags-and-dependency-order/next-dependency-selected.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-resolve-recipes-tags-and-dependency-order/next-dependency-selected.png",
+          "label": "next dependency selected"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/next_dependency_selected_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-resolve-recipes-tags-and-dependency-order/next-dependency-selected-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-resolve-recipes-tags-and-dependency-order/next-dependency-selected-focus-crop.png",
+          "label": "next dependency selected"
+        }
+      ],
+      "completenessScore": 15
+    },
+    {
+      "id": "MINECRAFT_Smelt_Furnace_Outputs_And_Fuels",
+      "name": "Smelt Furnace Outputs and Fuels",
+      "description": "Convert ores, sand, food, ancient debris, kelp, and logs into processed outputs using furnace availability and fuel discipline.",
+      "domain": "vab_minecraft",
+      "domainLabel": "VAB-Minecraft",
+      "platformId": "vab_minecraft",
+      "platform": "VAB-Minecraft",
+      "category": "Game-Based Tasks",
+      "sourcePath": "vab_minecraft/MINECRAFT_Smelt_Furnace_Outputs_And_Fuels",
+      "imageCount": 6,
+      "stateCardCount": 0,
+      "runtimeCardCount": 3,
+      "planStepCount": 0,
+      "tags": [
+        "minecraft",
+        "crafting",
+        "game"
+      ],
+      "overview": "Convert ores, sand, food, ancient debris, kelp, and logs into processed outputs using furnace availability and fuel discipline.",
+      "applicability": [
+        "The target requires smelt(), including iron_ingot, gold_ingot, glass, cooked food, baked_potato, charcoal, dried_kelp, smooth_stone, or netherite_scrap."
+      ],
+      "failureModes": [
+        "Calling craft() for cooked or glass outputs.",
+        "Smelting with no fuel or no furnace.",
+        "Stopping with raw ore when ingot is required."
+      ],
+      "skillMarkdown": "# Smelt Furnace Outputs and Fuels\n\n## When This Skill Applies\n\n- The target requires smelt(), including iron_ingot, gold_ingot, glass, cooked food, baked_potato, charcoal, dried_kelp, smooth_stone, or netherite_scrap.\n\n## When Not To Use\n\n- Do not use when the item is crafted directly or obtained as a mob/plant drop.\n\n## Minecraft Action Pattern\n\n- `craft('furnace') if missing`\n- collect fuel if missing\n- `smelt(output, count)`\n- verify output before next dependency.\n\n## Procedure\n\n1. Check for furnace, input item, and fuel.\n2. Smelt the final output name, not the raw input name.\n3. Batch only the required count.\n4. If fuel is missing, use logs/planks/coal/charcoal rather than trying smelt repeatedly.\n\n## Visual State Card Usage\n\nVisual state cards for runtime use live in `runtime_state_cards.json`.\n\nLoad only the state whose screenshot and text match the current Minecraft situation. Do not load all images by default. Red boxes indicate action targets or action-relevant regions. Green boxes indicate verification cues. Coordinates, terrain layout, visible item names, and exact counts are examples only.\n\nImage references in this package:\n  - `Images/furnace_fuel_input_check.png`\n  - `Images/furnace_fuel_input_check_focus_crop.png`\n  - `Images/smelt_batch_action.png`\n  - `Images/smelt_batch_action_focus_crop.png`\n  - `Images/processed_output_available.png`\n  - `Images/processed_output_available_focus_crop.png`\n\n## Result Verification Cues\n\n- Smelt feedback says the requested output was produced, or the output appears as a dependency for the next craft.\n\n## Visual Transfer Limits\n\n- The screenshot usually cannot show the furnace GUI; rely on feedback text and hotbar evidence.\n\n## Common Failure Modes\n\n- Calling craft() for cooked or glass outputs.\n- Smelting with no fuel or no furnace.\n- Stopping with raw ore when ingot is required.\n",
+      "runtimeStates": [
+        {
+          "stateId": "furnace_fuel_input_check",
+          "stateName": "furnace fuel input check",
+          "stage": "entry_state",
+          "imageRole": "state_cue",
+          "whenToUse": "Use before smelt() to verify furnace/fuel/input prerequisites.",
+          "whenNotToUse": "Do not use if the next item is not a smelting output.",
+          "visibleCues": [
+            "Bottom HUD region is used as prerequisite evidence."
+          ],
+          "verificationCue": "The branch should identify missing furnace, fuel, or input before calling smelt.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/furnace_fuel_input_check.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-smelt-furnace-outputs-and-fuels/furnace-fuel-input-check.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-smelt-furnace-outputs-and-fuels/furnace-fuel-input-check.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "furnace fuel input check"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/furnace_fuel_input_check_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-smelt-furnace-outputs-and-fuels/furnace-fuel-input-check-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-smelt-furnace-outputs-and-fuels/furnace-fuel-input-check-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "furnace fuel input check"
+            }
+          ]
+        },
+        {
+          "stateId": "smelt_batch_action",
+          "stateName": "smelt exact output batch",
+          "stage": "operation_state",
+          "imageRole": "action_target",
+          "whenToUse": "Use when all prerequisites exist and the next action should be smelt(output, count).",
+          "whenNotToUse": "Do not use to mine the raw input.",
+          "visibleCues": [
+            "The selected action should name the output item such as glass or iron_ingot."
+          ],
+          "verificationCue": "Smelt feedback should report success for the requested count.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/smelt_batch_action.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-smelt-furnace-outputs-and-fuels/smelt-batch-action.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-smelt-furnace-outputs-and-fuels/smelt-batch-action.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "smelt exact output batch"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/smelt_batch_action_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-smelt-furnace-outputs-and-fuels/smelt-batch-action-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-smelt-furnace-outputs-and-fuels/smelt-batch-action-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "smelt exact output batch"
+            }
+          ]
+        },
+        {
+          "stateId": "processed_output_available",
+          "stateName": "processed output available",
+          "stage": "verification_state",
+          "imageRole": "verification_cue",
+          "whenToUse": "Use after smelting to decide whether the next dependency can be crafted.",
+          "whenNotToUse": "Do not use if the raw material still needs to be collected.",
+          "visibleCues": [
+            "Green hotbar cue represents the inventory/feedback region for processed output."
+          ],
+          "verificationCue": "The output item is present or has been consumed by the next craft.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/processed_output_available.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-smelt-furnace-outputs-and-fuels/processed-output-available.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-smelt-furnace-outputs-and-fuels/processed-output-available.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "processed output available"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/processed_output_available_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-smelt-furnace-outputs-and-fuels/processed-output-available-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-smelt-furnace-outputs-and-fuels/processed-output-available-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "processed output available"
+            }
+          ]
+        }
+      ],
+      "imageReferences": [
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/furnace_fuel_input_check.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-smelt-furnace-outputs-and-fuels/furnace-fuel-input-check.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-smelt-furnace-outputs-and-fuels/furnace-fuel-input-check.png",
+          "label": "furnace fuel input check"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/furnace_fuel_input_check_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-smelt-furnace-outputs-and-fuels/furnace-fuel-input-check-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-smelt-furnace-outputs-and-fuels/furnace-fuel-input-check-focus-crop.png",
+          "label": "furnace fuel input check"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/smelt_batch_action.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-smelt-furnace-outputs-and-fuels/smelt-batch-action.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-smelt-furnace-outputs-and-fuels/smelt-batch-action.png",
+          "label": "smelt exact output batch"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/smelt_batch_action_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-smelt-furnace-outputs-and-fuels/smelt-batch-action-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-smelt-furnace-outputs-and-fuels/smelt-batch-action-focus-crop.png",
+          "label": "smelt exact output batch"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/processed_output_available.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-smelt-furnace-outputs-and-fuels/processed-output-available.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-smelt-furnace-outputs-and-fuels/processed-output-available.png",
+          "label": "processed output available"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/processed_output_available_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-smelt-furnace-outputs-and-fuels/processed-output-available-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-smelt-furnace-outputs-and-fuels/processed-output-available-focus-crop.png",
+          "label": "processed output available"
+        }
+      ],
+      "completenessScore": 15
+    },
+    {
+      "id": "MINECRAFT_Verify_Inventory_Progress_And_Recover",
+      "name": "Verify Inventory Progress and Recover",
+      "description": "Decide whether to stop, continue a remaining count, change an execute prompt, or recover after repeated low-level failures.",
+      "domain": "vab_minecraft",
+      "domainLabel": "VAB-Minecraft",
+      "platformId": "vab_minecraft",
+      "platform": "VAB-Minecraft",
+      "category": "Game-Based Tasks",
+      "sourcePath": "vab_minecraft/MINECRAFT_Verify_Inventory_Progress_And_Recover",
+      "imageCount": 6,
+      "stateCardCount": 0,
+      "runtimeCardCount": 3,
+      "planStepCount": 0,
+      "tags": [
+        "minecraft",
+        "crafting",
+        "game"
+      ],
+      "overview": "Decide whether to stop, continue a remaining count, change an execute prompt, or recover after repeated low-level failures.",
+      "applicability": [
+        "Any VAB-Minecraft task where feedback may indicate partial progress, missing materials, failed execute, or final completion."
+      ],
+      "failureModes": [
+        "Stopping after an intermediate dependency.",
+        "Repeating identical failed execute calls.",
+        "Overcollecting or crafting unnecessary variants."
+      ],
+      "skillMarkdown": "# Verify Inventory Progress and Recover\n\n## When This Skill Applies\n\n- Any VAB-Minecraft task where feedback may indicate partial progress, missing materials, failed execute, or final completion.\n\n## When Not To Use\n\n- Do not use as a replacement for a domain-specific skill when the missing dependency is known.\n\n## Minecraft Action Pattern\n\n- parse feedback\n- compare target count\n- continue only missing quantity\n- change strategy after repeated failure\n- terminate only on exact inventory match\n\n## Procedure\n\n1. After each action, parse whether feedback reports success, missing material, no progress, or final inventory state.\n2. If count is partial, request only the remaining amount.\n3. If execute fails repeatedly, change prompt, teleport_to_spawn, equip correct tool, or switch to a prerequisite skill.\n4. End only when the exact requested item and count are present.\n\n## Visual State Card Usage\n\nVisual state cards for runtime use live in `runtime_state_cards.json`.\n\nLoad only the state whose screenshot and text match the current Minecraft situation. Do not load all images by default. Red boxes indicate action targets or action-relevant regions. Green boxes indicate verification cues. Coordinates, terrain layout, visible item names, and exact counts are examples only.\n\nImage references in this package:\n  - `Images/feedback_after_action.png`\n  - `Images/feedback_after_action_focus_crop.png`\n  - `Images/executor_stall_detected.png`\n  - `Images/executor_stall_detected_focus_crop.png`\n  - `Images/exact_goal_inventory_check.png`\n  - `Images/exact_goal_inventory_check_focus_crop.png`\n\n## Result Verification Cues\n\n- The final target and count appear in inventory feedback; no unsatisfied dependency remains.\n\n## Visual Transfer Limits\n\n- Images are reminders for feedback/HUD checking; text feedback is the stronger evidence.\n\n## Common Failure Modes\n\n- Stopping after an intermediate dependency.\n- Repeating identical failed execute calls.\n- Overcollecting or crafting unnecessary variants.\n",
+      "runtimeStates": [
+        {
+          "stateId": "feedback_after_action",
+          "stateName": "feedback after action",
+          "stage": "entry_state",
+          "imageRole": "state_cue",
+          "whenToUse": "Use after any function call to interpret feedback before planning the next call.",
+          "whenNotToUse": "Do not use before taking the first domain-relevant action unless the current inventory is unclear.",
+          "visibleCues": [
+            "HUD/feedback region cues progress checking."
+          ],
+          "verificationCue": "The branch should classify feedback as complete, partial, missing dependency, or failed.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/feedback_after_action.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-verify-inventory-progress-and-recover/feedback-after-action.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-verify-inventory-progress-and-recover/feedback-after-action.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "feedback after action"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/feedback_after_action_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-verify-inventory-progress-and-recover/feedback-after-action-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-verify-inventory-progress-and-recover/feedback-after-action-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "feedback after action"
+            }
+          ]
+        },
+        {
+          "stateId": "executor_stall_detected",
+          "stateName": "executor stall detected",
+          "stage": "operation_state",
+          "imageRole": "state_cue",
+          "whenToUse": "Use after execute fails or repeats without completing the subgoal.",
+          "whenNotToUse": "Do not use when the last action succeeded.",
+          "visibleCues": [
+            "World scene cue reminds the branch to alter search strategy, not repeat blindly."
+          ],
+          "verificationCue": "The next action must differ materially from the failed loop.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/executor_stall_detected.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-verify-inventory-progress-and-recover/executor-stall-detected.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-verify-inventory-progress-and-recover/executor-stall-detected.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "executor stall detected"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/executor_stall_detected_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-verify-inventory-progress-and-recover/executor-stall-detected-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-verify-inventory-progress-and-recover/executor-stall-detected-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "executor stall detected"
+            }
+          ]
+        },
+        {
+          "stateId": "exact_goal_inventory_check",
+          "stateName": "exact goal inventory check",
+          "stage": "verification_state",
+          "imageRole": "verification_cue",
+          "whenToUse": "Use before final answer/termination.",
+          "whenNotToUse": "Do not use if the target is still an intermediate dependency.",
+          "visibleCues": [
+            "Green HUD cue supports exact final inventory check."
+          ],
+          "verificationCue": "Target item and required count are present; otherwise continue with remaining dependency.",
+          "preferredViewOrder": [
+            "full_frame",
+            "focus_crop"
+          ],
+          "availableViews": [
+            {
+              "viewType": "full_frame",
+              "imagePath": "Images/exact_goal_inventory_check.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-verify-inventory-progress-and-recover/exact-goal-inventory-check.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-verify-inventory-progress-and-recover/exact-goal-inventory-check.png",
+              "useFor": "recognize_global_minecraft_state",
+              "label": "exact goal inventory check"
+            },
+            {
+              "viewType": "focus_crop",
+              "imagePath": "Images/exact_goal_inventory_check_focus_crop.png",
+              "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-verify-inventory-progress-and-recover/exact-goal-inventory-check-focus-crop.jpg",
+              "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-verify-inventory-progress-and-recover/exact-goal-inventory-check-focus-crop.png",
+              "useFor": "inspect_contextual_work_region",
+              "label": "exact goal inventory check"
+            }
+          ]
+        }
+      ],
+      "imageReferences": [
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/feedback_after_action.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-verify-inventory-progress-and-recover/feedback-after-action.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-verify-inventory-progress-and-recover/feedback-after-action.png",
+          "label": "feedback after action"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/feedback_after_action_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-verify-inventory-progress-and-recover/feedback-after-action-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-verify-inventory-progress-and-recover/feedback-after-action-focus-crop.png",
+          "label": "feedback after action"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/executor_stall_detected.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-verify-inventory-progress-and-recover/executor-stall-detected.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-verify-inventory-progress-and-recover/executor-stall-detected.png",
+          "label": "executor stall detected"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/executor_stall_detected_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-verify-inventory-progress-and-recover/executor-stall-detected-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-verify-inventory-progress-and-recover/executor-stall-detected-focus-crop.png",
+          "label": "executor stall detected"
+        },
+        {
+          "viewType": "full_frame",
+          "imagePath": "Images/exact_goal_inventory_check.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-verify-inventory-progress-and-recover/exact-goal-inventory-check.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-verify-inventory-progress-and-recover/exact-goal-inventory-check.png",
+          "label": "exact goal inventory check"
+        },
+        {
+          "viewType": "focus_crop",
+          "imagePath": "Images/exact_goal_inventory_check_focus_crop.png",
+          "previewPath": "assets/skill-library/image-previews/vab-minecraft/minecraft-verify-inventory-progress-and-recover/exact-goal-inventory-check-focus-crop.jpg",
+          "fullPath": "assets/skill-library/full-images/vab-minecraft/minecraft-verify-inventory-progress-and-recover/exact-goal-inventory-check-focus-crop.png",
+          "label": "exact goal inventory check"
+        }
+      ],
+      "completenessScore": 15
+    }
+  ],
+  "platforms": [
+    {
+      "id": "ubuntu",
+      "label": "Ubuntu",
+      "count": 247,
+      "imageCount": 1910,
+      "runtimeCardCount": 879,
+      "domainIds": [
+        "chrome",
+        "gimp",
+        "libreoffice_calc",
+        "libreoffice_impress",
+        "libreoffice_writer",
+        "multi_apps",
+        "os",
+        "thunderbird",
+        "vlc",
+        "vs_code"
+      ]
+    },
+    {
+      "id": "vab_minecraft",
+      "label": "VAB-Minecraft",
+      "count": 24,
+      "imageCount": 165,
+      "runtimeCardCount": 79,
+      "domainIds": [
+        "vab_minecraft"
+      ]
+    },
+    {
+      "id": "mario",
+      "label": "Mario",
+      "count": 10,
+      "imageCount": 34,
+      "runtimeCardCount": 34,
+      "domainIds": [
+        "super_mario_bros"
+      ]
     }
   ]
 };

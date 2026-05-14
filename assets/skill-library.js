@@ -6,7 +6,7 @@
   };
 
   const state = {
-    domain: "all",
+    scope: "all",
     query: "",
     sort: "complete",
     view: "list",
@@ -14,13 +14,12 @@
 
   const elements = {
     allSkillCount: document.getElementById("allSkillCount"),
-    ubuntuSkillCount: document.getElementById("ubuntuSkillCount"),
+    platformTree: document.getElementById("platformTree"),
     runtimeCardCount: document.getElementById("runtimeCardCount"),
     imageReferenceCount: document.getElementById("imageReferenceCount"),
     summarySkillCount: document.getElementById("summarySkillCount"),
     summaryDomainCount: document.getElementById("summaryDomainCount"),
     summaryStateCount: document.getElementById("summaryStateCount"),
-    domainTree: document.getElementById("domainTree"),
     skillSearch: document.getElementById("skillSearch"),
     skillSort: document.getElementById("skillSort"),
     activeDomainLabel: document.getElementById("activeDomainLabel"),
@@ -35,8 +34,26 @@
     lightboxPath: document.getElementById("lightboxPath"),
   };
 
+  library.skills = (library.skills || []).map((skill) => ({
+    platformId: "ubuntu",
+    platform: "Ubuntu",
+    category: "GUI Tasks",
+    ...skill,
+  }));
+
   const byId = new Map(library.skills.map((skill) => [skill.id, skill]));
-  const domains = [...library.domains].sort((a, b) => a.label.localeCompare(b.label));
+  const domains = [...(library.domains || [])];
+  const platforms =
+    library.platforms && library.platforms.length
+      ? [...library.platforms]
+      : [
+          {
+            id: "ubuntu",
+            label: "Ubuntu",
+            count: library.stats.skillCount,
+            domainIds: domains.map((domain) => domain.id),
+          },
+        ];
 
   function escapeHtml(value) {
     return String(value || "")
@@ -63,7 +80,6 @@
 
   function renderSummary() {
     setText(elements.allSkillCount, formatNumber(library.stats.skillCount));
-    setText(elements.ubuntuSkillCount, formatNumber(library.stats.skillCount));
     setText(elements.runtimeCardCount, formatNumber(library.stats.runtimeCardCount));
     setText(elements.imageReferenceCount, formatNumber(library.stats.imageCount));
     setText(elements.summarySkillCount, formatNumber(library.stats.skillCount));
@@ -71,17 +87,48 @@
     setText(elements.summaryStateCount, formatNumber(library.stats.stateCardCount));
   }
 
-  function renderDomainTree() {
-    elements.domainTree.innerHTML = domains
+  function renderPlatformTree() {
+    elements.platformTree.innerHTML = platforms
       .map(
-        (domain) => `
-          <button class="tree-row" type="button" data-domain="${escapeHtml(domain.id)}">
-            <span>${escapeHtml(domain.label)}</span>
-            <strong>${formatNumber(domain.count)}</strong>
-          </button>
-        `
+        (platform) => {
+          const childDomains = domains.filter((domain) => domain.platformId === platform.id);
+          return `
+            <div class="platform-group">
+              <button class="tree-row platform" type="button" data-scope="platform:${escapeHtml(platform.id)}">
+                <span>${escapeHtml(platform.label)}</span>
+                <strong>${formatNumber(platform.count)}</strong>
+              </button>
+              <div class="domain-tree">
+                ${childDomains
+                  .map(
+                    (domain) => `
+                      <button class="tree-row" type="button" data-scope="domain:${escapeHtml(domain.id)}">
+                        <span>${escapeHtml(domain.label)}</span>
+                        <strong>${formatNumber(domain.count)}</strong>
+                      </button>
+                    `
+                  )
+                  .join("")}
+              </div>
+            </div>
+          `;
+        }
       )
       .join("");
+  }
+
+  function matchesScope(skill) {
+    if (state.scope === "all") {
+      return true;
+    }
+    const [kind, value] = state.scope.split(":");
+    if (kind === "platform") {
+      return skill.platformId === value;
+    }
+    if (kind === "domain") {
+      return skill.domain === value;
+    }
+    return true;
   }
 
   function searchableText(skill) {
@@ -100,7 +147,7 @@
   function visibleSkills() {
     const query = state.query.trim().toLowerCase();
     let skills = library.skills.filter((skill) => {
-      const domainMatch = state.domain === "all" || skill.domain === state.domain;
+      const domainMatch = matchesScope(skill);
       const queryMatch = !query || searchableText(skill).includes(query);
       return domainMatch && queryMatch;
     });
@@ -163,8 +210,8 @@
   }
 
   function updateActiveButtons() {
-    document.querySelectorAll("[data-domain]").forEach((button) => {
-      button.classList.toggle("active", button.dataset.domain === state.domain);
+    document.querySelectorAll("[data-scope]").forEach((button) => {
+      button.classList.toggle("active", button.dataset.scope === state.scope);
     });
     document.querySelectorAll("[data-view]").forEach((button) => {
       button.classList.toggle("active", button.dataset.view === state.view);
@@ -172,8 +219,10 @@
   }
 
   function updateFilterLabel(count) {
-    const domain = domains.find((item) => item.id === state.domain);
-    setText(elements.activeDomainLabel, domain ? domain.label : "All Ubuntu domains");
+    const [kind, value] = state.scope.split(":");
+    const domain = kind === "domain" ? domains.find((item) => item.id === value) : null;
+    const platform = kind === "platform" ? platforms.find((item) => item.id === value) : null;
+    setText(elements.activeDomainLabel, domain ? domain.label : platform ? platform.label : "All skill domains");
     setText(elements.visibleSkillCount, `${formatNumber(count)} skills`);
   }
 
@@ -480,9 +529,9 @@
 
   function bindEvents() {
     document.addEventListener("click", (event) => {
-      const domainButton = event.target.closest("[data-domain]");
-      if (domainButton) {
-        state.domain = domainButton.dataset.domain || "all";
+      const scopeButton = event.target.closest("[data-scope]");
+      if (scopeButton) {
+        state.scope = scopeButton.dataset.scope || "all";
         renderSkills();
         return;
       }
@@ -545,7 +594,7 @@
   }
 
   renderSummary();
-  renderDomainTree();
+  renderPlatformTree();
   bindEvents();
   renderSkills();
 })();

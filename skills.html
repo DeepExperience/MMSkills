@@ -4,22 +4,22 @@
     <meta charset="utf-8" />
     <meta
       name="description"
-      content="Browse the MMSkills Ubuntu skill library for GUI-task visual agents."
+      content="Browse the MMSkills multidomain skill library for visual agents."
     />
     <meta
       name="keywords"
-      content="MMSkills, skill library, GUI agents, Ubuntu, visual agents, computer use"
+      content="MMSkills, skill library, GUI agents, Ubuntu, VAB-Minecraft, Mario, visual agents, computer use"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta property="og:title" content="MMSkills Skill Library" />
     <meta
       property="og:description"
-      content="A searchable Ubuntu GUI-task skill library with multimodal state cards and visual evidence."
+      content="A searchable skill library with Ubuntu, VAB-Minecraft, and Mario MMSkills."
     />
     <meta property="og:image" content="assets/full_figure.png" />
     <title>MMSkills Skill Library</title>
     <link rel="stylesheet" href="assets/site.css" />
-    <link rel="stylesheet" href="assets/skill-library.css?v=20260513-sidebar-list" />
+    <link rel="stylesheet" href="assets/skill-library.css?v=20260514-multidomain" />
   </head>
 
   <body class="skills-page">
@@ -39,17 +39,11 @@
       <aside class="library-sidebar" aria-label="Skill categories">
         <section class="sidebar-block">
           <p class="sidebar-label">Browse</p>
-          <button class="tree-row root active" type="button" data-domain="all">
-            <span>GUI Tasks</span>
+          <button class="tree-row root active" type="button" data-scope="all">
+            <span>All Skills</span>
             <strong id="allSkillCount">0</strong>
           </button>
-          <div class="tree-branch">
-            <button class="tree-row platform active" type="button" data-domain="all">
-              <span>Ubuntu</span>
-              <strong id="ubuntuSkillCount">0</strong>
-            </button>
-            <div class="domain-tree" id="domainTree"></div>
-          </div>
+          <div class="tree-branch" id="platformTree"></div>
         </section>
 
         <section class="sidebar-block">
@@ -80,11 +74,11 @@
       <section class="library-main" aria-labelledby="libraryTitle">
         <div class="library-heading">
           <div>
-            <p class="library-kicker">GUI Tasks / Ubuntu</p>
+            <p class="library-kicker">Multidomain Skill Library</p>
             <h1 id="libraryTitle">MMSkills Library</h1>
             <p class="library-lead">
-              Searchable multimodal skill packages for Ubuntu desktop tasks,
-              generated from local open-source MMSkills assets.
+              Searchable multimodal skill packages for Ubuntu desktop, VAB-Minecraft,
+              and Mario tasks, generated from local open-source MMSkills assets.
             </p>
           </div>
           <div class="library-summary" aria-label="Library summary">
@@ -131,14 +125,14 @@
         </div>
 
         <div class="active-filter-bar">
-          <span id="activeDomainLabel">All Ubuntu domains</span>
+          <span id="activeDomainLabel">All skill domains</span>
           <span id="visibleSkillCount">0 skills</span>
         </div>
 
         <div class="skill-grid is-list" id="skillGrid"></div>
         <div class="empty-state" id="emptyState" hidden>
           <h2>No matching skills</h2>
-          <p>Try a different search term or choose another Ubuntu domain.</p>
+          <p>Try a different search term or choose another platform or domain.</p>
         </div>
       </section>
     </main>
@@ -166,7 +160,7 @@
       </div>
     </dialog>
 
-    <script src="assets/skill-library/skills-data.js"></script>
-    <script src="assets/skill-library.js?v=20260513-sidebar-list"></script>
+    <script src="assets/skill-library/skills-data.js?v=20260514-multidomain"></script>
+    <script src="assets/skill-library.js?v=20260514-multidomain"></script>
   </body>
 </html>
