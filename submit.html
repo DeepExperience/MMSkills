@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="Submit reusable MMSkill packages for community review."
+    />
+    <meta
+      name="keywords"
+      content="MMSkills, submit skills, visual agents, GUI agents, multimodal skill library"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta property="og:title" content="Submit MMSkills" />
+    <meta
+      property="og:description"
+      content="Contribute reusable multimodal skill packages to the MMSkills community library."
+    />
+    <meta property="og:image" content="assets/full_figure.png" />
+    <title>Submit MMSkills</title>
+    <link rel="stylesheet" href="assets/site.css" />
+  </head>
+
+  <body>
+    <header class="simple-topbar">
+      <a class="simple-brand" href="./" aria-label="MMSkills home">
+        <img src="assets/mmskills_title.svg" alt="MMSkills" />
+      </a>
+      <nav class="simple-nav" aria-label="Website navigation">
+        <a href="./">Paper</a>
+        <a href="skills.html">Skill Library</a>
+        <a href="cases.html">Case Studies</a>
+        <a class="active" href="submit.html" aria-current="page">Submit</a>
+        <a href="https://github.com/DeepExperience/MMSkills">GitHub</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="submit-hero">
+        <div class="container narrow">
+          <p class="submit-kicker">Community MMSkills</p>
+          <h1>Submit a reusable MMSkill package</h1>
+          <p>
+            Help expand MMSkills beyond the current desktop and game domains. We
+            welcome reviewable skill packages for autonomous driving, robotics,
+            mobile agents, web agents, scientific software, games, and other
+            visual-agent environments.
+          </p>
+          <nav class="publication-links" aria-label="Submission actions">
+            <a
+              class="button dark"
+              href="https://github.com/DeepExperience/MMSkills/issues/new?template=skill_submission.yml"
+            >Open Submission Form</a>
+            <a
+              class="button light-button"
+              href="https://github.com/DeepExperience/MMSkills/blob/main/docs/submit_mmskills.md"
+            >GitHub Format Guide</a>
+          </nav>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <h2 class="section-title centered">How Submission Works</h2>
+          <div class="submission-steps">
+            <article>
+              <span>1</span>
+              <h3>Prepare the package</h3>
+              <p>
+                Create a product-neutral MMSkill directory with reusable procedure
+                text, compact runtime state cards, and ordered visual references.
+              </p>
+            </article>
+            <article>
+              <span>2</span>
+              <h3>Open the issue form</h3>
+              <p>
+                The website entry opens a GitHub Issue Form. Add a package link,
+                attach a ZIP after issue creation, and include validation evidence.
+              </p>
+            </article>
+            <article>
+              <span>3</span>
+              <h3>Maintainer review</h3>
+              <p>
+                The issue is assigned to the maintainer account. GitHub email
+                notifications alert maintainers according to repository settings.
+              </p>
+            </article>
+            <article>
+              <span>4</span>
+              <h3>Publish accepted skills</h3>
+              <p>
+                Accepted packages are normalized into the public MMSkills library,
+                uploaded to Hugging Face, and surfaced in the website Skill Library.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section light">
+        <div class="container">
+          <div class="columns submit-columns">
+            <article>
+              <h2 class="section-title">Required Package Shape</h2>
+              <pre><code>&lt;package&gt;/&lt;domain&gt;/&lt;skill&gt;/
+├── SKILL.md
+├── runtime_state_cards.json
+└── Images/</code></pre>
+              <p>
+                Recommended extras include <code>plan.json</code>,
+                <code>state_cards.json</code>, validation notes, short demo clips,
+                logs, benchmark IDs, or trajectory excerpts that help review.
+              </p>
+            </article>
+            <article>
+              <h2 class="section-title">Reviewer Checklist</h2>
+              <ul class="check-list">
+                <li>The skill describes reusable procedure knowledge.</li>
+                <li><code>SKILL.md</code> defines applicability, procedure, and verification cues.</li>
+                <li><code>runtime_state_cards.json</code> is compact enough for inference-time use.</li>
+                <li>Images are necessary, ordered, and referenced by state cards.</li>
+                <li>No credentials, private user data, or non-redistributable assets are included.</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container narrow">
+          <h2 class="section-title centered">Example Domains</h2>
+          <div class="domain-grid">
+            <span>Autonomous Driving</span>
+            <span>Robotics</span>
+            <span>Mobile Agents</span>
+            <span>Web Agents</span>
+            <span>Scientific Software</span>
+            <span>Games</span>
+            <span>Desktop Productivity</span>
+            <span>Creative Tools</span>
+          </div>
+          <p class="section-lead">
+            Keep each skill narrow enough to transfer reliably. Good packages capture
+            reusable state recognition, procedure choice, and final verification
+            rather than a single private episode.
+          </p>
+          <nav class="publication-links" aria-label="Additional resources">
+            <a class="button dark" href="skills.html">Browse Skill Library</a>
+            <a class="button light-button" href="https://huggingface.co/datasets/zhangkangning/mmskills">Hugging Face Dataset</a>
+          </nav>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container narrow centered">
+        <p>
+          Submissions are reviewed before publication. Accepted packages are added to
+          the MMSkills library and public dataset.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

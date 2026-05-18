@@ -49,9 +49,10 @@
           <a class="button dark" href="https://arxiv.org/abs/2605.13527">arXiv</a>
           <a class="button dark" href="https://arxiv.org/pdf/2605.13527">PDF</a>
           <a class="button dark" href="https://github.com/DeepExperience/MMSkills">Code</a>
-          <a class="button dark" href="https://huggingface.co/datasets/zkangning/towards_mmskills">Dataset</a>
+          <a class="button dark" href="https://huggingface.co/datasets/zhangkangning/mmskills">Dataset</a>
           <a class="button dark" href="skills.html">Skill Library</a>
           <a class="button dark" href="cases.html">Case Studies</a>
+          <a class="button dark" href="submit.html">Submit MMSkills</a>
           <a class="button dark" href="#quick-start">Quick Start</a>
         </nav>
       </div>
@@ -193,6 +194,39 @@
         </div>
       </section>
 
+      <section class="section light" id="community-submissions">
+        <div class="container narrow">
+          <h2 class="section-title centered">Contribute MMSkills</h2>
+          <p class="section-lead">
+            MMSkills is designed to grow as a community library. We welcome reusable
+            multimodal skill packages from new domains such as autonomous driving,
+            robotics, mobile agents, browser workflows, scientific software, games,
+            and other visual-agent environments.
+          </p>
+          <div class="submission-steps" aria-label="Submission workflow">
+            <article>
+              <span>1</span>
+              <h3>Prepare</h3>
+              <p>Package a reusable skill with <code>SKILL.md</code>, runtime state cards, and visual references.</p>
+            </article>
+            <article>
+              <span>2</span>
+              <h3>Submit</h3>
+              <p>Open the website submission entry, attach a ZIP or link to the package, and describe the validation evidence.</p>
+            </article>
+            <article>
+              <span>3</span>
+              <h3>Review</h3>
+              <p>Maintainers receive a GitHub notification, review the issue, request changes if needed, and publish accepted packages.</p>
+            </article>
+          </div>
+          <nav class="publication-links" aria-label="Community submission links">
+            <a class="button dark" href="submit.html">Submit an MMSkill</a>
+            <a class="button light-button" href="https://github.com/DeepExperience/MMSkills/blob/main/docs/submit_mmskills.md">Read the Guide</a>
+          </nav>
+        </div>
+      </section>
+
       <section class="section light">
         <div class="container narrow">
           <h2 class="section-title centered">Results Overview</h2>
@@ -293,7 +327,7 @@
         <div class="container narrow">
           <h2 class="section-title centered">Quick Start</h2>
           <pre><code>git clone https://github.com/DeepExperience/MMSkills.git
-cd towards_mmskills
+cd MMSkills
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
